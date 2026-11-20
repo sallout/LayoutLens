@@ -75,6 +75,7 @@ Reading each text line that the geometry found, as one stacked image, removes mo
 The full write-up, including what did not work, is in [docs/REPORT.md](docs/REPORT.md).
 
 ## Model results
+![LayoutLens Benchmark Results](results/charts/FinalResult.png)
 
 6 screens × 5 conditions × 2 repetitions per model; identical prompts and settings (reasoning effort medium, 32k output tokens). Mean over all runs (a run with no output is scored as an empty page); SD and completed-only figures are in `results/model_summary.json`.
 
