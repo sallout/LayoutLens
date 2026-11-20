@@ -1,0 +1,583 @@
+{
+ "image": "web-simple-light@2x.png",
+ "scene": "web-simple",
+ "theme": "light",
+ "dpr": 2.0,
+ "css_width": 1440,
+ "css_height": 900,
+ "width": 2880,
+ "height": 1800,
+ "elements": [
+  {
+   "name": "navbar",
+   "kind": "panel",
+   "auto": false,
+   "parent": null,
+   "box": [
+    0,
+    0,
+    2880,
+    128
+   ],
+   "fill": "#ffffff",
+   "own_fill": true,
+   "behind": "#f6f7f9",
+   "radius": 0.0,
+   "borders": [
+    0.0,
+    0.0,
+    2.0,
+    0.0
+   ],
+   "border_width": 2.0,
+   "border_color": "#d9dee6",
+   "text_color": "#111827",
+   "text": null,
+   "font_px": 28.0,
+   "font_weight": 400,
+   "text_align": "start"
+  },
+  {
+   "name": "logo",
+   "kind": "icon",
+   "auto": false,
+   "parent": "navbar",
+   "box": [
+    96,
+    35,
+    56,
+    56
+   ],
+   "fill": "#ffffff",
+   "own_fill": false,
+   "behind": "#ffffff",
+   "radius": 0.0,
+   "borders": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "border_width": 0.0,
+   "border_color": null,
+   "text_color": "#2563eb",
+   "text": null,
+   "font_px": 28.0,
+   "font_weight": 400,
+   "text_align": "start",
+   "ink": [
+    101,
+    42,
+    45,
+    42
+   ]
+  },
+  {
+   "name": "brand",
+   "kind": "text",
+   "auto": false,
+   "parent": "navbar",
+   "box": [
+    172,
+    38,
+    179,
+    50
+   ],
+   "fill": "#ffffff",
+   "own_fill": false,
+   "behind": "#ffffff",
+   "radius": 0.0,
+   "borders": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "border_width": 0.0,
+   "border_color": null,
+   "text_color": "#111827",
+   "text": "Northwind",
+   "font_px": 36.0,
+   "font_weight": 700,
+   "text_align": "start",
+   "ink": [
+    174,
+    50,
+    175,
+    27
+   ]
+  },
+  {
+   "name": "nav-pricing",
+   "kind": "text",
+   "auto": false,
+   "parent": "navbar",
+   "box": [
+    2362,
+    43,
+    87,
+    39
+   ],
+   "fill": "#ffffff",
+   "own_fill": false,
+   "behind": "#ffffff",
+   "radius": 0.0,
+   "borders": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "border_width": 0.0,
+   "border_color": null,
+   "text_color": "#111827",
+   "text": "Pricing",
+   "font_px": 28.0,
+   "font_weight": 400,
+   "text_align": "start",
+   "ink": [
+    2363,
+    52,
+    84,
+    26
+   ]
+  },
+  {
+   "name": "nav-docs",
+   "kind": "text",
+   "auto": false,
+   "parent": "navbar",
+   "box": [
+    2504,
+    43,
+    65,
+    39
+   ],
+   "fill": "#ffffff",
+   "own_fill": false,
+   "behind": "#ffffff",
+   "radius": 0.0,
+   "borders": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "border_width": 0.0,
+   "border_color": null,
+   "text_color": "#111827",
+   "text": "Docs",
+   "font_px": 28.0,
+   "font_weight": 400,
+   "text_align": "start",
+   "ink": [
+    2506,
+    52,
+    63,
+    21
+   ]
+  },
+  {
+   "name": "nav-signin",
+   "kind": "button",
+   "auto": false,
+   "parent": "navbar",
+   "box": [
+    2625,
+    27,
+    159,
+    72
+   ],
+   "fill": "#ffffff",
+   "own_fill": true,
+   "behind": "#ffffff",
+   "radius": 16.0,
+   "borders": [
+    2.0,
+    2.0,
+    2.0,
+    2.0
+   ],
+   "border_width": 2.0,
+   "border_color": "#d9dee6",
+   "text_color": "#111827",
+   "text": null,
+   "font_px": 28.0,
+   "font_weight": 600,
+   "text_align": "start"
+  },
+  {
+   "name": "nav-signin-label",
+   "kind": "text",
+   "auto": false,
+   "parent": "nav-signin",
+   "box": [
+    2659,
+    43,
+    91,
+    39
+   ],
+   "fill": "#ffffff",
+   "own_fill": false,
+   "behind": "#ffffff",
+   "radius": 0.0,
+   "borders": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "border_width": 0.0,
+   "border_color": null,
+   "text_color": "#111827",
+   "text": "Sign in",
+   "font_px": 28.0,
+   "font_weight": 600,
+   "text_align": "start",
+   "ink": [
+    2660,
+    53,
+    89,
+    27
+   ]
+  },
+  {
+   "name": "hero-title",
+   "kind": "text",
+   "auto": false,
+   "parent": null,
+   "box": [
+    676,
+    408,
+    1528,
+    123
+   ],
+   "fill": "#f6f7f9",
+   "own_fill": false,
+   "behind": "#f6f7f9",
+   "radius": 0.0,
+   "borders": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "border_width": 0.0,
+   "border_color": null,
+   "text_color": "#111827",
+   "text": "Ship dashboards your team will read",
+   "font_px": 88.0,
+   "font_weight": 800,
+   "text_align": "start",
+   "ink": [
+    677,
+    437,
+    1523,
+    81
+   ]
+  },
+  {
+   "name": "hero-subtitle",
+   "kind": "text",
+   "auto": false,
+   "parent": null,
+   "box": [
+    962,
+    563,
+    956,
+    50
+   ],
+   "fill": "#f6f7f9",
+   "own_fill": false,
+   "behind": "#f6f7f9",
+   "radius": 0.0,
+   "borders": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "border_width": 0.0,
+   "border_color": null,
+   "text_color": "#6b7280",
+   "text": "Connect a data source, pick a template, publish in minutes.",
+   "font_px": 36.0,
+   "font_weight": 400,
+   "text_align": "start",
+   "ink": [
+    963,
+    575,
+    952,
+    35
+   ]
+  },
+  {
+   "name": "cta-primary",
+   "kind": "button",
+   "auto": false,
+   "parent": null,
+   "box": [
+    1150,
+    686,
+    280,
+    88
+   ],
+   "fill": "#2563eb",
+   "own_fill": true,
+   "behind": "#f6f7f9",
+   "radius": 16.0,
+   "borders": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "border_width": 0.0,
+   "border_color": null,
+   "text_color": "#ffffff",
+   "text": null,
+   "font_px": 28.0,
+   "font_weight": 600,
+   "text_align": "start"
+  },
+  {
+   "name": "cta-primary-label",
+   "kind": "text",
+   "auto": false,
+   "parent": "cta-primary",
+   "box": [
+    1198,
+    710,
+    184,
+    39
+   ],
+   "fill": "#2563eb",
+   "own_fill": false,
+   "behind": "#2563eb",
+   "radius": 0.0,
+   "borders": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "border_width": 0.0,
+   "border_color": null,
+   "text_color": "#ffffff",
+   "text": "Start free trial",
+   "font_px": 28.0,
+   "font_weight": 600,
+   "text_align": "start",
+   "ink": [
+    1198,
+    719,
+    182,
+    22
+   ]
+  },
+  {
+   "name": "cta-secondary",
+   "kind": "button",
+   "auto": false,
+   "parent": null,
+   "box": [
+    1453,
+    686,
+    277,
+    88
+   ],
+   "fill": "#ffffff",
+   "own_fill": true,
+   "behind": "#f6f7f9",
+   "radius": 16.0,
+   "borders": [
+    2.0,
+    2.0,
+    2.0,
+    2.0
+   ],
+   "border_width": 2.0,
+   "border_color": "#d9dee6",
+   "text_color": "#111827",
+   "text": null,
+   "font_px": 28.0,
+   "font_weight": 600,
+   "text_align": "start"
+  },
+  {
+   "name": "cta-secondary-label",
+   "kind": "text",
+   "auto": false,
+   "parent": "cta-secondary",
+   "box": [
+    1503,
+    710,
+    177,
+    39
+   ],
+   "fill": "#ffffff",
+   "own_fill": false,
+   "behind": "#ffffff",
+   "radius": 0.0,
+   "borders": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "border_width": 0.0,
+   "border_color": null,
+   "text_color": "#111827",
+   "text": "Book a demo",
+   "font_px": 28.0,
+   "font_weight": 600,
+   "text_align": "start",
+   "ink": [
+    1505,
+    720,
+    175,
+    21
+   ]
+  }
+ ],
+ "page_background": "#f6f7f9",
+ "page_items": {
+  "boxes": [
+   {
+    "box": [
+     0,
+     0,
+     2880,
+     128
+    ],
+    "fill": "#ffffff",
+    "border_width": 1,
+    "radius": 0
+   },
+   {
+    "box": [
+     2625,
+     27,
+     159,
+     72
+    ],
+    "fill": "#ffffff",
+    "border_width": 1,
+    "radius": 8
+   },
+   {
+    "box": [
+     1150,
+     686,
+     280,
+     88
+    ],
+    "fill": "#2563eb",
+    "border_width": 0,
+    "radius": 8
+   },
+   {
+    "box": [
+     1453,
+     686,
+     277,
+     88
+    ],
+    "fill": "#ffffff",
+    "border_width": 1,
+    "radius": 8
+   }
+  ],
+  "texts": [
+   {
+    "text": "Northwind",
+    "box": [
+     172,
+     40,
+     179,
+     44
+    ],
+    "color": "#111827",
+    "font_px": 36.0
+   },
+   {
+    "text": "Pricing",
+    "box": [
+     2362,
+     45,
+     87,
+     32
+    ],
+    "color": "#111827",
+    "font_px": 28.0
+   },
+   {
+    "text": "Docs",
+    "box": [
+     2504,
+     45,
+     65,
+     32
+    ],
+    "color": "#111827",
+    "font_px": 28.0
+   },
+   {
+    "text": "Sign in",
+    "box": [
+     2659,
+     45,
+     91,
+     34
+    ],
+    "color": "#111827",
+    "font_px": 28.0
+   },
+   {
+    "text": "Ship dashboards your team will read",
+    "box": [
+     676,
+     416,
+     1528,
+     106
+    ],
+    "color": "#111827",
+    "font_px": 88.0
+   },
+   {
+    "text": "Connect a data source, pick a template, publish in minutes.",
+    "box": [
+     962,
+     567,
+     956,
+     42
+    ],
+    "color": "#6b7280",
+    "font_px": 36.0
+   },
+   {
+    "text": "Start free trial",
+    "box": [
+     1198,
+     712,
+     184,
+     34
+    ],
+    "color": "#ffffff",
+    "font_px": 28.0
+   },
+   {
+    "text": "Book a demo",
+    "box": [
+     1503,
+     712,
+     177,
+     34
+    ],
+    "color": "#111827",
+    "font_px": 28.0
+   }
+  ],
+  "page_background": "#f6f7f9"
+ }
+}

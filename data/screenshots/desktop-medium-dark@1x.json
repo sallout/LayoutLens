@@ -1,0 +1,2566 @@
+{
+ "image": "desktop-medium-dark@1x.png",
+ "scene": "desktop-medium",
+ "theme": "dark",
+ "dpr": 1.0,
+ "css_width": 1280,
+ "css_height": 800,
+ "width": 1280,
+ "height": 800,
+ "elements": [
+  {
+   "name": "toolbar",
+   "kind": "panel",
+   "auto": false,
+   "parent": null,
+   "box": [
+    0,
+    0,
+    1280,
+    52
+   ],
+   "fill": "#22262e",
+   "own_fill": true,
+   "behind": "#0f1115",
+   "radius": 0.0,
+   "borders": [
+    0.0,
+    0.0,
+    1.0,
+    0.0
+   ],
+   "border_width": 1.0,
+   "border_color": "#343a46",
+   "text_color": "#e6e8eb",
+   "text": null,
+   "font_px": 14.0,
+   "font_weight": 400,
+   "text_align": "start"
+  },
+  {
+   "name": "compose",
+   "kind": "button",
+   "auto": false,
+   "parent": "toolbar",
+   "box": [
+    16,
+    12,
+    75,
+    28
+   ],
+   "fill": "#3b82f6",
+   "own_fill": true,
+   "behind": "#22262e",
+   "radius": 6.0,
+   "borders": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "border_width": 0.0,
+   "border_color": null,
+   "text_color": "#ffffff",
+   "text": null,
+   "font_px": 12.0,
+   "font_weight": 600,
+   "text_align": "start"
+  },
+  {
+   "name": "compose-label",
+   "kind": "text",
+   "auto": false,
+   "parent": "compose",
+   "box": [
+    26,
+    17,
+    55,
+    17
+   ],
+   "fill": "#3b82f6",
+   "own_fill": false,
+   "behind": "#3b82f6",
+   "radius": 0.0,
+   "borders": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "border_width": 0.0,
+   "border_color": null,
+   "text_color": "#ffffff",
+   "text": "Compose",
+   "font_px": 12.0,
+   "font_weight": 600,
+   "text_align": "start",
+   "ink": [
+    26,
+    19,
+    55,
+    13
+   ]
+  },
+  {
+   "name": "tb-folder",
+   "kind": "icon",
+   "auto": false,
+   "parent": "toolbar",
+   "box": [
+    109,
+    16,
+    20,
+    20
+   ],
+   "fill": "#22262e",
+   "own_fill": false,
+   "behind": "#22262e",
+   "radius": 0.0,
+   "borders": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "border_width": 0.0,
+   "border_color": null,
+   "text_color": "#9aa3af",
+   "text": null,
+   "font_px": 14.0,
+   "font_weight": 400,
+   "text_align": "start",
+   "ink": [
+    111,
+    21,
+    16,
+    11
+   ]
+  },
+  {
+   "name": "tb-star",
+   "kind": "icon",
+   "auto": false,
+   "parent": "toolbar",
+   "box": [
+    147,
+    16,
+    20,
+    20
+   ],
+   "fill": "#22262e",
+   "own_fill": false,
+   "behind": "#22262e",
+   "radius": 0.0,
+   "borders": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "border_width": 0.0,
+   "border_color": null,
+   "text_color": "#9aa3af",
+   "text": null,
+   "font_px": 14.0,
+   "font_weight": 400,
+   "text_align": "start",
+   "ink": [
+    149,
+    18,
+    16,
+    15
+   ]
+  },
+  {
+   "name": "tb-bell",
+   "kind": "icon",
+   "auto": false,
+   "parent": "toolbar",
+   "box": [
+    185,
+    16,
+    20,
+    20
+   ],
+   "fill": "#22262e",
+   "own_fill": false,
+   "behind": "#22262e",
+   "radius": 0.0,
+   "borders": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "border_width": 0.0,
+   "border_color": null,
+   "text_color": "#9aa3af",
+   "text": null,
+   "font_px": 14.0,
+   "font_weight": 400,
+   "text_align": "start",
+   "ink": [
+    188,
+    19,
+    14,
+    16
+   ]
+  },
+  {
+   "name": "search",
+   "kind": "input",
+   "auto": false,
+   "parent": "toolbar",
+   "box": [
+    964,
+    10,
+    300,
+    30
+   ],
+   "fill": "#12151a",
+   "own_fill": true,
+   "behind": "#22262e",
+   "radius": 8.0,
+   "borders": [
+    1.0,
+    1.0,
+    1.0,
+    1.0
+   ],
+   "border_width": 1.0,
+   "border_color": "#343a46",
+   "text_color": "#9aa3af",
+   "text": null,
+   "font_px": 14.0,
+   "font_weight": 400,
+   "text_align": "start"
+  },
+  {
+   "name": "search-placeholder",
+   "kind": "text",
+   "auto": false,
+   "parent": "search",
+   "box": [
+    977,
+    16,
+    73,
+    20
+   ],
+   "fill": "#12151a",
+   "own_fill": false,
+   "behind": "#12151a",
+   "radius": 0.0,
+   "borders": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "border_width": 0.0,
+   "border_color": null,
+   "text_color": "#9aa3af",
+   "text": "Search mail",
+   "font_px": 14.0,
+   "font_weight": 400,
+   "text_align": "start",
+   "ink": [
+    977,
+    19,
+    73,
+    12
+   ]
+  },
+  {
+   "name": "folders",
+   "kind": "panel",
+   "auto": false,
+   "parent": null,
+   "box": [
+    0,
+    52,
+    220,
+    748
+   ],
+   "fill": "#181b21",
+   "own_fill": true,
+   "behind": "#0f1115",
+   "radius": 0.0,
+   "borders": [
+    0.0,
+    1.0,
+    0.0,
+    0.0
+   ],
+   "border_width": 1.0,
+   "border_color": "#343a46",
+   "text_color": "#e6e8eb",
+   "text": null,
+   "font_px": 14.0,
+   "font_weight": 400,
+   "text_align": "start"
+  },
+  {
+   "name": "auto-1",
+   "kind": "panel",
+   "auto": true,
+   "parent": "folders",
+   "box": [
+    10,
+    62,
+    199,
+    34
+   ],
+   "fill": "#312e81",
+   "own_fill": true,
+   "behind": "#181b21",
+   "radius": 6.0,
+   "borders": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "border_width": 0.0,
+   "border_color": null,
+   "text_color": "#e6e8eb",
+   "text": null,
+   "font_px": 14.0,
+   "font_weight": 400,
+   "text_align": "start"
+  },
+  {
+   "name": "f-icon-inbox",
+   "kind": "icon",
+   "auto": false,
+   "parent": "auto-1",
+   "box": [
+    24,
+    69,
+    20,
+    20
+   ],
+   "fill": "#312e81",
+   "own_fill": false,
+   "behind": "#312e81",
+   "radius": 0.0,
+   "borders": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "border_width": 0.0,
+   "border_color": null,
+   "text_color": "#e6e8eb",
+   "text": null,
+   "font_px": 14.0,
+   "font_weight": 400,
+   "text_align": "start",
+   "ink": [
+    25,
+    72,
+    18,
+    14
+   ]
+  },
+  {
+   "name": "f-inbox",
+   "kind": "text",
+   "auto": false,
+   "parent": "auto-1",
+   "box": [
+    54,
+    69,
+    35,
+    20
+   ],
+   "fill": "#312e81",
+   "own_fill": false,
+   "behind": "#312e81",
+   "radius": 0.0,
+   "borders": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "border_width": 0.0,
+   "border_color": null,
+   "text_color": "#e6e8eb",
+   "text": "Inbox",
+   "font_px": 14.0,
+   "font_weight": 400,
+   "text_align": "start",
+   "ink": [
+    55,
+    73,
+    34,
+    11
+   ]
+  },
+  {
+   "name": "f-count-inbox",
+   "kind": "chip",
+   "auto": false,
+   "parent": "auto-1",
+   "box": [
+    162,
+    67,
+    33,
+    24
+   ],
+   "fill": "#312e81",
+   "own_fill": true,
+   "behind": "#312e81",
+   "radius": 12.0,
+   "borders": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "border_width": 0.0,
+   "border_color": null,
+   "text_color": "#c7d2fe",
+   "text": null,
+   "font_px": 12.0,
+   "font_weight": 600,
+   "text_align": "start"
+  },
+  {
+   "name": "f-count-inbox-label",
+   "kind": "text",
+   "auto": false,
+   "parent": "f-count-inbox",
+   "box": [
+    172,
+    71,
+    13,
+    17
+   ],
+   "fill": "#312e81",
+   "own_fill": false,
+   "behind": "#312e81",
+   "radius": 0.0,
+   "borders": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "border_width": 0.0,
+   "border_color": null,
+   "text_color": "#c7d2fe",
+   "text": "12",
+   "font_px": 12.0,
+   "font_weight": 600,
+   "text_align": "start",
+   "ink": [
+    172,
+    74,
+    13,
+    9
+   ]
+  },
+  {
+   "name": "f-icon-starred",
+   "kind": "icon",
+   "auto": false,
+   "parent": "folders",
+   "box": [
+    24,
+    105,
+    20,
+    20
+   ],
+   "fill": "#181b21",
+   "own_fill": false,
+   "behind": "#181b21",
+   "radius": 0.0,
+   "borders": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "border_width": 0.0,
+   "border_color": null,
+   "text_color": "#e6e8eb",
+   "text": null,
+   "font_px": 14.0,
+   "font_weight": 400,
+   "text_align": "start",
+   "ink": [
+    26,
+    107,
+    16,
+    15
+   ]
+  },
+  {
+   "name": "f-starred",
+   "kind": "text",
+   "auto": false,
+   "parent": "folders",
+   "box": [
+    54,
+    105,
+    46,
+    20
+   ],
+   "fill": "#181b21",
+   "own_fill": false,
+   "behind": "#181b21",
+   "radius": 0.0,
+   "borders": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "border_width": 0.0,
+   "border_color": null,
+   "text_color": "#e6e8eb",
+   "text": "Starred",
+   "font_px": 14.0,
+   "font_weight": 400,
+   "text_align": "start",
+   "ink": [
+    54,
+    108,
+    45,
+    12
+   ]
+  },
+  {
+   "name": "f-icon-sent",
+   "kind": "icon",
+   "auto": false,
+   "parent": "folders",
+   "box": [
+    24,
+    141,
+    20,
+    20
+   ],
+   "fill": "#181b21",
+   "own_fill": false,
+   "behind": "#181b21",
+   "radius": 0.0,
+   "borders": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "border_width": 0.0,
+   "border_color": null,
+   "text_color": "#e6e8eb",
+   "text": null,
+   "font_px": 14.0,
+   "font_weight": 400,
+   "text_align": "start",
+   "ink": [
+    26,
+    146,
+    16,
+    11
+   ]
+  },
+  {
+   "name": "f-sent",
+   "kind": "text",
+   "auto": false,
+   "parent": "folders",
+   "box": [
+    54,
+    141,
+    29,
+    20
+   ],
+   "fill": "#181b21",
+   "own_fill": false,
+   "behind": "#181b21",
+   "radius": 0.0,
+   "borders": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "border_width": 0.0,
+   "border_color": null,
+   "text_color": "#e6e8eb",
+   "text": "Sent",
+   "font_px": 14.0,
+   "font_weight": 400,
+   "text_align": "start",
+   "ink": [
+    54,
+    144,
+    29,
+    12
+   ]
+  },
+  {
+   "name": "f-icon-drafts",
+   "kind": "icon",
+   "auto": false,
+   "parent": "folders",
+   "box": [
+    24,
+    177,
+    20,
+    20
+   ],
+   "fill": "#181b21",
+   "own_fill": false,
+   "behind": "#181b21",
+   "radius": 0.0,
+   "borders": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "border_width": 0.0,
+   "border_color": null,
+   "text_color": "#e6e8eb",
+   "text": null,
+   "font_px": 14.0,
+   "font_weight": 400,
+   "text_align": "start",
+   "ink": [
+    28,
+    178,
+    13,
+    18
+   ]
+  },
+  {
+   "name": "f-drafts",
+   "kind": "text",
+   "auto": false,
+   "parent": "folders",
+   "box": [
+    54,
+    177,
+    38,
+    20
+   ],
+   "fill": "#181b21",
+   "own_fill": false,
+   "behind": "#181b21",
+   "radius": 0.0,
+   "borders": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "border_width": 0.0,
+   "border_color": null,
+   "text_color": "#e6e8eb",
+   "text": "Drafts",
+   "font_px": 14.0,
+   "font_weight": 400,
+   "text_align": "start",
+   "ink": [
+    55,
+    180,
+    36,
+    12
+   ]
+  },
+  {
+   "name": "f-count-drafts",
+   "kind": "chip",
+   "auto": false,
+   "parent": "folders",
+   "box": [
+    168,
+    175,
+    27,
+    24
+   ],
+   "fill": "#312e81",
+   "own_fill": true,
+   "behind": "#181b21",
+   "radius": 12.0,
+   "borders": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "border_width": 0.0,
+   "border_color": null,
+   "text_color": "#c7d2fe",
+   "text": null,
+   "font_px": 12.0,
+   "font_weight": 600,
+   "text_align": "start"
+  },
+  {
+   "name": "f-count-drafts-label",
+   "kind": "text",
+   "auto": false,
+   "parent": "f-count-drafts",
+   "box": [
+    178,
+    179,
+    7,
+    17
+   ],
+   "fill": "#312e81",
+   "own_fill": false,
+   "behind": "#312e81",
+   "radius": 0.0,
+   "borders": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "border_width": 0.0,
+   "border_color": null,
+   "text_color": "#c7d2fe",
+   "text": "3",
+   "font_px": 12.0,
+   "font_weight": 600,
+   "text_align": "start",
+   "ink": [
+    178,
+    182,
+    7,
+    10
+   ]
+  },
+  {
+   "name": "f-icon-archive",
+   "kind": "icon",
+   "auto": false,
+   "parent": "folders",
+   "box": [
+    24,
+    213,
+    20,
+    20
+   ],
+   "fill": "#181b21",
+   "own_fill": false,
+   "behind": "#181b21",
+   "radius": 0.0,
+   "borders": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "border_width": 0.0,
+   "border_color": null,
+   "text_color": "#e6e8eb",
+   "text": null,
+   "font_px": 14.0,
+   "font_weight": 400,
+   "text_align": "start",
+   "ink": [
+    26,
+    218,
+    16,
+    11
+   ]
+  },
+  {
+   "name": "f-archive",
+   "kind": "text",
+   "auto": false,
+   "parent": "folders",
+   "box": [
+    54,
+    213,
+    46,
+    20
+   ],
+   "fill": "#181b21",
+   "own_fill": false,
+   "behind": "#181b21",
+   "radius": 0.0,
+   "borders": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "border_width": 0.0,
+   "border_color": null,
+   "text_color": "#e6e8eb",
+   "text": "Archive",
+   "font_px": 14.0,
+   "font_weight": 400,
+   "text_align": "start",
+   "ink": [
+    54,
+    217,
+    47,
+    11
+   ]
+  },
+  {
+   "name": "mail-list",
+   "kind": "panel",
+   "auto": false,
+   "parent": null,
+   "box": [
+    220,
+    52,
+    380,
+    748
+   ],
+   "fill": "#181b21",
+   "own_fill": true,
+   "behind": "#0f1115",
+   "radius": 0.0,
+   "borders": [
+    0.0,
+    1.0,
+    0.0,
+    0.0
+   ],
+   "border_width": 1.0,
+   "border_color": "#343a46",
+   "text_color": "#e6e8eb",
+   "text": null,
+   "font_px": 14.0,
+   "font_weight": 400,
+   "text_align": "start"
+  },
+  {
+   "name": "auto-2",
+   "kind": "panel",
+   "auto": true,
+   "parent": "mail-list",
+   "box": [
+    220,
+    52,
+    379,
+    64
+   ],
+   "fill": "#181b21",
+   "own_fill": false,
+   "behind": "#181b21",
+   "radius": 0.0,
+   "borders": [
+    0.0,
+    0.0,
+    1.0,
+    0.0
+   ],
+   "border_width": 1.0,
+   "border_color": "#343a46",
+   "text_color": "#e6e8eb",
+   "text": null,
+   "font_px": 14.0,
+   "font_weight": 400,
+   "text_align": "start"
+  },
+  {
+   "name": "m0-avatar",
+   "kind": "avatar",
+   "auto": false,
+   "parent": "auto-2",
+   "box": [
+    234,
+    66,
+    36,
+    36
+   ],
+   "fill": "#f97316",
+   "own_fill": true,
+   "behind": "#181b21",
+   "radius": 50.0,
+   "borders": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "border_width": 0.0,
+   "border_color": null,
+   "text_color": "#e6e8eb",
+   "text": null,
+   "font_px": 14.0,
+   "font_weight": 400,
+   "text_align": "start"
+  },
+  {
+   "name": "m0-from",
+   "kind": "text",
+   "auto": false,
+   "parent": "auto-2",
+   "box": [
+    282,
+    64,
+    173,
+    20
+   ],
+   "fill": "#181b21",
+   "own_fill": false,
+   "behind": "#181b21",
+   "radius": 0.0,
+   "borders": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "border_width": 0.0,
+   "border_color": null,
+   "text_color": "#e6e8eb",
+   "text": "GitHub",
+   "font_px": 14.0,
+   "font_weight": 600,
+   "text_align": "start",
+   "ink": [
+    282,
+    68,
+    46,
+    12
+   ]
+  },
+  {
+   "name": "m0-subject",
+   "kind": "text",
+   "auto": false,
+   "parent": "auto-2",
+   "box": [
+    282,
+    86,
+    173,
+    17
+   ],
+   "fill": "#181b21",
+   "own_fill": false,
+   "behind": "#181b21",
+   "radius": 0.0,
+   "borders": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "border_width": 0.0,
+   "border_color": null,
+   "text_color": "#9aa3af",
+   "text": "[forge] Build #812 failed on main",
+   "font_px": 12.0,
+   "font_weight": 400,
+   "text_align": "start",
+   "ink": [
+    282,
+    88,
+    173,
+    13
+   ]
+  },
+  {
+   "name": "auto-3",
+   "kind": "panel",
+   "auto": true,
+   "parent": "mail-list",
+   "box": [
+    220,
+    116,
+    379,
+    64
+   ],
+   "fill": "#22262e",
+   "own_fill": true,
+   "behind": "#181b21",
+   "radius": 0.0,
+   "borders": [
+    0.0,
+    0.0,
+    1.0,
+    0.0
+   ],
+   "border_width": 1.0,
+   "border_color": "#343a46",
+   "text_color": "#e6e8eb",
+   "text": null,
+   "font_px": 14.0,
+   "font_weight": 400,
+   "text_align": "start"
+  },
+  {
+   "name": "m1-avatar",
+   "kind": "avatar",
+   "auto": false,
+   "parent": "auto-3",
+   "box": [
+    234,
+    130,
+    36,
+    36
+   ],
+   "fill": "#8b5cf6",
+   "own_fill": true,
+   "behind": "#22262e",
+   "radius": 50.0,
+   "borders": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "border_width": 0.0,
+   "border_color": null,
+   "text_color": "#e6e8eb",
+   "text": null,
+   "font_px": 14.0,
+   "font_weight": 400,
+   "text_align": "start"
+  },
+  {
+   "name": "m1-from",
+   "kind": "text",
+   "auto": false,
+   "parent": "auto-3",
+   "box": [
+    282,
+    128,
+    152,
+    20
+   ],
+   "fill": "#22262e",
+   "own_fill": false,
+   "behind": "#22262e",
+   "radius": 0.0,
+   "borders": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "border_width": 0.0,
+   "border_color": null,
+   "text_color": "#e6e8eb",
+   "text": "Lena Fischer",
+   "font_px": 14.0,
+   "font_weight": 600,
+   "text_align": "start",
+   "ink": [
+    283,
+    133,
+    85,
+    11
+   ]
+  },
+  {
+   "name": "m1-subject",
+   "kind": "text",
+   "auto": false,
+   "parent": "auto-3",
+   "box": [
+    282,
+    150,
+    152,
+    17
+   ],
+   "fill": "#22262e",
+   "own_fill": false,
+   "behind": "#22262e",
+   "radius": 0.0,
+   "borders": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "border_width": 0.0,
+   "border_color": null,
+   "text_color": "#9aa3af",
+   "text": "Q3 planning \u2014 draft agenda",
+   "font_px": 12.0,
+   "font_weight": 400,
+   "text_align": "start",
+   "ink": [
+    282,
+    152,
+    152,
+    13
+   ]
+  },
+  {
+   "name": "auto-4",
+   "kind": "panel",
+   "auto": true,
+   "parent": "mail-list",
+   "box": [
+    220,
+    180,
+    379,
+    64
+   ],
+   "fill": "#181b21",
+   "own_fill": false,
+   "behind": "#181b21",
+   "radius": 0.0,
+   "borders": [
+    0.0,
+    0.0,
+    1.0,
+    0.0
+   ],
+   "border_width": 1.0,
+   "border_color": "#343a46",
+   "text_color": "#e6e8eb",
+   "text": null,
+   "font_px": 14.0,
+   "font_weight": 400,
+   "text_align": "start"
+  },
+  {
+   "name": "m2-avatar",
+   "kind": "avatar",
+   "auto": false,
+   "parent": "auto-4",
+   "box": [
+    234,
+    194,
+    36,
+    36
+   ],
+   "fill": "#14b8a6",
+   "own_fill": true,
+   "behind": "#181b21",
+   "radius": 50.0,
+   "borders": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "border_width": 0.0,
+   "border_color": null,
+   "text_color": "#e6e8eb",
+   "text": null,
+   "font_px": 14.0,
+   "font_weight": 400,
+   "text_align": "start"
+  },
+  {
+   "name": "m2-from",
+   "kind": "text",
+   "auto": false,
+   "parent": "auto-4",
+   "box": [
+    282,
+    192,
+    192,
+    20
+   ],
+   "fill": "#181b21",
+   "own_fill": false,
+   "behind": "#181b21",
+   "radius": 0.0,
+   "borders": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "border_width": 0.0,
+   "border_color": null,
+   "text_color": "#e6e8eb",
+   "text": "Stripe",
+   "font_px": 14.0,
+   "font_weight": 600,
+   "text_align": "start",
+   "ink": [
+    282,
+    196,
+    40,
+    14
+   ]
+  },
+  {
+   "name": "m2-subject",
+   "kind": "text",
+   "auto": false,
+   "parent": "auto-4",
+   "box": [
+    282,
+    214,
+    192,
+    17
+   ],
+   "fill": "#181b21",
+   "own_fill": false,
+   "behind": "#181b21",
+   "radius": 0.0,
+   "borders": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "border_width": 0.0,
+   "border_color": null,
+   "text_color": "#9aa3af",
+   "text": "Your payout of \u20ac4,210 is on the way",
+   "font_px": 12.0,
+   "font_weight": 400,
+   "text_align": "start",
+   "ink": [
+    282,
+    217,
+    192,
+    12
+   ]
+  },
+  {
+   "name": "auto-5",
+   "kind": "panel",
+   "auto": true,
+   "parent": "mail-list",
+   "box": [
+    220,
+    244,
+    379,
+    64
+   ],
+   "fill": "#181b21",
+   "own_fill": false,
+   "behind": "#181b21",
+   "radius": 0.0,
+   "borders": [
+    0.0,
+    0.0,
+    1.0,
+    0.0
+   ],
+   "border_width": 1.0,
+   "border_color": "#343a46",
+   "text_color": "#e6e8eb",
+   "text": null,
+   "font_px": 14.0,
+   "font_weight": 400,
+   "text_align": "start"
+  },
+  {
+   "name": "m3-avatar",
+   "kind": "avatar",
+   "auto": false,
+   "parent": "auto-5",
+   "box": [
+    234,
+    258,
+    36,
+    36
+   ],
+   "fill": "#ec4899",
+   "own_fill": true,
+   "behind": "#181b21",
+   "radius": 50.0,
+   "borders": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "border_width": 0.0,
+   "border_color": null,
+   "text_color": "#e6e8eb",
+   "text": null,
+   "font_px": 14.0,
+   "font_weight": 400,
+   "text_align": "start"
+  },
+  {
+   "name": "m3-from",
+   "kind": "text",
+   "auto": false,
+   "parent": "auto-5",
+   "box": [
+    282,
+    256,
+    95,
+    20
+   ],
+   "fill": "#181b21",
+   "own_fill": false,
+   "behind": "#181b21",
+   "radius": 0.0,
+   "borders": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "border_width": 0.0,
+   "border_color": null,
+   "text_color": "#e6e8eb",
+   "text": "Ravi Kumar",
+   "font_px": 14.0,
+   "font_weight": 600,
+   "text_align": "start",
+   "ink": [
+    283,
+    261,
+    77,
+    11
+   ]
+  },
+  {
+   "name": "m3-subject",
+   "kind": "text",
+   "auto": false,
+   "parent": "auto-5",
+   "box": [
+    282,
+    278,
+    95,
+    17
+   ],
+   "fill": "#181b21",
+   "own_fill": false,
+   "behind": "#181b21",
+   "radius": 0.0,
+   "borders": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "border_width": 0.0,
+   "border_color": null,
+   "text_color": "#9aa3af",
+   "text": "Re: API rate limits",
+   "font_px": 12.0,
+   "font_weight": 400,
+   "text_align": "start",
+   "ink": [
+    282,
+    281,
+    95,
+    10
+   ]
+  },
+  {
+   "name": "auto-6",
+   "kind": "panel",
+   "auto": true,
+   "parent": "mail-list",
+   "box": [
+    220,
+    308,
+    379,
+    64
+   ],
+   "fill": "#181b21",
+   "own_fill": false,
+   "behind": "#181b21",
+   "radius": 0.0,
+   "borders": [
+    0.0,
+    0.0,
+    1.0,
+    0.0
+   ],
+   "border_width": 1.0,
+   "border_color": "#343a46",
+   "text_color": "#e6e8eb",
+   "text": null,
+   "font_px": 14.0,
+   "font_weight": 400,
+   "text_align": "start"
+  },
+  {
+   "name": "m4-avatar",
+   "kind": "avatar",
+   "auto": false,
+   "parent": "auto-6",
+   "box": [
+    234,
+    322,
+    36,
+    36
+   ],
+   "fill": "#eab308",
+   "own_fill": true,
+   "behind": "#181b21",
+   "radius": 50.0,
+   "borders": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "border_width": 0.0,
+   "border_color": null,
+   "text_color": "#e6e8eb",
+   "text": null,
+   "font_px": 14.0,
+   "font_weight": 400,
+   "text_align": "start"
+  },
+  {
+   "name": "m4-from",
+   "kind": "text",
+   "auto": false,
+   "parent": "auto-6",
+   "box": [
+    282,
+    320,
+    157,
+    20
+   ],
+   "fill": "#181b21",
+   "own_fill": false,
+   "behind": "#181b21",
+   "radius": 0.0,
+   "borders": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "border_width": 0.0,
+   "border_color": null,
+   "text_color": "#e6e8eb",
+   "text": "Notion",
+   "font_px": 14.0,
+   "font_weight": 600,
+   "text_align": "start",
+   "ink": [
+    283,
+    325,
+    43,
+    11
+   ]
+  },
+  {
+   "name": "m4-subject",
+   "kind": "text",
+   "auto": false,
+   "parent": "auto-6",
+   "box": [
+    282,
+    342,
+    157,
+    17
+   ],
+   "fill": "#181b21",
+   "own_fill": false,
+   "behind": "#181b21",
+   "radius": 0.0,
+   "borders": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "border_width": 0.0,
+   "border_color": null,
+   "text_color": "#9aa3af",
+   "text": "3 updates in Engineering wiki",
+   "font_px": 12.0,
+   "font_weight": 400,
+   "text_align": "start",
+   "ink": [
+    282,
+    345,
+    157,
+    12
+   ]
+  },
+  {
+   "name": "auto-7",
+   "kind": "panel",
+   "auto": true,
+   "parent": "mail-list",
+   "box": [
+    220,
+    372,
+    379,
+    64
+   ],
+   "fill": "#181b21",
+   "own_fill": false,
+   "behind": "#181b21",
+   "radius": 0.0,
+   "borders": [
+    0.0,
+    0.0,
+    1.0,
+    0.0
+   ],
+   "border_width": 1.0,
+   "border_color": "#343a46",
+   "text_color": "#e6e8eb",
+   "text": null,
+   "font_px": 14.0,
+   "font_weight": 400,
+   "text_align": "start"
+  },
+  {
+   "name": "m5-avatar",
+   "kind": "avatar",
+   "auto": false,
+   "parent": "auto-7",
+   "box": [
+    234,
+    386,
+    36,
+    36
+   ],
+   "fill": "#06b6d4",
+   "own_fill": true,
+   "behind": "#181b21",
+   "radius": 50.0,
+   "borders": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "border_width": 0.0,
+   "border_color": null,
+   "text_color": "#e6e8eb",
+   "text": null,
+   "font_px": 14.0,
+   "font_weight": 400,
+   "text_align": "start"
+  },
+  {
+   "name": "m5-from",
+   "kind": "text",
+   "auto": false,
+   "parent": "auto-7",
+   "box": [
+    282,
+    384,
+    110,
+    20
+   ],
+   "fill": "#181b21",
+   "own_fill": false,
+   "behind": "#181b21",
+   "radius": 0.0,
+   "borders": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "border_width": 0.0,
+   "border_color": null,
+   "text_color": "#e6e8eb",
+   "text": "Mia Wong",
+   "font_px": 14.0,
+   "font_weight": 600,
+   "text_align": "start",
+   "ink": [
+    283,
+    389,
+    65,
+    13
+   ]
+  },
+  {
+   "name": "m5-subject",
+   "kind": "text",
+   "auto": false,
+   "parent": "auto-7",
+   "box": [
+    282,
+    406,
+    110,
+    17
+   ],
+   "fill": "#181b21",
+   "own_fill": false,
+   "behind": "#181b21",
+   "radius": 0.0,
+   "borders": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "border_width": 0.0,
+   "border_color": null,
+   "text_color": "#9aa3af",
+   "text": "Lunch on Thursday?",
+   "font_px": 12.0,
+   "font_weight": 400,
+   "text_align": "start",
+   "ink": [
+    282,
+    408,
+    109,
+    13
+   ]
+  },
+  {
+   "name": "reader",
+   "kind": "panel",
+   "auto": false,
+   "parent": null,
+   "box": [
+    600,
+    52,
+    680,
+    748
+   ],
+   "fill": "#0f1115",
+   "own_fill": true,
+   "behind": "#0f1115",
+   "radius": 0.0,
+   "borders": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "border_width": 0.0,
+   "border_color": null,
+   "text_color": "#e6e8eb",
+   "text": null,
+   "font_px": 14.0,
+   "font_weight": 400,
+   "text_align": "start"
+  },
+  {
+   "name": "r-subject",
+   "kind": "text",
+   "auto": false,
+   "parent": "reader",
+   "box": [
+    632,
+    80,
+    616,
+    28
+   ],
+   "fill": "#0f1115",
+   "own_fill": false,
+   "behind": "#0f1115",
+   "radius": 0.0,
+   "borders": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "border_width": 0.0,
+   "border_color": null,
+   "text_color": "#e6e8eb",
+   "text": "Q3 planning \u2014 draft agenda",
+   "font_px": 20.0,
+   "font_weight": 700,
+   "text_align": "start",
+   "ink": [
+    632,
+    87,
+    266,
+    19
+   ]
+  },
+  {
+   "name": "r-avatar",
+   "kind": "avatar",
+   "auto": false,
+   "parent": "reader",
+   "box": [
+    632,
+    124,
+    36,
+    36
+   ],
+   "fill": "#8b5cf6",
+   "own_fill": true,
+   "behind": "#0f1115",
+   "radius": 50.0,
+   "borders": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "border_width": 0.0,
+   "border_color": null,
+   "text_color": "#e6e8eb",
+   "text": null,
+   "font_px": 14.0,
+   "font_weight": 400,
+   "text_align": "start"
+  },
+  {
+   "name": "r-from",
+   "kind": "text",
+   "auto": false,
+   "parent": "reader",
+   "box": [
+    678,
+    124,
+    87,
+    20
+   ],
+   "fill": "#0f1115",
+   "own_fill": false,
+   "behind": "#0f1115",
+   "radius": 0.0,
+   "borders": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "border_width": 0.0,
+   "border_color": null,
+   "text_color": "#e6e8eb",
+   "text": "Lena Fischer",
+   "font_px": 14.0,
+   "font_weight": 600,
+   "text_align": "start",
+   "ink": [
+    679,
+    129,
+    85,
+    11
+   ]
+  },
+  {
+   "name": "r-to",
+   "kind": "text",
+   "auto": false,
+   "parent": "reader",
+   "box": [
+    678,
+    144,
+    87,
+    17
+   ],
+   "fill": "#0f1115",
+   "own_fill": false,
+   "behind": "#0f1115",
+   "radius": 0.0,
+   "borders": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "border_width": 0.0,
+   "border_color": null,
+   "text_color": "#9aa3af",
+   "text": "to me, Ravi, Mia",
+   "font_px": 12.0,
+   "font_weight": 400,
+   "text_align": "start",
+   "ink": [
+    678,
+    147,
+    87,
+    11
+   ]
+  },
+  {
+   "name": "r-divider",
+   "kind": "divider",
+   "auto": false,
+   "parent": "reader",
+   "box": [
+    632,
+    180,
+    616,
+    1
+   ],
+   "fill": "#343a46",
+   "own_fill": true,
+   "behind": "#0f1115",
+   "radius": 0.0,
+   "borders": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "border_width": 0.0,
+   "border_color": null,
+   "text_color": "#e6e8eb",
+   "text": null,
+   "font_px": 14.0,
+   "font_weight": 400,
+   "text_align": "start"
+  },
+  {
+   "name": "r-line1",
+   "kind": "text",
+   "auto": false,
+   "parent": "reader",
+   "box": [
+    632,
+    201,
+    616,
+    20
+   ],
+   "fill": "#0f1115",
+   "own_fill": false,
+   "behind": "#0f1115",
+   "radius": 0.0,
+   "borders": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "border_width": 0.0,
+   "border_color": null,
+   "text_color": "#e6e8eb",
+   "text": "Hi all \u2014 here is a first cut of the agenda for Monday.",
+   "font_px": 14.0,
+   "font_weight": 400,
+   "text_align": "start",
+   "ink": [
+    633,
+    204,
+    323,
+    14
+   ]
+  },
+  {
+   "name": "r-line2",
+   "kind": "text",
+   "auto": false,
+   "parent": "reader",
+   "box": [
+    632,
+    229,
+    616,
+    20
+   ],
+   "fill": "#0f1115",
+   "own_fill": false,
+   "behind": "#0f1115",
+   "radius": 0.0,
+   "borders": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "border_width": 0.0,
+   "border_color": null,
+   "text_color": "#e6e8eb",
+   "text": "Please add anything I missed before Friday.",
+   "font_px": 14.0,
+   "font_weight": 400,
+   "text_align": "start",
+   "ink": [
+    633,
+    232,
+    271,
+    14
+   ]
+  },
+  {
+   "name": "reply",
+   "kind": "button",
+   "auto": false,
+   "parent": "reader",
+   "box": [
+    632,
+    277,
+    52,
+    28
+   ],
+   "fill": "#3b82f6",
+   "own_fill": true,
+   "behind": "#0f1115",
+   "radius": 6.0,
+   "borders": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "border_width": 0.0,
+   "border_color": null,
+   "text_color": "#ffffff",
+   "text": null,
+   "font_px": 12.0,
+   "font_weight": 600,
+   "text_align": "start"
+  },
+  {
+   "name": "reply-label",
+   "kind": "text",
+   "auto": false,
+   "parent": "reply",
+   "box": [
+    642,
+    282,
+    32,
+    17
+   ],
+   "fill": "#3b82f6",
+   "own_fill": false,
+   "behind": "#3b82f6",
+   "radius": 0.0,
+   "borders": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "border_width": 0.0,
+   "border_color": null,
+   "text_color": "#ffffff",
+   "text": "Reply",
+   "font_px": 12.0,
+   "font_weight": 600,
+   "text_align": "start",
+   "ink": [
+    642,
+    285,
+    33,
+    12
+   ]
+  },
+  {
+   "name": "forward",
+   "kind": "button",
+   "auto": false,
+   "parent": "reader",
+   "box": [
+    694,
+    277,
+    70,
+    28
+   ],
+   "fill": "#181b21",
+   "own_fill": true,
+   "behind": "#0f1115",
+   "radius": 6.0,
+   "borders": [
+    1.0,
+    1.0,
+    1.0,
+    1.0
+   ],
+   "border_width": 1.0,
+   "border_color": "#343a46",
+   "text_color": "#e6e8eb",
+   "text": null,
+   "font_px": 12.0,
+   "font_weight": 600,
+   "text_align": "start"
+  },
+  {
+   "name": "forward-label",
+   "kind": "text",
+   "auto": false,
+   "parent": "forward",
+   "box": [
+    705,
+    282,
+    48,
+    17
+   ],
+   "fill": "#181b21",
+   "own_fill": false,
+   "behind": "#181b21",
+   "radius": 0.0,
+   "borders": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "border_width": 0.0,
+   "border_color": null,
+   "text_color": "#e6e8eb",
+   "text": "Forward",
+   "font_px": 12.0,
+   "font_weight": 600,
+   "text_align": "start",
+   "ink": [
+    706,
+    285,
+    47,
+    10
+   ]
+  }
+ ],
+ "page_background": "#0f1115",
+ "page_items": {
+  "boxes": [
+   {
+    "box": [
+     0,
+     0,
+     1280,
+     52
+    ],
+    "fill": "#22262e",
+    "border_width": 1,
+    "radius": 0
+   },
+   {
+    "box": [
+     16,
+     12,
+     75,
+     28
+    ],
+    "fill": "#3b82f6",
+    "border_width": 0,
+    "radius": 6
+   },
+   {
+    "box": [
+     964,
+     10,
+     300,
+     30
+    ],
+    "fill": "#12151a",
+    "border_width": 1,
+    "radius": 8
+   },
+   {
+    "box": [
+     0,
+     52,
+     220,
+     748
+    ],
+    "fill": "#181b21",
+    "border_width": 1,
+    "radius": 0
+   },
+   {
+    "box": [
+     10,
+     62,
+     199,
+     34
+    ],
+    "fill": "#312e81",
+    "border_width": 0,
+    "radius": 6
+   },
+   {
+    "box": [
+     168,
+     175,
+     27,
+     24
+    ],
+    "fill": "#312e81",
+    "border_width": 0,
+    "radius": 12
+   },
+   {
+    "box": [
+     220,
+     52,
+     380,
+     748
+    ],
+    "fill": "#181b21",
+    "border_width": 1,
+    "radius": 0
+   },
+   {
+    "box": [
+     220,
+     52,
+     379,
+     64
+    ],
+    "fill": "#000000",
+    "border_width": 1,
+    "radius": 0
+   },
+   {
+    "box": [
+     234,
+     66,
+     36,
+     36
+    ],
+    "fill": "#f97316",
+    "border_width": 0,
+    "radius": 50
+   },
+   {
+    "box": [
+     220,
+     116,
+     379,
+     64
+    ],
+    "fill": "#22262e",
+    "border_width": 1,
+    "radius": 0
+   },
+   {
+    "box": [
+     234,
+     130,
+     36,
+     36
+    ],
+    "fill": "#8b5cf6",
+    "border_width": 0,
+    "radius": 50
+   },
+   {
+    "box": [
+     220,
+     180,
+     379,
+     64
+    ],
+    "fill": "#000000",
+    "border_width": 1,
+    "radius": 0
+   },
+   {
+    "box": [
+     234,
+     194,
+     36,
+     36
+    ],
+    "fill": "#14b8a6",
+    "border_width": 0,
+    "radius": 50
+   },
+   {
+    "box": [
+     220,
+     244,
+     379,
+     64
+    ],
+    "fill": "#000000",
+    "border_width": 1,
+    "radius": 0
+   },
+   {
+    "box": [
+     234,
+     258,
+     36,
+     36
+    ],
+    "fill": "#ec4899",
+    "border_width": 0,
+    "radius": 50
+   },
+   {
+    "box": [
+     220,
+     308,
+     379,
+     64
+    ],
+    "fill": "#000000",
+    "border_width": 1,
+    "radius": 0
+   },
+   {
+    "box": [
+     234,
+     322,
+     36,
+     36
+    ],
+    "fill": "#eab308",
+    "border_width": 0,
+    "radius": 50
+   },
+   {
+    "box": [
+     220,
+     372,
+     379,
+     64
+    ],
+    "fill": "#000000",
+    "border_width": 1,
+    "radius": 0
+   },
+   {
+    "box": [
+     234,
+     386,
+     36,
+     36
+    ],
+    "fill": "#06b6d4",
+    "border_width": 0,
+    "radius": 50
+   },
+   {
+    "box": [
+     632,
+     124,
+     36,
+     36
+    ],
+    "fill": "#8b5cf6",
+    "border_width": 0,
+    "radius": 50
+   },
+   {
+    "box": [
+     632,
+     180,
+     616,
+     1
+    ],
+    "fill": "#343a46",
+    "border_width": 0,
+    "radius": 0
+   },
+   {
+    "box": [
+     632,
+     277,
+     52,
+     28
+    ],
+    "fill": "#3b82f6",
+    "border_width": 0,
+    "radius": 6
+   },
+   {
+    "box": [
+     694,
+     277,
+     70,
+     28
+    ],
+    "fill": "#181b21",
+    "border_width": 1,
+    "radius": 6
+   }
+  ],
+  "texts": [
+   {
+    "text": "Compose",
+    "box": [
+     26,
+     17,
+     55,
+     15
+    ],
+    "color": "#ffffff",
+    "font_px": 12.0
+   },
+   {
+    "text": "Search mail",
+    "box": [
+     977,
+     17,
+     73,
+     16
+    ],
+    "color": "#9aa3af",
+    "font_px": 14.0
+   },
+   {
+    "text": "Inbox",
+    "box": [
+     54,
+     70,
+     35,
+     16
+    ],
+    "color": "#e6e8eb",
+    "font_px": 14.0
+   },
+   {
+    "text": "12",
+    "box": [
+     172,
+     71,
+     13,
+     15
+    ],
+    "color": "#c7d2fe",
+    "font_px": 12.0
+   },
+   {
+    "text": "Starred",
+    "box": [
+     54,
+     106,
+     46,
+     16
+    ],
+    "color": "#e6e8eb",
+    "font_px": 14.0
+   },
+   {
+    "text": "Sent",
+    "box": [
+     54,
+     142,
+     29,
+     16
+    ],
+    "color": "#e6e8eb",
+    "font_px": 14.0
+   },
+   {
+    "text": "Drafts",
+    "box": [
+     54,
+     178,
+     38,
+     16
+    ],
+    "color": "#e6e8eb",
+    "font_px": 14.0
+   },
+   {
+    "text": "3",
+    "box": [
+     178,
+     179,
+     7,
+     15
+    ],
+    "color": "#c7d2fe",
+    "font_px": 12.0
+   },
+   {
+    "text": "Archive",
+    "box": [
+     54,
+     214,
+     46,
+     16
+    ],
+    "color": "#e6e8eb",
+    "font_px": 14.0
+   },
+   {
+    "text": "GitHub",
+    "box": [
+     282,
+     65,
+     46,
+     17
+    ],
+    "color": "#e6e8eb",
+    "font_px": 14.0
+   },
+   {
+    "text": "[forge] Build #812 failed on main",
+    "box": [
+     282,
+     87,
+     173,
+     14
+    ],
+    "color": "#9aa3af",
+    "font_px": 12.0
+   },
+   {
+    "text": "Lena Fischer",
+    "box": [
+     282,
+     129,
+     86,
+     17
+    ],
+    "color": "#e6e8eb",
+    "font_px": 14.0
+   },
+   {
+    "text": "Q3 planning \u2014 draft agenda",
+    "box": [
+     282,
+     151,
+     152,
+     14
+    ],
+    "color": "#9aa3af",
+    "font_px": 12.0
+   },
+   {
+    "text": "Stripe",
+    "box": [
+     282,
+     193,
+     40,
+     17
+    ],
+    "color": "#e6e8eb",
+    "font_px": 14.0
+   },
+   {
+    "text": "Your payout of \u20ac4,210 is on the way",
+    "box": [
+     282,
+     215,
+     192,
+     14
+    ],
+    "color": "#9aa3af",
+    "font_px": 12.0
+   },
+   {
+    "text": "Ravi Kumar",
+    "box": [
+     282,
+     257,
+     78,
+     17
+    ],
+    "color": "#e6e8eb",
+    "font_px": 14.0
+   },
+   {
+    "text": "Re: API rate limits",
+    "box": [
+     282,
+     279,
+     95,
+     14
+    ],
+    "color": "#9aa3af",
+    "font_px": 12.0
+   },
+   {
+    "text": "Notion",
+    "box": [
+     282,
+     321,
+     44,
+     17
+    ],
+    "color": "#e6e8eb",
+    "font_px": 14.0
+   },
+   {
+    "text": "3 updates in Engineering wiki",
+    "box": [
+     282,
+     343,
+     157,
+     14
+    ],
+    "color": "#9aa3af",
+    "font_px": 12.0
+   },
+   {
+    "text": "Mia Wong",
+    "box": [
+     282,
+     385,
+     66,
+     17
+    ],
+    "color": "#e6e8eb",
+    "font_px": 14.0
+   },
+   {
+    "text": "Lunch on Thursday?",
+    "box": [
+     282,
+     407,
+     110,
+     14
+    ],
+    "color": "#9aa3af",
+    "font_px": 12.0
+   },
+   {
+    "text": "Q3 planning \u2014 draft agenda",
+    "box": [
+     632,
+     82,
+     267,
+     24
+    ],
+    "color": "#e6e8eb",
+    "font_px": 20.0
+   },
+   {
+    "text": "Lena Fischer",
+    "box": [
+     678,
+     125,
+     86,
+     17
+    ],
+    "color": "#e6e8eb",
+    "font_px": 14.0
+   },
+   {
+    "text": "to me, Ravi, Mia",
+    "box": [
+     678,
+     145,
+     87,
+     14
+    ],
+    "color": "#9aa3af",
+    "font_px": 12.0
+   },
+   {
+    "text": "Hi all \u2014 here is a first cut of the agenda for Monday.",
+    "box": [
+     632,
+     202,
+     325,
+     16
+    ],
+    "color": "#e6e8eb",
+    "font_px": 14.0
+   },
+   {
+    "text": "Please add anything I missed before Friday.",
+    "box": [
+     632,
+     230,
+     273,
+     16
+    ],
+    "color": "#e6e8eb",
+    "font_px": 14.0
+   },
+   {
+    "text": "Reply",
+    "box": [
+     642,
+     282,
+     32,
+     15
+    ],
+    "color": "#ffffff",
+    "font_px": 12.0
+   },
+   {
+    "text": "Forward",
+    "box": [
+     705,
+     282,
+     48,
+     15
+    ],
+    "color": "#e6e8eb",
+    "font_px": 12.0
+   }
+  ],
+  "page_background": "#0f1115"
+ }
+}

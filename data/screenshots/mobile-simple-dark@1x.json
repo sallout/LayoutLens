@@ -1,0 +1,497 @@
+{
+ "image": "mobile-simple-dark@1x.png",
+ "scene": "mobile-simple",
+ "theme": "dark",
+ "dpr": 1.0,
+ "css_width": 390,
+ "css_height": 844,
+ "width": 390,
+ "height": 844,
+ "elements": [
+  {
+   "name": "logo",
+   "kind": "icon",
+   "auto": false,
+   "parent": null,
+   "box": [
+    24,
+    96,
+    48,
+    48
+   ],
+   "fill": "#0f1115",
+   "own_fill": false,
+   "behind": "#0f1115",
+   "radius": 0.0,
+   "borders": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "border_width": 0.0,
+   "border_color": null,
+   "text_color": "#3b82f6",
+   "text": null,
+   "font_px": 14.0,
+   "font_weight": 400,
+   "text_align": "start",
+   "ink": [
+    29,
+    101,
+    38,
+    36
+   ]
+  },
+  {
+   "name": "title",
+   "kind": "text",
+   "auto": false,
+   "parent": null,
+   "box": [
+    24,
+    168,
+    342,
+    39
+   ],
+   "fill": "#0f1115",
+   "own_fill": false,
+   "behind": "#0f1115",
+   "radius": 0.0,
+   "borders": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "border_width": 0.0,
+   "border_color": null,
+   "text_color": "#e6e8eb",
+   "text": "Welcome back",
+   "font_px": 28.0,
+   "font_weight": 800,
+   "text_align": "start",
+   "ink": [
+    24,
+    178,
+    196,
+    21
+   ]
+  },
+  {
+   "name": "subtitle",
+   "kind": "text",
+   "auto": false,
+   "parent": null,
+   "box": [
+    24,
+    213,
+    342,
+    20
+   ],
+   "fill": "#0f1115",
+   "own_fill": false,
+   "behind": "#0f1115",
+   "radius": 0.0,
+   "borders": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "border_width": 0.0,
+   "border_color": null,
+   "text_color": "#9aa3af",
+   "text": "Sign in to continue",
+   "font_px": 14.0,
+   "font_weight": 400,
+   "text_align": "start",
+   "ink": [
+    24,
+    216,
+    117,
+    14
+   ]
+  },
+  {
+   "name": "email",
+   "kind": "input",
+   "auto": false,
+   "parent": null,
+   "box": [
+    24,
+    269,
+    342,
+    48
+   ],
+   "fill": "#12151a",
+   "own_fill": true,
+   "behind": "#0f1115",
+   "radius": 8.0,
+   "borders": [
+    1.0,
+    1.0,
+    1.0,
+    1.0
+   ],
+   "border_width": 1.0,
+   "border_color": "#343a46",
+   "text_color": "#9aa3af",
+   "text": null,
+   "font_px": 14.0,
+   "font_weight": 400,
+   "text_align": "start"
+  },
+  {
+   "name": "email-placeholder",
+   "kind": "text",
+   "auto": false,
+   "parent": "email",
+   "box": [
+    37,
+    283,
+    34,
+    20
+   ],
+   "fill": "#12151a",
+   "own_fill": false,
+   "behind": "#12151a",
+   "radius": 0.0,
+   "borders": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "border_width": 0.0,
+   "border_color": null,
+   "text_color": "#9aa3af",
+   "text": "Email",
+   "font_px": 14.0,
+   "font_weight": 400,
+   "text_align": "start",
+   "ink": [
+    38,
+    287,
+    33,
+    11
+   ]
+  },
+  {
+   "name": "password",
+   "kind": "input",
+   "auto": false,
+   "parent": null,
+   "box": [
+    24,
+    331,
+    342,
+    48
+   ],
+   "fill": "#12151a",
+   "own_fill": true,
+   "behind": "#0f1115",
+   "radius": 8.0,
+   "borders": [
+    1.0,
+    1.0,
+    1.0,
+    1.0
+   ],
+   "border_width": 1.0,
+   "border_color": "#343a46",
+   "text_color": "#9aa3af",
+   "text": null,
+   "font_px": 14.0,
+   "font_weight": 400,
+   "text_align": "start"
+  },
+  {
+   "name": "password-placeholder",
+   "kind": "text",
+   "auto": false,
+   "parent": "password",
+   "box": [
+    37,
+    345,
+    62,
+    20
+   ],
+   "fill": "#12151a",
+   "own_fill": false,
+   "behind": "#12151a",
+   "radius": 0.0,
+   "borders": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "border_width": 0.0,
+   "border_color": null,
+   "text_color": "#9aa3af",
+   "text": "Password",
+   "font_px": 14.0,
+   "font_weight": 400,
+   "text_align": "start",
+   "ink": [
+    38,
+    349,
+    61,
+    11
+   ]
+  },
+  {
+   "name": "forgot",
+   "kind": "text",
+   "auto": false,
+   "parent": null,
+   "box": [
+    245,
+    393,
+    121,
+    20
+   ],
+   "fill": "#0f1115",
+   "own_fill": false,
+   "behind": "#0f1115",
+   "radius": 0.0,
+   "borders": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "border_width": 0.0,
+   "border_color": null,
+   "text_color": "#3b82f6",
+   "text": "Forgot password?",
+   "font_px": 14.0,
+   "font_weight": 600,
+   "text_align": "start",
+   "ink": [
+    246,
+    397,
+    120,
+    14
+   ]
+  },
+  {
+   "name": "signin",
+   "kind": "button",
+   "auto": false,
+   "parent": null,
+   "box": [
+    24,
+    440,
+    342,
+    50
+   ],
+   "fill": "#3b82f6",
+   "own_fill": true,
+   "behind": "#0f1115",
+   "radius": 12.0,
+   "borders": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "border_width": 0.0,
+   "border_color": null,
+   "text_color": "#ffffff",
+   "text": null,
+   "font_px": 14.0,
+   "font_weight": 600,
+   "text_align": "start"
+  },
+  {
+   "name": "signin-label",
+   "kind": "text",
+   "auto": false,
+   "parent": "signin",
+   "box": [
+    172,
+    456,
+    45,
+    20
+   ],
+   "fill": "#3b82f6",
+   "own_fill": false,
+   "behind": "#3b82f6",
+   "radius": 0.0,
+   "borders": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "border_width": 0.0,
+   "border_color": null,
+   "text_color": "#ffffff",
+   "text": "Sign in",
+   "font_px": 14.0,
+   "font_weight": 600,
+   "text_align": "start",
+   "ink": [
+    172,
+    460,
+    45,
+    14
+   ]
+  },
+  {
+   "name": "signup",
+   "kind": "text",
+   "auto": false,
+   "parent": null,
+   "box": [
+    118,
+    514,
+    153,
+    20
+   ],
+   "fill": "#0f1115",
+   "own_fill": false,
+   "behind": "#0f1115",
+   "radius": 0.0,
+   "borders": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "border_width": 0.0,
+   "border_color": null,
+   "text_color": "#9aa3af",
+   "text": "No account? Create one",
+   "font_px": 14.0,
+   "font_weight": 400,
+   "text_align": "start",
+   "ink": [
+    119,
+    517,
+    153,
+    12
+   ]
+  }
+ ],
+ "page_background": "#0f1115",
+ "page_items": {
+  "boxes": [
+   {
+    "box": [
+     24,
+     269,
+     342,
+     48
+    ],
+    "fill": "#12151a",
+    "border_width": 1,
+    "radius": 8
+   },
+   {
+    "box": [
+     24,
+     331,
+     342,
+     48
+    ],
+    "fill": "#12151a",
+    "border_width": 1,
+    "radius": 8
+   },
+   {
+    "box": [
+     24,
+     440,
+     342,
+     50
+    ],
+    "fill": "#3b82f6",
+    "border_width": 0,
+    "radius": 12
+   }
+  ],
+  "texts": [
+   {
+    "text": "Welcome back",
+    "box": [
+     24,
+     171,
+     196,
+     33
+    ],
+    "color": "#e6e8eb",
+    "font_px": 28.0
+   },
+   {
+    "text": "Sign in to continue",
+    "box": [
+     24,
+     214,
+     117,
+     16
+    ],
+    "color": "#9aa3af",
+    "font_px": 14.0
+   },
+   {
+    "text": "Email",
+    "box": [
+     37,
+     284,
+     34,
+     16
+    ],
+    "color": "#9aa3af",
+    "font_px": 14.0
+   },
+   {
+    "text": "Password",
+    "box": [
+     37,
+     346,
+     62,
+     16
+    ],
+    "color": "#9aa3af",
+    "font_px": 14.0
+   },
+   {
+    "text": "Forgot password?",
+    "box": [
+     245,
+     394,
+     121,
+     17
+    ],
+    "color": "#3b82f6",
+    "font_px": 14.0
+   },
+   {
+    "text": "Sign in",
+    "box": [
+     172,
+     457,
+     45,
+     17
+    ],
+    "color": "#ffffff",
+    "font_px": 14.0
+   },
+   {
+    "text": "No account? Create one",
+    "box": [
+     118,
+     515,
+     153,
+     16
+    ],
+    "color": "#9aa3af",
+    "font_px": 14.0
+   }
+  ],
+  "page_background": "#0f1115"
+ }
+}

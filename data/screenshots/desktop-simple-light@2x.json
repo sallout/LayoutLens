@@ -1,0 +1,445 @@
+{
+ "image": "desktop-simple-light@2x.png",
+ "scene": "desktop-simple",
+ "theme": "light",
+ "dpr": 2.0,
+ "css_width": 1280,
+ "css_height": 800,
+ "width": 2560,
+ "height": 1600,
+ "elements": [
+  {
+   "name": "dialog",
+   "kind": "panel",
+   "auto": false,
+   "parent": null,
+   "box": [
+    800,
+    520,
+    960,
+    472
+   ],
+   "fill": "#ffffff",
+   "own_fill": true,
+   "behind": "#f6f7f9",
+   "radius": 24.0,
+   "borders": [
+    2.0,
+    2.0,
+    2.0,
+    2.0
+   ],
+   "border_width": 2.0,
+   "border_color": "#d9dee6",
+   "text_color": "#111827",
+   "text": null,
+   "font_px": 28.0,
+   "font_weight": 400,
+   "text_align": "start"
+  },
+  {
+   "name": "dialog-icon",
+   "kind": "icon",
+   "auto": false,
+   "parent": "dialog",
+   "box": [
+    858,
+    578,
+    64,
+    64
+   ],
+   "fill": "#ffffff",
+   "own_fill": false,
+   "behind": "#ffffff",
+   "radius": 0.0,
+   "borders": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "border_width": 0.0,
+   "border_color": null,
+   "text_color": "#d97706",
+   "text": null,
+   "font_px": 28.0,
+   "font_weight": 400,
+   "text_align": "start",
+   "ink": [
+    868,
+    587,
+    45,
+    52
+   ]
+  },
+  {
+   "name": "dialog-title",
+   "kind": "text",
+   "auto": false,
+   "parent": "dialog",
+   "box": [
+    858,
+    674,
+    844,
+    50
+   ],
+   "fill": "#ffffff",
+   "own_fill": false,
+   "behind": "#ffffff",
+   "radius": 0.0,
+   "borders": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "border_width": 0.0,
+   "border_color": null,
+   "text_color": "#111827",
+   "text": "Unsaved changes",
+   "font_px": 36.0,
+   "font_weight": 700,
+   "text_align": "start",
+   "ink": [
+    860,
+    686,
+    303,
+    33
+   ]
+  },
+  {
+   "name": "dialog-body",
+   "kind": "text",
+   "auto": false,
+   "parent": "dialog",
+   "box": [
+    858,
+    740,
+    844,
+    39
+   ],
+   "fill": "#ffffff",
+   "own_fill": false,
+   "behind": "#ffffff",
+   "radius": 0.0,
+   "borders": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "border_width": 0.0,
+   "border_color": null,
+   "text_color": "#6b7280",
+   "text": "Save the changes to report.xlsx before closing?",
+   "font_px": 28.0,
+   "font_weight": 400,
+   "text_align": "start",
+   "ink": [
+    859,
+    747,
+    593,
+    27
+   ]
+  },
+  {
+   "name": "dont-save",
+   "kind": "button",
+   "auto": false,
+   "parent": "dialog",
+   "box": [
+    1163,
+    836,
+    210,
+    72
+   ],
+   "fill": "#ffffff",
+   "own_fill": true,
+   "behind": "#ffffff",
+   "radius": 16.0,
+   "borders": [
+    2.0,
+    2.0,
+    2.0,
+    2.0
+   ],
+   "border_width": 2.0,
+   "border_color": "#d9dee6",
+   "text_color": "#111827",
+   "text": null,
+   "font_px": 28.0,
+   "font_weight": 600,
+   "text_align": "start"
+  },
+  {
+   "name": "dont-save-label",
+   "kind": "text",
+   "auto": false,
+   "parent": "dont-save",
+   "box": [
+    1197,
+    852,
+    142,
+    39
+   ],
+   "fill": "#ffffff",
+   "own_fill": false,
+   "behind": "#ffffff",
+   "radius": 0.0,
+   "borders": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "border_width": 0.0,
+   "border_color": null,
+   "text_color": "#111827",
+   "text": "Don't save",
+   "font_px": 28.0,
+   "font_weight": 600,
+   "text_align": "start",
+   "ink": [
+    1198,
+    862,
+    140,
+    21
+   ]
+  },
+  {
+   "name": "cancel",
+   "kind": "button",
+   "auto": false,
+   "parent": "dialog",
+   "box": [
+    1392,
+    836,
+    161,
+    72
+   ],
+   "fill": "#ffffff",
+   "own_fill": true,
+   "behind": "#ffffff",
+   "radius": 16.0,
+   "borders": [
+    2.0,
+    2.0,
+    2.0,
+    2.0
+   ],
+   "border_width": 2.0,
+   "border_color": "#d9dee6",
+   "text_color": "#111827",
+   "text": null,
+   "font_px": 28.0,
+   "font_weight": 600,
+   "text_align": "start"
+  },
+  {
+   "name": "cancel-label",
+   "kind": "text",
+   "auto": false,
+   "parent": "cancel",
+   "box": [
+    1426,
+    852,
+    93,
+    39
+   ],
+   "fill": "#ffffff",
+   "own_fill": false,
+   "behind": "#ffffff",
+   "radius": 0.0,
+   "borders": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "border_width": 0.0,
+   "border_color": null,
+   "text_color": "#111827",
+   "text": "Cancel",
+   "font_px": 28.0,
+   "font_weight": 600,
+   "text_align": "start",
+   "ink": [
+    1427,
+    861,
+    91,
+    22
+   ]
+  },
+  {
+   "name": "save",
+   "kind": "button",
+   "auto": false,
+   "parent": "dialog",
+   "box": [
+    1573,
+    836,
+    129,
+    72
+   ],
+   "fill": "#2563eb",
+   "own_fill": true,
+   "behind": "#ffffff",
+   "radius": 16.0,
+   "borders": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "border_width": 0.0,
+   "border_color": null,
+   "text_color": "#ffffff",
+   "text": null,
+   "font_px": 28.0,
+   "font_weight": 600,
+   "text_align": "start"
+  },
+  {
+   "name": "save-label",
+   "kind": "text",
+   "auto": false,
+   "parent": "save",
+   "box": [
+    1605,
+    852,
+    65,
+    39
+   ],
+   "fill": "#2563eb",
+   "own_fill": false,
+   "behind": "#2563eb",
+   "radius": 0.0,
+   "borders": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "border_width": 0.0,
+   "border_color": null,
+   "text_color": "#ffffff",
+   "text": "Save",
+   "font_px": 28.0,
+   "font_weight": 600,
+   "text_align": "start",
+   "ink": [
+    1605,
+    861,
+    65,
+    22
+   ]
+  }
+ ],
+ "page_background": "#f6f7f9",
+ "page_items": {
+  "boxes": [
+   {
+    "box": [
+     800,
+     520,
+     960,
+     472
+    ],
+    "fill": "#ffffff",
+    "border_width": 1,
+    "radius": 12
+   },
+   {
+    "box": [
+     1163,
+     836,
+     210,
+     72
+    ],
+    "fill": "#ffffff",
+    "border_width": 1,
+    "radius": 8
+   },
+   {
+    "box": [
+     1392,
+     836,
+     161,
+     72
+    ],
+    "fill": "#ffffff",
+    "border_width": 1,
+    "radius": 8
+   },
+   {
+    "box": [
+     1573,
+     836,
+     129,
+     72
+    ],
+    "fill": "#2563eb",
+    "border_width": 0,
+    "radius": 8
+   }
+  ],
+  "texts": [
+   {
+    "text": "Unsaved changes",
+    "box": [
+     858,
+     676,
+     305,
+     44
+    ],
+    "color": "#111827",
+    "font_px": 36.0
+   },
+   {
+    "text": "Save the changes to report.xlsx before closing?",
+    "box": [
+     858,
+     742,
+     596,
+     32
+    ],
+    "color": "#6b7280",
+    "font_px": 28.0
+   },
+   {
+    "text": "Don't save",
+    "box": [
+     1197,
+     854,
+     142,
+     34
+    ],
+    "color": "#111827",
+    "font_px": 28.0
+   },
+   {
+    "text": "Cancel",
+    "box": [
+     1426,
+     854,
+     93,
+     34
+    ],
+    "color": "#111827",
+    "font_px": 28.0
+   },
+   {
+    "text": "Save",
+    "box": [
+     1605,
+     854,
+     65,
+     34
+    ],
+    "color": "#ffffff",
+    "font_px": 28.0
+   }
+  ],
+  "page_background": "#f6f7f9"
+ }
+}

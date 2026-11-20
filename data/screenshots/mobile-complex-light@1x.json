@@ -1,0 +1,2914 @@
+{
+ "image": "mobile-complex-light@1x.png",
+ "scene": "mobile-complex",
+ "theme": "light",
+ "dpr": 1.0,
+ "css_width": 390,
+ "css_height": 844,
+ "width": 390,
+ "height": 844,
+ "elements": [
+  {
+   "name": "appbar",
+   "kind": "panel",
+   "auto": false,
+   "parent": null,
+   "box": [
+    0,
+    0,
+    390,
+    56
+   ],
+   "fill": "#ffffff",
+   "own_fill": true,
+   "behind": "#f6f7f9",
+   "radius": 0.0,
+   "borders": [
+    0.0,
+    0.0,
+    1.0,
+    0.0
+   ],
+   "border_width": 1.0,
+   "border_color": "#d9dee6",
+   "text_color": "#111827",
+   "text": null,
+   "font_px": 14.0,
+   "font_weight": 400,
+   "text_align": "start"
+  },
+  {
+   "name": "back",
+   "kind": "icon",
+   "auto": false,
+   "parent": "appbar",
+   "box": [
+    16,
+    18,
+    20,
+    20
+   ],
+   "fill": "#ffffff",
+   "own_fill": false,
+   "behind": "#ffffff",
+   "radius": 0.0,
+   "borders": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "border_width": 0.0,
+   "border_color": null,
+   "text_color": "#111827",
+   "text": null,
+   "font_px": 14.0,
+   "font_weight": 400,
+   "text_align": "start",
+   "ink": [
+    19,
+    22,
+    14,
+    14
+   ]
+  },
+  {
+   "name": "app-title",
+   "kind": "text",
+   "auto": false,
+   "parent": "appbar",
+   "box": [
+    50,
+    14,
+    41,
+    28
+   ],
+   "fill": "#ffffff",
+   "own_fill": false,
+   "behind": "#ffffff",
+   "radius": 0.0,
+   "borders": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "border_width": 0.0,
+   "border_color": null,
+   "text_color": "#111827",
+   "text": "Cart",
+   "font_px": 20.0,
+   "font_weight": 800,
+   "text_align": "start",
+   "ink": [
+    50,
+    21,
+    41,
+    16
+   ]
+  },
+  {
+   "name": "cart-count",
+   "kind": "chip",
+   "auto": false,
+   "parent": "appbar",
+   "box": [
+    312,
+    16,
+    62,
+    24
+   ],
+   "fill": "#e0e7ff",
+   "own_fill": true,
+   "behind": "#ffffff",
+   "radius": 12.0,
+   "borders": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "border_width": 0.0,
+   "border_color": null,
+   "text_color": "#3730a3",
+   "text": null,
+   "font_px": 12.0,
+   "font_weight": 600,
+   "text_align": "start"
+  },
+  {
+   "name": "cart-count-label",
+   "kind": "text",
+   "auto": false,
+   "parent": "cart-count",
+   "box": [
+    322,
+    19,
+    42,
+    17
+   ],
+   "fill": "#e0e7ff",
+   "own_fill": false,
+   "behind": "#e0e7ff",
+   "radius": 0.0,
+   "borders": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "border_width": 0.0,
+   "border_color": null,
+   "text_color": "#3730a3",
+   "text": "4 items",
+   "font_px": 12.0,
+   "font_weight": 600,
+   "text_align": "start",
+   "ink": [
+    322,
+    22,
+    42,
+    10
+   ]
+  },
+  {
+   "name": "filter-all",
+   "kind": "chip",
+   "auto": false,
+   "parent": null,
+   "box": [
+    16,
+    70,
+    34,
+    24
+   ],
+   "fill": "#e0e7ff",
+   "own_fill": true,
+   "behind": "#f6f7f9",
+   "radius": 12.0,
+   "borders": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "border_width": 0.0,
+   "border_color": null,
+   "text_color": "#3730a3",
+   "text": null,
+   "font_px": 12.0,
+   "font_weight": 600,
+   "text_align": "start"
+  },
+  {
+   "name": "filter-all-label",
+   "kind": "text",
+   "auto": false,
+   "parent": "filter-all",
+   "box": [
+    26,
+    74,
+    14,
+    17
+   ],
+   "fill": "#e0e7ff",
+   "own_fill": false,
+   "behind": "#e0e7ff",
+   "radius": 0.0,
+   "borders": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "border_width": 0.0,
+   "border_color": null,
+   "text_color": "#3730a3",
+   "text": "All",
+   "font_px": 12.0,
+   "font_weight": 600,
+   "text_align": "start",
+   "ink": [
+    26,
+    77,
+    14,
+    9
+   ]
+  },
+  {
+   "name": "filter-produce",
+   "kind": "chip",
+   "auto": false,
+   "parent": null,
+   "box": [
+    58,
+    70,
+    68,
+    24
+   ],
+   "fill": "#e0e7ff",
+   "own_fill": true,
+   "behind": "#f6f7f9",
+   "radius": 12.0,
+   "borders": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "border_width": 0.0,
+   "border_color": null,
+   "text_color": "#3730a3",
+   "text": null,
+   "font_px": 12.0,
+   "font_weight": 600,
+   "text_align": "start"
+  },
+  {
+   "name": "filter-produce-label",
+   "kind": "text",
+   "auto": false,
+   "parent": "filter-produce",
+   "box": [
+    68,
+    74,
+    48,
+    17
+   ],
+   "fill": "#e0e7ff",
+   "own_fill": false,
+   "behind": "#e0e7ff",
+   "radius": 0.0,
+   "borders": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "border_width": 0.0,
+   "border_color": null,
+   "text_color": "#3730a3",
+   "text": "Produce",
+   "font_px": 12.0,
+   "font_weight": 600,
+   "text_align": "start",
+   "ink": [
+    69,
+    77,
+    47,
+    10
+   ]
+  },
+  {
+   "name": "filter-dairy",
+   "kind": "chip",
+   "auto": false,
+   "parent": null,
+   "box": [
+    134,
+    70,
+    50,
+    24
+   ],
+   "fill": "#e0e7ff",
+   "own_fill": true,
+   "behind": "#f6f7f9",
+   "radius": 12.0,
+   "borders": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "border_width": 0.0,
+   "border_color": null,
+   "text_color": "#3730a3",
+   "text": null,
+   "font_px": 12.0,
+   "font_weight": 600,
+   "text_align": "start"
+  },
+  {
+   "name": "filter-dairy-label",
+   "kind": "text",
+   "auto": false,
+   "parent": "filter-dairy",
+   "box": [
+    144,
+    74,
+    30,
+    17
+   ],
+   "fill": "#e0e7ff",
+   "own_fill": false,
+   "behind": "#e0e7ff",
+   "radius": 0.0,
+   "borders": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "border_width": 0.0,
+   "border_color": null,
+   "text_color": "#3730a3",
+   "text": "Dairy",
+   "font_px": 12.0,
+   "font_weight": 600,
+   "text_align": "start",
+   "ink": [
+    145,
+    77,
+    30,
+    12
+   ]
+  },
+  {
+   "name": "filter-bakery",
+   "kind": "chip",
+   "auto": false,
+   "parent": null,
+   "box": [
+    192,
+    70,
+    60,
+    24
+   ],
+   "fill": "#e0e7ff",
+   "own_fill": true,
+   "behind": "#f6f7f9",
+   "radius": 12.0,
+   "borders": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "border_width": 0.0,
+   "border_color": null,
+   "text_color": "#3730a3",
+   "text": null,
+   "font_px": 12.0,
+   "font_weight": 600,
+   "text_align": "start"
+  },
+  {
+   "name": "filter-bakery-label",
+   "kind": "text",
+   "auto": false,
+   "parent": "filter-bakery",
+   "box": [
+    202,
+    74,
+    40,
+    17
+   ],
+   "fill": "#e0e7ff",
+   "own_fill": false,
+   "behind": "#e0e7ff",
+   "radius": 0.0,
+   "borders": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "border_width": 0.0,
+   "border_color": null,
+   "text_color": "#3730a3",
+   "text": "Bakery",
+   "font_px": 12.0,
+   "font_weight": 600,
+   "text_align": "start",
+   "ink": [
+    203,
+    77,
+    40,
+    12
+   ]
+  },
+  {
+   "name": "item0",
+   "kind": "panel",
+   "auto": false,
+   "parent": null,
+   "box": [
+    16,
+    108,
+    358,
+    80
+   ],
+   "fill": "#ffffff",
+   "own_fill": true,
+   "behind": "#f6f7f9",
+   "radius": 12.0,
+   "borders": [
+    1.0,
+    1.0,
+    1.0,
+    1.0
+   ],
+   "border_width": 1.0,
+   "border_color": "#d9dee6",
+   "text_color": "#111827",
+   "text": null,
+   "font_px": 14.0,
+   "font_weight": 400,
+   "text_align": "start"
+  },
+  {
+   "name": "i0-thumb",
+   "kind": "image",
+   "auto": false,
+   "parent": "item0",
+   "box": [
+    29,
+    120,
+    56,
+    56
+   ],
+   "fill": "#86efac",
+   "own_fill": true,
+   "behind": "#ffffff",
+   "radius": 10.0,
+   "borders": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "border_width": 0.0,
+   "border_color": null,
+   "text_color": "#111827",
+   "text": null,
+   "font_px": 14.0,
+   "font_weight": 400,
+   "text_align": "start"
+  },
+  {
+   "name": "i0-name",
+   "kind": "text",
+   "auto": false,
+   "parent": "item0",
+   "box": [
+    97,
+    128,
+    101,
+    20
+   ],
+   "fill": "#ffffff",
+   "own_fill": false,
+   "behind": "#ffffff",
+   "radius": 0.0,
+   "borders": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "border_width": 0.0,
+   "border_color": null,
+   "text_color": "#111827",
+   "text": "Organic apples",
+   "font_px": 14.0,
+   "font_weight": 600,
+   "text_align": "start",
+   "ink": [
+    97,
+    132,
+    101,
+    14
+   ]
+  },
+  {
+   "name": "i0-price",
+   "kind": "text",
+   "auto": false,
+   "parent": "item0",
+   "box": [
+    97,
+    151,
+    101,
+    17
+   ],
+   "fill": "#ffffff",
+   "own_fill": false,
+   "behind": "#ffffff",
+   "radius": 0.0,
+   "borders": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "border_width": 0.0,
+   "border_color": null,
+   "text_color": "#6b7280",
+   "text": "\u20ac3.40",
+   "font_px": 12.0,
+   "font_weight": 400,
+   "text_align": "start",
+   "ink": [
+    97,
+    154,
+    30,
+    10
+   ]
+  },
+  {
+   "name": "i0-minus",
+   "kind": "button",
+   "auto": false,
+   "parent": "item0",
+   "box": [
+    277,
+    134,
+    28,
+    28
+   ],
+   "fill": "#ffffff",
+   "own_fill": true,
+   "behind": "#ffffff",
+   "radius": 6.0,
+   "borders": [
+    1.0,
+    1.0,
+    1.0,
+    1.0
+   ],
+   "border_width": 1.0,
+   "border_color": "#d9dee6",
+   "text_color": "#111827",
+   "text": null,
+   "font_px": 12.0,
+   "font_weight": 600,
+   "text_align": "start"
+  },
+  {
+   "name": "i0-minus-label",
+   "kind": "text",
+   "auto": false,
+   "parent": "i0-minus",
+   "box": [
+    287,
+    140,
+    7,
+    17
+   ],
+   "fill": "#ffffff",
+   "own_fill": false,
+   "behind": "#ffffff",
+   "radius": 0.0,
+   "borders": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "border_width": 0.0,
+   "border_color": null,
+   "text_color": "#111827",
+   "text": "\u2212",
+   "font_px": 12.0,
+   "font_weight": 600,
+   "text_align": "start",
+   "ink": [
+    288,
+    148,
+    7,
+    2
+   ]
+  },
+  {
+   "name": "i0-qty",
+   "kind": "text",
+   "auto": false,
+   "parent": "item0",
+   "box": [
+    305,
+    138,
+    28,
+    20
+   ],
+   "fill": "#ffffff",
+   "own_fill": false,
+   "behind": "#ffffff",
+   "radius": 0.0,
+   "borders": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "border_width": 0.0,
+   "border_color": null,
+   "text_color": "#111827",
+   "text": "2",
+   "font_px": 14.0,
+   "font_weight": 400,
+   "text_align": "center",
+   "ink": [
+    315,
+    136,
+    20,
+    24
+   ]
+  },
+  {
+   "name": "i0-plus",
+   "kind": "button",
+   "auto": false,
+   "parent": "item0",
+   "box": [
+    333,
+    134,
+    28,
+    28
+   ],
+   "fill": "#2563eb",
+   "own_fill": true,
+   "behind": "#ffffff",
+   "radius": 6.0,
+   "borders": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "border_width": 0.0,
+   "border_color": null,
+   "text_color": "#ffffff",
+   "text": null,
+   "font_px": 12.0,
+   "font_weight": 600,
+   "text_align": "start"
+  },
+  {
+   "name": "i0-plus-label",
+   "kind": "text",
+   "auto": false,
+   "parent": "i0-plus",
+   "box": [
+    343,
+    140,
+    7,
+    17
+   ],
+   "fill": "#2563eb",
+   "own_fill": false,
+   "behind": "#2563eb",
+   "radius": 0.0,
+   "borders": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "border_width": 0.0,
+   "border_color": null,
+   "text_color": "#ffffff",
+   "text": "+",
+   "font_px": 12.0,
+   "font_weight": 600,
+   "text_align": "start",
+   "ink": [
+    344,
+    145,
+    7,
+    7
+   ]
+  },
+  {
+   "name": "item1",
+   "kind": "panel",
+   "auto": false,
+   "parent": null,
+   "box": [
+    16,
+    198,
+    358,
+    80
+   ],
+   "fill": "#ffffff",
+   "own_fill": true,
+   "behind": "#f6f7f9",
+   "radius": 12.0,
+   "borders": [
+    1.0,
+    1.0,
+    1.0,
+    1.0
+   ],
+   "border_width": 1.0,
+   "border_color": "#d9dee6",
+   "text_color": "#111827",
+   "text": null,
+   "font_px": 14.0,
+   "font_weight": 400,
+   "text_align": "start"
+  },
+  {
+   "name": "i1-thumb",
+   "kind": "image",
+   "auto": false,
+   "parent": "item1",
+   "box": [
+    29,
+    210,
+    56,
+    56
+   ],
+   "fill": "#fcd34d",
+   "own_fill": true,
+   "behind": "#ffffff",
+   "radius": 10.0,
+   "borders": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "border_width": 0.0,
+   "border_color": null,
+   "text_color": "#111827",
+   "text": null,
+   "font_px": 14.0,
+   "font_weight": 400,
+   "text_align": "start"
+  },
+  {
+   "name": "i1-name",
+   "kind": "text",
+   "auto": false,
+   "parent": "item1",
+   "box": [
+    97,
+    218,
+    87,
+    20
+   ],
+   "fill": "#ffffff",
+   "own_fill": false,
+   "behind": "#ffffff",
+   "radius": 0.0,
+   "borders": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "border_width": 0.0,
+   "border_color": null,
+   "text_color": "#111827",
+   "text": "Greek yogurt",
+   "font_px": 14.0,
+   "font_weight": 600,
+   "text_align": "start",
+   "ink": [
+    97,
+    222,
+    87,
+    14
+   ]
+  },
+  {
+   "name": "i1-price",
+   "kind": "text",
+   "auto": false,
+   "parent": "item1",
+   "box": [
+    97,
+    241,
+    87,
+    17
+   ],
+   "fill": "#ffffff",
+   "own_fill": false,
+   "behind": "#ffffff",
+   "radius": 0.0,
+   "borders": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "border_width": 0.0,
+   "border_color": null,
+   "text_color": "#6b7280",
+   "text": "\u20ac2.15",
+   "font_px": 12.0,
+   "font_weight": 400,
+   "text_align": "start",
+   "ink": [
+    97,
+    244,
+    30,
+    10
+   ]
+  },
+  {
+   "name": "i1-minus",
+   "kind": "button",
+   "auto": false,
+   "parent": "item1",
+   "box": [
+    277,
+    224,
+    28,
+    28
+   ],
+   "fill": "#ffffff",
+   "own_fill": true,
+   "behind": "#ffffff",
+   "radius": 6.0,
+   "borders": [
+    1.0,
+    1.0,
+    1.0,
+    1.0
+   ],
+   "border_width": 1.0,
+   "border_color": "#d9dee6",
+   "text_color": "#111827",
+   "text": null,
+   "font_px": 12.0,
+   "font_weight": 600,
+   "text_align": "start"
+  },
+  {
+   "name": "i1-minus-label",
+   "kind": "text",
+   "auto": false,
+   "parent": "i1-minus",
+   "box": [
+    287,
+    230,
+    7,
+    17
+   ],
+   "fill": "#ffffff",
+   "own_fill": false,
+   "behind": "#ffffff",
+   "radius": 0.0,
+   "borders": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "border_width": 0.0,
+   "border_color": null,
+   "text_color": "#111827",
+   "text": "\u2212",
+   "font_px": 12.0,
+   "font_weight": 600,
+   "text_align": "start",
+   "ink": [
+    288,
+    238,
+    7,
+    2
+   ]
+  },
+  {
+   "name": "i1-qty",
+   "kind": "text",
+   "auto": false,
+   "parent": "item1",
+   "box": [
+    305,
+    228,
+    28,
+    20
+   ],
+   "fill": "#ffffff",
+   "own_fill": false,
+   "behind": "#ffffff",
+   "radius": 0.0,
+   "borders": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "border_width": 0.0,
+   "border_color": null,
+   "text_color": "#111827",
+   "text": "1",
+   "font_px": 14.0,
+   "font_weight": 400,
+   "text_align": "center",
+   "ink": [
+    316,
+    226,
+    19,
+    24
+   ]
+  },
+  {
+   "name": "i1-plus",
+   "kind": "button",
+   "auto": false,
+   "parent": "item1",
+   "box": [
+    333,
+    224,
+    28,
+    28
+   ],
+   "fill": "#2563eb",
+   "own_fill": true,
+   "behind": "#ffffff",
+   "radius": 6.0,
+   "borders": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "border_width": 0.0,
+   "border_color": null,
+   "text_color": "#ffffff",
+   "text": null,
+   "font_px": 12.0,
+   "font_weight": 600,
+   "text_align": "start"
+  },
+  {
+   "name": "i1-plus-label",
+   "kind": "text",
+   "auto": false,
+   "parent": "i1-plus",
+   "box": [
+    343,
+    230,
+    7,
+    17
+   ],
+   "fill": "#2563eb",
+   "own_fill": false,
+   "behind": "#2563eb",
+   "radius": 0.0,
+   "borders": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "border_width": 0.0,
+   "border_color": null,
+   "text_color": "#ffffff",
+   "text": "+",
+   "font_px": 12.0,
+   "font_weight": 600,
+   "text_align": "start",
+   "ink": [
+    344,
+    235,
+    7,
+    7
+   ]
+  },
+  {
+   "name": "item2",
+   "kind": "panel",
+   "auto": false,
+   "parent": null,
+   "box": [
+    16,
+    288,
+    358,
+    80
+   ],
+   "fill": "#ffffff",
+   "own_fill": true,
+   "behind": "#f6f7f9",
+   "radius": 12.0,
+   "borders": [
+    1.0,
+    1.0,
+    1.0,
+    1.0
+   ],
+   "border_width": 1.0,
+   "border_color": "#d9dee6",
+   "text_color": "#111827",
+   "text": null,
+   "font_px": 14.0,
+   "font_weight": 400,
+   "text_align": "start"
+  },
+  {
+   "name": "i2-thumb",
+   "kind": "image",
+   "auto": false,
+   "parent": "item2",
+   "box": [
+    29,
+    300,
+    56,
+    56
+   ],
+   "fill": "#c4b5fd",
+   "own_fill": true,
+   "behind": "#ffffff",
+   "radius": 10.0,
+   "borders": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "border_width": 0.0,
+   "border_color": null,
+   "text_color": "#111827",
+   "text": null,
+   "font_px": 14.0,
+   "font_weight": 400,
+   "text_align": "start"
+  },
+  {
+   "name": "i2-name",
+   "kind": "text",
+   "auto": false,
+   "parent": "item2",
+   "box": [
+    97,
+    308,
+    102,
+    20
+   ],
+   "fill": "#ffffff",
+   "own_fill": false,
+   "behind": "#ffffff",
+   "radius": 0.0,
+   "borders": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "border_width": 0.0,
+   "border_color": null,
+   "text_color": "#111827",
+   "text": "Sourdough loaf",
+   "font_px": 14.0,
+   "font_weight": 600,
+   "text_align": "start",
+   "ink": [
+    97,
+    312,
+    103,
+    14
+   ]
+  },
+  {
+   "name": "i2-price",
+   "kind": "text",
+   "auto": false,
+   "parent": "item2",
+   "box": [
+    97,
+    331,
+    102,
+    17
+   ],
+   "fill": "#ffffff",
+   "own_fill": false,
+   "behind": "#ffffff",
+   "radius": 0.0,
+   "borders": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "border_width": 0.0,
+   "border_color": null,
+   "text_color": "#6b7280",
+   "text": "\u20ac4.80",
+   "font_px": 12.0,
+   "font_weight": 400,
+   "text_align": "start",
+   "ink": [
+    97,
+    334,
+    30,
+    10
+   ]
+  },
+  {
+   "name": "i2-minus",
+   "kind": "button",
+   "auto": false,
+   "parent": "item2",
+   "box": [
+    277,
+    314,
+    28,
+    28
+   ],
+   "fill": "#ffffff",
+   "own_fill": true,
+   "behind": "#ffffff",
+   "radius": 6.0,
+   "borders": [
+    1.0,
+    1.0,
+    1.0,
+    1.0
+   ],
+   "border_width": 1.0,
+   "border_color": "#d9dee6",
+   "text_color": "#111827",
+   "text": null,
+   "font_px": 12.0,
+   "font_weight": 600,
+   "text_align": "start"
+  },
+  {
+   "name": "i2-minus-label",
+   "kind": "text",
+   "auto": false,
+   "parent": "i2-minus",
+   "box": [
+    287,
+    320,
+    7,
+    17
+   ],
+   "fill": "#ffffff",
+   "own_fill": false,
+   "behind": "#ffffff",
+   "radius": 0.0,
+   "borders": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "border_width": 0.0,
+   "border_color": null,
+   "text_color": "#111827",
+   "text": "\u2212",
+   "font_px": 12.0,
+   "font_weight": 600,
+   "text_align": "start",
+   "ink": [
+    288,
+    328,
+    7,
+    2
+   ]
+  },
+  {
+   "name": "i2-qty",
+   "kind": "text",
+   "auto": false,
+   "parent": "item2",
+   "box": [
+    305,
+    318,
+    28,
+    20
+   ],
+   "fill": "#ffffff",
+   "own_fill": false,
+   "behind": "#ffffff",
+   "radius": 0.0,
+   "borders": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "border_width": 0.0,
+   "border_color": null,
+   "text_color": "#111827",
+   "text": "1",
+   "font_px": 14.0,
+   "font_weight": 400,
+   "text_align": "center",
+   "ink": [
+    316,
+    322,
+    4,
+    10
+   ]
+  },
+  {
+   "name": "i2-plus",
+   "kind": "button",
+   "auto": false,
+   "parent": "item2",
+   "box": [
+    333,
+    314,
+    28,
+    28
+   ],
+   "fill": "#2563eb",
+   "own_fill": true,
+   "behind": "#ffffff",
+   "radius": 6.0,
+   "borders": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "border_width": 0.0,
+   "border_color": null,
+   "text_color": "#ffffff",
+   "text": null,
+   "font_px": 12.0,
+   "font_weight": 600,
+   "text_align": "start"
+  },
+  {
+   "name": "i2-plus-label",
+   "kind": "text",
+   "auto": false,
+   "parent": "i2-plus",
+   "box": [
+    343,
+    320,
+    7,
+    17
+   ],
+   "fill": "#2563eb",
+   "own_fill": false,
+   "behind": "#2563eb",
+   "radius": 0.0,
+   "borders": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "border_width": 0.0,
+   "border_color": null,
+   "text_color": "#ffffff",
+   "text": "+",
+   "font_px": 12.0,
+   "font_weight": 600,
+   "text_align": "start",
+   "ink": [
+    344,
+    325,
+    7,
+    7
+   ]
+  },
+  {
+   "name": "item3",
+   "kind": "panel",
+   "auto": false,
+   "parent": null,
+   "box": [
+    16,
+    378,
+    358,
+    80
+   ],
+   "fill": "#ffffff",
+   "own_fill": true,
+   "behind": "#f6f7f9",
+   "radius": 12.0,
+   "borders": [
+    1.0,
+    1.0,
+    1.0,
+    1.0
+   ],
+   "border_width": 1.0,
+   "border_color": "#d9dee6",
+   "text_color": "#111827",
+   "text": null,
+   "font_px": 14.0,
+   "font_weight": 400,
+   "text_align": "start"
+  },
+  {
+   "name": "i3-thumb",
+   "kind": "image",
+   "auto": false,
+   "parent": "item3",
+   "box": [
+    29,
+    390,
+    56,
+    56
+   ],
+   "fill": "#f9a8d4",
+   "own_fill": true,
+   "behind": "#ffffff",
+   "radius": 10.0,
+   "borders": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "border_width": 0.0,
+   "border_color": null,
+   "text_color": "#111827",
+   "text": null,
+   "font_px": 14.0,
+   "font_weight": 400,
+   "text_align": "start"
+  },
+  {
+   "name": "i3-name",
+   "kind": "text",
+   "auto": false,
+   "parent": "item3",
+   "box": [
+    97,
+    398,
+    110,
+    20
+   ],
+   "fill": "#ffffff",
+   "own_fill": false,
+   "behind": "#ffffff",
+   "radius": 0.0,
+   "borders": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "border_width": 0.0,
+   "border_color": null,
+   "text_color": "#111827",
+   "text": "Free-range eggs",
+   "font_px": 14.0,
+   "font_weight": 600,
+   "text_align": "start",
+   "ink": [
+    98,
+    403,
+    109,
+    13
+   ]
+  },
+  {
+   "name": "i3-price",
+   "kind": "text",
+   "auto": false,
+   "parent": "item3",
+   "box": [
+    97,
+    421,
+    110,
+    17
+   ],
+   "fill": "#ffffff",
+   "own_fill": false,
+   "behind": "#ffffff",
+   "radius": 0.0,
+   "borders": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "border_width": 0.0,
+   "border_color": null,
+   "text_color": "#6b7280",
+   "text": "\u20ac3.95",
+   "font_px": 12.0,
+   "font_weight": 400,
+   "text_align": "start",
+   "ink": [
+    97,
+    424,
+    30,
+    10
+   ]
+  },
+  {
+   "name": "i3-minus",
+   "kind": "button",
+   "auto": false,
+   "parent": "item3",
+   "box": [
+    277,
+    404,
+    28,
+    28
+   ],
+   "fill": "#ffffff",
+   "own_fill": true,
+   "behind": "#ffffff",
+   "radius": 6.0,
+   "borders": [
+    1.0,
+    1.0,
+    1.0,
+    1.0
+   ],
+   "border_width": 1.0,
+   "border_color": "#d9dee6",
+   "text_color": "#111827",
+   "text": null,
+   "font_px": 12.0,
+   "font_weight": 600,
+   "text_align": "start"
+  },
+  {
+   "name": "i3-minus-label",
+   "kind": "text",
+   "auto": false,
+   "parent": "i3-minus",
+   "box": [
+    287,
+    410,
+    7,
+    17
+   ],
+   "fill": "#ffffff",
+   "own_fill": false,
+   "behind": "#ffffff",
+   "radius": 0.0,
+   "borders": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "border_width": 0.0,
+   "border_color": null,
+   "text_color": "#111827",
+   "text": "\u2212",
+   "font_px": 12.0,
+   "font_weight": 600,
+   "text_align": "start",
+   "ink": [
+    288,
+    418,
+    7,
+    2
+   ]
+  },
+  {
+   "name": "i3-qty",
+   "kind": "text",
+   "auto": false,
+   "parent": "item3",
+   "box": [
+    305,
+    408,
+    28,
+    20
+   ],
+   "fill": "#ffffff",
+   "own_fill": false,
+   "behind": "#ffffff",
+   "radius": 0.0,
+   "borders": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "border_width": 0.0,
+   "border_color": null,
+   "text_color": "#111827",
+   "text": "1",
+   "font_px": 14.0,
+   "font_weight": 400,
+   "text_align": "center",
+   "ink": [
+    316,
+    412,
+    4,
+    10
+   ]
+  },
+  {
+   "name": "i3-plus",
+   "kind": "button",
+   "auto": false,
+   "parent": "item3",
+   "box": [
+    333,
+    404,
+    28,
+    28
+   ],
+   "fill": "#2563eb",
+   "own_fill": true,
+   "behind": "#ffffff",
+   "radius": 6.0,
+   "borders": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "border_width": 0.0,
+   "border_color": null,
+   "text_color": "#ffffff",
+   "text": null,
+   "font_px": 12.0,
+   "font_weight": 600,
+   "text_align": "start"
+  },
+  {
+   "name": "i3-plus-label",
+   "kind": "text",
+   "auto": false,
+   "parent": "i3-plus",
+   "box": [
+    343,
+    410,
+    7,
+    17
+   ],
+   "fill": "#2563eb",
+   "own_fill": false,
+   "behind": "#2563eb",
+   "radius": 0.0,
+   "borders": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "border_width": 0.0,
+   "border_color": null,
+   "text_color": "#ffffff",
+   "text": "+",
+   "font_px": 12.0,
+   "font_weight": 600,
+   "text_align": "start",
+   "ink": [
+    344,
+    415,
+    7,
+    7
+   ]
+  },
+  {
+   "name": "promo",
+   "kind": "panel",
+   "auto": false,
+   "parent": null,
+   "box": [
+    16,
+    474,
+    358,
+    40
+   ],
+   "fill": "#f6f7f9",
+   "own_fill": false,
+   "behind": "#f6f7f9",
+   "radius": 0.0,
+   "borders": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "border_width": 0.0,
+   "border_color": null,
+   "text_color": "#111827",
+   "text": null,
+   "font_px": 14.0,
+   "font_weight": 400,
+   "text_align": "start"
+  },
+  {
+   "name": "promo-code",
+   "kind": "input",
+   "auto": false,
+   "parent": "promo",
+   "box": [
+    16,
+    474,
+    276,
+    40
+   ],
+   "fill": "#ffffff",
+   "own_fill": true,
+   "behind": "#f6f7f9",
+   "radius": 8.0,
+   "borders": [
+    1.0,
+    1.0,
+    1.0,
+    1.0
+   ],
+   "border_width": 1.0,
+   "border_color": "#d9dee6",
+   "text_color": "#6b7280",
+   "text": null,
+   "font_px": 14.0,
+   "font_weight": 400,
+   "text_align": "start"
+  },
+  {
+   "name": "promo-code-placeholder",
+   "kind": "text",
+   "auto": false,
+   "parent": "promo-code",
+   "box": [
+    29,
+    484,
+    77,
+    20
+   ],
+   "fill": "#ffffff",
+   "own_fill": false,
+   "behind": "#ffffff",
+   "radius": 0.0,
+   "borders": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "border_width": 0.0,
+   "border_color": null,
+   "text_color": "#6b7280",
+   "text": "Promo code",
+   "font_px": 14.0,
+   "font_weight": 400,
+   "text_align": "start",
+   "ink": [
+    30,
+    488,
+    76,
+    11
+   ]
+  },
+  {
+   "name": "promo-apply",
+   "kind": "button",
+   "auto": false,
+   "parent": "promo",
+   "box": [
+    302,
+    474,
+    72,
+    40
+   ],
+   "fill": "#ffffff",
+   "own_fill": true,
+   "behind": "#f6f7f9",
+   "radius": 8.0,
+   "borders": [
+    1.0,
+    1.0,
+    1.0,
+    1.0
+   ],
+   "border_width": 1.0,
+   "border_color": "#d9dee6",
+   "text_color": "#111827",
+   "text": null,
+   "font_px": 14.0,
+   "font_weight": 600,
+   "text_align": "start"
+  },
+  {
+   "name": "promo-apply-label",
+   "kind": "text",
+   "auto": false,
+   "parent": "promo-apply",
+   "box": [
+    319,
+    484,
+    38,
+    20
+   ],
+   "fill": "#ffffff",
+   "own_fill": false,
+   "behind": "#ffffff",
+   "radius": 0.0,
+   "borders": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "border_width": 0.0,
+   "border_color": null,
+   "text_color": "#111827",
+   "text": "Apply",
+   "font_px": 14.0,
+   "font_weight": 600,
+   "text_align": "start",
+   "ink": [
+    319,
+    489,
+    38,
+    13
+   ]
+  },
+  {
+   "name": "summary",
+   "kind": "panel",
+   "auto": false,
+   "parent": null,
+   "box": [
+    16,
+    530,
+    358,
+    104
+   ],
+   "fill": "#ffffff",
+   "own_fill": true,
+   "behind": "#f6f7f9",
+   "radius": 12.0,
+   "borders": [
+    1.0,
+    1.0,
+    1.0,
+    1.0
+   ],
+   "border_width": 1.0,
+   "border_color": "#d9dee6",
+   "text_color": "#111827",
+   "text": null,
+   "font_px": 14.0,
+   "font_weight": 400,
+   "text_align": "start"
+  },
+  {
+   "name": "sum-subtotal",
+   "kind": "text",
+   "auto": false,
+   "parent": "summary",
+   "box": [
+    33,
+    546,
+    53,
+    20
+   ],
+   "fill": "#ffffff",
+   "own_fill": false,
+   "behind": "#ffffff",
+   "radius": 0.0,
+   "borders": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "border_width": 0.0,
+   "border_color": null,
+   "text_color": "#6b7280",
+   "text": "Subtotal",
+   "font_px": 14.0,
+   "font_weight": 400,
+   "text_align": "start",
+   "ink": [
+    33,
+    549,
+    52,
+    12
+   ]
+  },
+  {
+   "name": "sum-subtotal-value",
+   "kind": "text",
+   "auto": false,
+   "parent": "summary",
+   "box": [
+    314,
+    546,
+    43,
+    20
+   ],
+   "fill": "#ffffff",
+   "own_fill": false,
+   "behind": "#ffffff",
+   "radius": 0.0,
+   "borders": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "border_width": 0.0,
+   "border_color": null,
+   "text_color": "#111827",
+   "text": "\u20ac17.70",
+   "font_px": 14.0,
+   "font_weight": 400,
+   "text_align": "start",
+   "ink": [
+    314,
+    549,
+    43,
+    12
+   ]
+  },
+  {
+   "name": "sum-delivery",
+   "kind": "text",
+   "auto": false,
+   "parent": "summary",
+   "box": [
+    33,
+    572,
+    50,
+    20
+   ],
+   "fill": "#ffffff",
+   "own_fill": false,
+   "behind": "#ffffff",
+   "radius": 0.0,
+   "borders": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "border_width": 0.0,
+   "border_color": null,
+   "text_color": "#6b7280",
+   "text": "Delivery",
+   "font_px": 14.0,
+   "font_weight": 400,
+   "text_align": "start",
+   "ink": [
+    34,
+    576,
+    49,
+    13
+   ]
+  },
+  {
+   "name": "sum-delivery-value",
+   "kind": "text",
+   "auto": false,
+   "parent": "summary",
+   "box": [
+    322,
+    572,
+    35,
+    20
+   ],
+   "fill": "#ffffff",
+   "own_fill": false,
+   "behind": "#ffffff",
+   "radius": 0.0,
+   "borders": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "border_width": 0.0,
+   "border_color": null,
+   "text_color": "#111827",
+   "text": "\u20ac2.00",
+   "font_px": 14.0,
+   "font_weight": 400,
+   "text_align": "start",
+   "ink": [
+    322,
+    575,
+    35,
+    12
+   ]
+  },
+  {
+   "name": "sum-total",
+   "kind": "text",
+   "auto": false,
+   "parent": "summary",
+   "box": [
+    33,
+    598,
+    30,
+    20
+   ],
+   "fill": "#ffffff",
+   "own_fill": false,
+   "behind": "#ffffff",
+   "radius": 0.0,
+   "borders": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "border_width": 0.0,
+   "border_color": null,
+   "text_color": "#111827",
+   "text": "Total",
+   "font_px": 14.0,
+   "font_weight": 400,
+   "text_align": "start",
+   "ink": [
+    33,
+    602,
+    29,
+    11
+   ]
+  },
+  {
+   "name": "sum-total-value",
+   "kind": "text",
+   "auto": false,
+   "parent": "summary",
+   "box": [
+    314,
+    598,
+    43,
+    20
+   ],
+   "fill": "#ffffff",
+   "own_fill": false,
+   "behind": "#ffffff",
+   "radius": 0.0,
+   "borders": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "border_width": 0.0,
+   "border_color": null,
+   "text_color": "#111827",
+   "text": "\u20ac19.70",
+   "font_px": 14.0,
+   "font_weight": 700,
+   "text_align": "start",
+   "ink": [
+    314,
+    602,
+    43,
+    12
+   ]
+  },
+  {
+   "name": "checkout",
+   "kind": "button",
+   "auto": false,
+   "parent": null,
+   "box": [
+    16,
+    716,
+    358,
+    52
+   ],
+   "fill": "#2563eb",
+   "own_fill": true,
+   "behind": "#f6f7f9",
+   "radius": 14.0,
+   "borders": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "border_width": 0.0,
+   "border_color": null,
+   "text_color": "#ffffff",
+   "text": null,
+   "font_px": 14.0,
+   "font_weight": 600,
+   "text_align": "start"
+  },
+  {
+   "name": "checkout-label",
+   "kind": "text",
+   "auto": false,
+   "parent": "checkout",
+   "box": [
+    135,
+    732,
+    119,
+    20
+   ],
+   "fill": "#2563eb",
+   "own_fill": false,
+   "behind": "#2563eb",
+   "radius": 0.0,
+   "borders": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "border_width": 0.0,
+   "border_color": null,
+   "text_color": "#ffffff",
+   "text": "Checkout \u00b7 \u20ac19.70",
+   "font_px": 14.0,
+   "font_weight": 600,
+   "text_align": "start",
+   "ink": [
+    136,
+    736,
+    119,
+    12
+   ]
+  },
+  {
+   "name": "tabbar",
+   "kind": "panel",
+   "auto": false,
+   "parent": null,
+   "box": [
+    0,
+    784,
+    390,
+    60
+   ],
+   "fill": "#ffffff",
+   "own_fill": true,
+   "behind": "#f6f7f9",
+   "radius": 0.0,
+   "borders": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "border_width": 1.0,
+   "border_color": "#d9dee6",
+   "text_color": "#111827",
+   "text": null,
+   "font_px": 14.0,
+   "font_weight": 400,
+   "text_align": "start"
+  },
+  {
+   "name": "tab-home",
+   "kind": "icon",
+   "auto": false,
+   "parent": "tabbar",
+   "box": [
+    39,
+    804,
+    20,
+    20
+   ],
+   "fill": "#ffffff",
+   "own_fill": false,
+   "behind": "#ffffff",
+   "radius": 0.0,
+   "borders": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "border_width": 0.0,
+   "border_color": null,
+   "text_color": "#6b7280",
+   "text": null,
+   "font_px": 14.0,
+   "font_weight": 400,
+   "text_align": "start",
+   "ink": [
+    42,
+    809,
+    14,
+    14
+   ]
+  },
+  {
+   "name": "tab-search",
+   "kind": "icon",
+   "auto": false,
+   "parent": "tabbar",
+   "box": [
+    136,
+    804,
+    20,
+    20
+   ],
+   "fill": "#ffffff",
+   "own_fill": false,
+   "behind": "#ffffff",
+   "radius": 0.0,
+   "borders": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "border_width": 0.0,
+   "border_color": null,
+   "text_color": "#6b7280",
+   "text": null,
+   "font_px": 14.0,
+   "font_weight": 400,
+   "text_align": "start",
+   "ink": [
+    138,
+    807,
+    18,
+    18
+   ]
+  },
+  {
+   "name": "tab-cart",
+   "kind": "icon",
+   "auto": false,
+   "parent": "tabbar",
+   "box": [
+    234,
+    804,
+    20,
+    20
+   ],
+   "fill": "#ffffff",
+   "own_fill": false,
+   "behind": "#ffffff",
+   "radius": 0.0,
+   "borders": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "border_width": 0.0,
+   "border_color": null,
+   "text_color": "#2563eb",
+   "text": null,
+   "font_px": 14.0,
+   "font_weight": 400,
+   "text_align": "start",
+   "ink": [
+    236,
+    807,
+    18,
+    16
+   ]
+  },
+  {
+   "name": "tab-user",
+   "kind": "icon",
+   "auto": false,
+   "parent": "tabbar",
+   "box": [
+    331,
+    804,
+    20,
+    20
+   ],
+   "fill": "#ffffff",
+   "own_fill": false,
+   "behind": "#ffffff",
+   "radius": 0.0,
+   "borders": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "border_width": 0.0,
+   "border_color": null,
+   "text_color": "#6b7280",
+   "text": null,
+   "font_px": 14.0,
+   "font_weight": 400,
+   "text_align": "start",
+   "ink": [
+    334,
+    808,
+    14,
+    15
+   ]
+  }
+ ],
+ "page_background": "#f6f7f9",
+ "page_items": {
+  "boxes": [
+   {
+    "box": [
+     0,
+     0,
+     390,
+     56
+    ],
+    "fill": "#ffffff",
+    "border_width": 1,
+    "radius": 0
+   },
+   {
+    "box": [
+     312,
+     16,
+     62,
+     24
+    ],
+    "fill": "#e0e7ff",
+    "border_width": 0,
+    "radius": 12
+   },
+   {
+    "box": [
+     16,
+     70,
+     34,
+     24
+    ],
+    "fill": "#e0e7ff",
+    "border_width": 0,
+    "radius": 12
+   },
+   {
+    "box": [
+     58,
+     70,
+     68,
+     24
+    ],
+    "fill": "#e0e7ff",
+    "border_width": 0,
+    "radius": 12
+   },
+   {
+    "box": [
+     134,
+     70,
+     50,
+     24
+    ],
+    "fill": "#e0e7ff",
+    "border_width": 0,
+    "radius": 12
+   },
+   {
+    "box": [
+     192,
+     70,
+     60,
+     24
+    ],
+    "fill": "#e0e7ff",
+    "border_width": 0,
+    "radius": 12
+   },
+   {
+    "box": [
+     16,
+     108,
+     358,
+     80
+    ],
+    "fill": "#ffffff",
+    "border_width": 1,
+    "radius": 12
+   },
+   {
+    "box": [
+     29,
+     120,
+     56,
+     56
+    ],
+    "fill": "#86efac",
+    "border_width": 0,
+    "radius": 10
+   },
+   {
+    "box": [
+     277,
+     134,
+     28,
+     28
+    ],
+    "fill": "#ffffff",
+    "border_width": 1,
+    "radius": 6
+   },
+   {
+    "box": [
+     333,
+     134,
+     28,
+     28
+    ],
+    "fill": "#2563eb",
+    "border_width": 0,
+    "radius": 6
+   },
+   {
+    "box": [
+     16,
+     198,
+     358,
+     80
+    ],
+    "fill": "#ffffff",
+    "border_width": 1,
+    "radius": 12
+   },
+   {
+    "box": [
+     29,
+     210,
+     56,
+     56
+    ],
+    "fill": "#fcd34d",
+    "border_width": 0,
+    "radius": 10
+   },
+   {
+    "box": [
+     277,
+     224,
+     28,
+     28
+    ],
+    "fill": "#ffffff",
+    "border_width": 1,
+    "radius": 6
+   },
+   {
+    "box": [
+     333,
+     224,
+     28,
+     28
+    ],
+    "fill": "#2563eb",
+    "border_width": 0,
+    "radius": 6
+   },
+   {
+    "box": [
+     16,
+     288,
+     358,
+     80
+    ],
+    "fill": "#ffffff",
+    "border_width": 1,
+    "radius": 12
+   },
+   {
+    "box": [
+     29,
+     300,
+     56,
+     56
+    ],
+    "fill": "#c4b5fd",
+    "border_width": 0,
+    "radius": 10
+   },
+   {
+    "box": [
+     277,
+     314,
+     28,
+     28
+    ],
+    "fill": "#ffffff",
+    "border_width": 1,
+    "radius": 6
+   },
+   {
+    "box": [
+     333,
+     314,
+     28,
+     28
+    ],
+    "fill": "#2563eb",
+    "border_width": 0,
+    "radius": 6
+   },
+   {
+    "box": [
+     16,
+     378,
+     358,
+     80
+    ],
+    "fill": "#ffffff",
+    "border_width": 1,
+    "radius": 12
+   },
+   {
+    "box": [
+     29,
+     390,
+     56,
+     56
+    ],
+    "fill": "#f9a8d4",
+    "border_width": 0,
+    "radius": 10
+   },
+   {
+    "box": [
+     277,
+     404,
+     28,
+     28
+    ],
+    "fill": "#ffffff",
+    "border_width": 1,
+    "radius": 6
+   },
+   {
+    "box": [
+     333,
+     404,
+     28,
+     28
+    ],
+    "fill": "#2563eb",
+    "border_width": 0,
+    "radius": 6
+   },
+   {
+    "box": [
+     16,
+     474,
+     276,
+     40
+    ],
+    "fill": "#ffffff",
+    "border_width": 1,
+    "radius": 8
+   },
+   {
+    "box": [
+     302,
+     474,
+     72,
+     40
+    ],
+    "fill": "#ffffff",
+    "border_width": 1,
+    "radius": 8
+   },
+   {
+    "box": [
+     16,
+     530,
+     358,
+     104
+    ],
+    "fill": "#ffffff",
+    "border_width": 1,
+    "radius": 12
+   },
+   {
+    "box": [
+     16,
+     716,
+     358,
+     52
+    ],
+    "fill": "#2563eb",
+    "border_width": 0,
+    "radius": 14
+   },
+   {
+    "box": [
+     0,
+     784,
+     390,
+     60
+    ],
+    "fill": "#ffffff",
+    "border_width": 1,
+    "radius": 0
+   }
+  ],
+  "texts": [
+   {
+    "text": "Cart",
+    "box": [
+     50,
+     16,
+     41,
+     24
+    ],
+    "color": "#111827",
+    "font_px": 20.0
+   },
+   {
+    "text": "4 items",
+    "box": [
+     322,
+     19,
+     42,
+     15
+    ],
+    "color": "#3730a3",
+    "font_px": 12.0
+   },
+   {
+    "text": "All",
+    "box": [
+     26,
+     74,
+     14,
+     15
+    ],
+    "color": "#3730a3",
+    "font_px": 12.0
+   },
+   {
+    "text": "Produce",
+    "box": [
+     68,
+     74,
+     48,
+     15
+    ],
+    "color": "#3730a3",
+    "font_px": 12.0
+   },
+   {
+    "text": "Dairy",
+    "box": [
+     144,
+     74,
+     30,
+     15
+    ],
+    "color": "#3730a3",
+    "font_px": 12.0
+   },
+   {
+    "text": "Bakery",
+    "box": [
+     202,
+     74,
+     40,
+     15
+    ],
+    "color": "#3730a3",
+    "font_px": 12.0
+   },
+   {
+    "text": "Organic apples",
+    "box": [
+     97,
+     129,
+     101,
+     17
+    ],
+    "color": "#111827",
+    "font_px": 14.0
+   },
+   {
+    "text": "\u20ac3.40",
+    "box": [
+     97,
+     152,
+     30,
+     14
+    ],
+    "color": "#6b7280",
+    "font_px": 12.0
+   },
+   {
+    "text": "\u2212",
+    "box": [
+     287,
+     140,
+     7,
+     15
+    ],
+    "color": "#111827",
+    "font_px": 12.0
+   },
+   {
+    "text": "2",
+    "box": [
+     315,
+     139,
+     8,
+     16
+    ],
+    "color": "#111827",
+    "font_px": 14.0
+   },
+   {
+    "text": "+",
+    "box": [
+     343,
+     140,
+     7,
+     15
+    ],
+    "color": "#ffffff",
+    "font_px": 12.0
+   },
+   {
+    "text": "Greek yogurt",
+    "box": [
+     97,
+     219,
+     87,
+     17
+    ],
+    "color": "#111827",
+    "font_px": 14.0
+   },
+   {
+    "text": "\u20ac2.15",
+    "box": [
+     97,
+     242,
+     30,
+     14
+    ],
+    "color": "#6b7280",
+    "font_px": 12.0
+   },
+   {
+    "text": "\u2212",
+    "box": [
+     287,
+     230,
+     7,
+     15
+    ],
+    "color": "#111827",
+    "font_px": 12.0
+   },
+   {
+    "text": "1",
+    "box": [
+     315,
+     229,
+     8,
+     16
+    ],
+    "color": "#111827",
+    "font_px": 14.0
+   },
+   {
+    "text": "+",
+    "box": [
+     343,
+     230,
+     7,
+     15
+    ],
+    "color": "#ffffff",
+    "font_px": 12.0
+   },
+   {
+    "text": "Sourdough loaf",
+    "box": [
+     97,
+     309,
+     102,
+     17
+    ],
+    "color": "#111827",
+    "font_px": 14.0
+   },
+   {
+    "text": "\u20ac4.80",
+    "box": [
+     97,
+     332,
+     30,
+     14
+    ],
+    "color": "#6b7280",
+    "font_px": 12.0
+   },
+   {
+    "text": "\u2212",
+    "box": [
+     287,
+     320,
+     7,
+     15
+    ],
+    "color": "#111827",
+    "font_px": 12.0
+   },
+   {
+    "text": "1",
+    "box": [
+     315,
+     319,
+     8,
+     16
+    ],
+    "color": "#111827",
+    "font_px": 14.0
+   },
+   {
+    "text": "+",
+    "box": [
+     343,
+     320,
+     7,
+     15
+    ],
+    "color": "#ffffff",
+    "font_px": 12.0
+   },
+   {
+    "text": "Free-range eggs",
+    "box": [
+     97,
+     399,
+     110,
+     17
+    ],
+    "color": "#111827",
+    "font_px": 14.0
+   },
+   {
+    "text": "\u20ac3.95",
+    "box": [
+     97,
+     422,
+     30,
+     14
+    ],
+    "color": "#6b7280",
+    "font_px": 12.0
+   },
+   {
+    "text": "\u2212",
+    "box": [
+     287,
+     410,
+     7,
+     15
+    ],
+    "color": "#111827",
+    "font_px": 12.0
+   },
+   {
+    "text": "1",
+    "box": [
+     315,
+     409,
+     8,
+     16
+    ],
+    "color": "#111827",
+    "font_px": 14.0
+   },
+   {
+    "text": "+",
+    "box": [
+     343,
+     410,
+     7,
+     15
+    ],
+    "color": "#ffffff",
+    "font_px": 12.0
+   },
+   {
+    "text": "Promo code",
+    "box": [
+     29,
+     485,
+     77,
+     16
+    ],
+    "color": "#6b7280",
+    "font_px": 14.0
+   },
+   {
+    "text": "Apply",
+    "box": [
+     319,
+     485,
+     38,
+     17
+    ],
+    "color": "#111827",
+    "font_px": 14.0
+   },
+   {
+    "text": "Subtotal",
+    "box": [
+     33,
+     547,
+     53,
+     16
+    ],
+    "color": "#6b7280",
+    "font_px": 14.0
+   },
+   {
+    "text": "\u20ac17.70",
+    "box": [
+     314,
+     547,
+     43,
+     16
+    ],
+    "color": "#111827",
+    "font_px": 14.0
+   },
+   {
+    "text": "Delivery",
+    "box": [
+     33,
+     573,
+     50,
+     16
+    ],
+    "color": "#6b7280",
+    "font_px": 14.0
+   },
+   {
+    "text": "\u20ac2.00",
+    "box": [
+     322,
+     573,
+     35,
+     16
+    ],
+    "color": "#111827",
+    "font_px": 14.0
+   },
+   {
+    "text": "Total",
+    "box": [
+     33,
+     599,
+     30,
+     16
+    ],
+    "color": "#111827",
+    "font_px": 14.0
+   },
+   {
+    "text": "\u20ac19.70",
+    "box": [
+     314,
+     599,
+     43,
+     17
+    ],
+    "color": "#111827",
+    "font_px": 14.0
+   },
+   {
+    "text": "Checkout \u00b7 \u20ac19.70",
+    "box": [
+     135,
+     733,
+     119,
+     17
+    ],
+    "color": "#ffffff",
+    "font_px": 14.0
+   }
+  ],
+  "page_background": "#f6f7f9"
+ }
+}

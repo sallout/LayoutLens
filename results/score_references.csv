@@ -1,0 +1,13 @@
+task,reference,boxes,replica_boxes,box_recall,box_precision,box_iou,box_iou_all,fill_de,texts,text_cer,text_recall,text_pos_err,text_colour_de,ssim,pixel_de,background_de
+web-simple-light@1x,original,4,4,1.0,1.0,1.0,1.0,0.0,8,0.0,1.0,0.0,24.7753,1.0,0.0,0.0
+web-simple-light@1x,blank,4,0,0.0,0.0,,0.0,,8,1.0,0.0,,,0.9602,4.162,96.612
+web-medium-dark@1x,original,25,25,1.0,1.0,1.0,1.0,0.0,32,0.0,1.0,0.0,74.4191,1.0,0.0,0.0
+web-medium-dark@1x,blank,25,0,0.0,0.0,,0.0,,32,1.0,0.0,,,0.1498,92.385,3.845
+desktop-simple-dark@1x,original,4,4,1.0,1.0,1.0,1.0,0.0,5,0.0,1.0,0.0,83.8205,1.0,0.0,0.0
+desktop-simple-dark@1x,blank,4,0,0.0,0.0,,0.0,,5,1.0,0.0,,,0.1381,94.253,3.845
+desktop-medium-light@1x,original,23,23,1.0,1.0,1.0,1.0,0.0,28,0.0,1.0,0.0,25.5956,1.0,0.0,0.0
+desktop-medium-light@1x,blank,23,0,0.0,0.0,,0.0,,28,1.0,0.0,,,0.9158,3.729,96.612
+mobile-simple-light@1x,original,3,3,1.0,1.0,1.0,1.0,0.0,7,0.0,1.0,0.0,42.201,1.0,0.0,0.0
+mobile-simple-light@1x,blank,3,0,0.0,0.0,,0.0,,7,1.0,0.0,,,0.9049,8.548,96.612
+mobile-complex-dark@1x,original,27,27,1.0,1.0,1.0,1.0,0.0,35,0.0,1.0,0.0,81.7625,1.0,0.0,0.0
+mobile-complex-dark@1x,blank,27,0,0.0,0.0,,0.0,,35,1.0,0.0,,,0.1922,88.322,3.845

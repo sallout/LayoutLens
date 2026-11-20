@@ -1,0 +1,4442 @@
+{
+ "image": "web-complex-dark@1x.png",
+ "scene": "web-complex",
+ "theme": "dark",
+ "dpr": 1.0,
+ "css_width": 1440,
+ "css_height": 900,
+ "width": 1440,
+ "height": 900,
+ "elements": [
+  {
+   "name": "topbar",
+   "kind": "panel",
+   "auto": false,
+   "parent": null,
+   "box": [
+    0,
+    0,
+    1440,
+    56
+   ],
+   "fill": "#181b21",
+   "own_fill": true,
+   "behind": "#0f1115",
+   "radius": 0.0,
+   "borders": [
+    0.0,
+    0.0,
+    1.0,
+    0.0
+   ],
+   "border_width": 1.0,
+   "border_color": "#343a46",
+   "text_color": "#e6e8eb",
+   "text": null,
+   "font_px": 14.0,
+   "font_weight": 400,
+   "text_align": "start"
+  },
+  {
+   "name": "logo",
+   "kind": "icon",
+   "auto": false,
+   "parent": "topbar",
+   "box": [
+    24,
+    16,
+    24,
+    24
+   ],
+   "fill": "#181b21",
+   "own_fill": false,
+   "behind": "#181b21",
+   "radius": 0.0,
+   "borders": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "border_width": 0.0,
+   "border_color": null,
+   "text_color": "#3b82f6",
+   "text": null,
+   "font_px": 14.0,
+   "font_weight": 400,
+   "text_align": "start",
+   "ink": [
+    26,
+    19,
+    20,
+    18
+   ]
+  },
+  {
+   "name": "brand",
+   "kind": "text",
+   "auto": false,
+   "parent": "topbar",
+   "box": [
+    58,
+    16,
+    47,
+    24
+   ],
+   "fill": "#181b21",
+   "own_fill": false,
+   "behind": "#181b21",
+   "radius": 0.0,
+   "borders": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "border_width": 0.0,
+   "border_color": null,
+   "text_color": "#e6e8eb",
+   "text": "Forge",
+   "font_px": 17.0,
+   "font_weight": 700,
+   "text_align": "start",
+   "ink": [
+    59,
+    22,
+    46,
+    16
+   ]
+  },
+  {
+   "name": "tab-projects",
+   "kind": "text",
+   "auto": false,
+   "parent": "topbar",
+   "box": [
+    137,
+    18,
+    51,
+    20
+   ],
+   "fill": "#181b21",
+   "own_fill": false,
+   "behind": "#181b21",
+   "radius": 0.0,
+   "borders": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "border_width": 0.0,
+   "border_color": null,
+   "text_color": "#9aa3af",
+   "text": "Projects",
+   "font_px": 14.0,
+   "font_weight": 400,
+   "text_align": "start",
+   "ink": [
+    137,
+    22,
+    51,
+    13
+   ]
+  },
+  {
+   "name": "tab-builds",
+   "kind": "text",
+   "auto": false,
+   "parent": "topbar",
+   "box": [
+    212,
+    18,
+    39,
+    20
+   ],
+   "fill": "#181b21",
+   "own_fill": false,
+   "behind": "#181b21",
+   "radius": 0.0,
+   "borders": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "border_width": 0.0,
+   "border_color": null,
+   "text_color": "#9aa3af",
+   "text": "Builds",
+   "font_px": 14.0,
+   "font_weight": 400,
+   "text_align": "start",
+   "ink": [
+    212,
+    22,
+    39,
+    11
+   ]
+  },
+  {
+   "name": "tab-members",
+   "kind": "text",
+   "auto": false,
+   "parent": "topbar",
+   "box": [
+    275,
+    18,
+    59,
+    20
+   ],
+   "fill": "#181b21",
+   "own_fill": false,
+   "behind": "#181b21",
+   "radius": 0.0,
+   "borders": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "border_width": 0.0,
+   "border_color": null,
+   "text_color": "#9aa3af",
+   "text": "Members",
+   "font_px": 14.0,
+   "font_weight": 400,
+   "text_align": "start",
+   "ink": [
+    275,
+    22,
+    59,
+    11
+   ]
+  },
+  {
+   "name": "tab-settings",
+   "kind": "text",
+   "auto": false,
+   "parent": "topbar",
+   "box": [
+    358,
+    18,
+    55,
+    20
+   ],
+   "fill": "#181b21",
+   "own_fill": false,
+   "behind": "#181b21",
+   "radius": 0.0,
+   "borders": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "border_width": 0.0,
+   "border_color": null,
+   "text_color": "#3b82f6",
+   "text": "Settings",
+   "font_px": 14.0,
+   "font_weight": 600,
+   "text_align": "start",
+   "ink": [
+    358,
+    22,
+    55,
+    14
+   ]
+  },
+  {
+   "name": "search",
+   "kind": "input",
+   "auto": false,
+   "parent": "topbar",
+   "box": [
+    1051,
+    10,
+    220,
+    36
+   ],
+   "fill": "#12151a",
+   "own_fill": true,
+   "behind": "#181b21",
+   "radius": 8.0,
+   "borders": [
+    1.0,
+    1.0,
+    1.0,
+    1.0
+   ],
+   "border_width": 1.0,
+   "border_color": "#343a46",
+   "text_color": "#9aa3af",
+   "text": null,
+   "font_px": 14.0,
+   "font_weight": 400,
+   "text_align": "start"
+  },
+  {
+   "name": "search-placeholder",
+   "kind": "text",
+   "auto": false,
+   "parent": "search",
+   "box": [
+    1064,
+    18,
+    44,
+    20
+   ],
+   "fill": "#12151a",
+   "own_fill": false,
+   "behind": "#12151a",
+   "radius": 0.0,
+   "borders": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "border_width": 0.0,
+   "border_color": null,
+   "text_color": "#9aa3af",
+   "text": "Search",
+   "font_px": 14.0,
+   "font_weight": 400,
+   "text_align": "start",
+   "ink": [
+    1064,
+    21,
+    43,
+    12
+   ]
+  },
+  {
+   "name": "new",
+   "kind": "button",
+   "auto": false,
+   "parent": "topbar",
+   "box": [
+    1283,
+    14,
+    89,
+    28
+   ],
+   "fill": "#3b82f6",
+   "own_fill": true,
+   "behind": "#181b21",
+   "radius": 6.0,
+   "borders": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "border_width": 0.0,
+   "border_color": null,
+   "text_color": "#ffffff",
+   "text": null,
+   "font_px": 12.0,
+   "font_weight": 600,
+   "text_align": "start"
+  },
+  {
+   "name": "new-label",
+   "kind": "text",
+   "auto": false,
+   "parent": "new",
+   "box": [
+    1293,
+    19,
+    69,
+    17
+   ],
+   "fill": "#3b82f6",
+   "own_fill": false,
+   "behind": "#3b82f6",
+   "radius": 0.0,
+   "borders": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "border_width": 0.0,
+   "border_color": null,
+   "text_color": "#ffffff",
+   "text": "New project",
+   "font_px": 12.0,
+   "font_weight": 600,
+   "text_align": "start",
+   "ink": [
+    1293,
+    22,
+    69,
+    12
+   ]
+  },
+  {
+   "name": "me",
+   "kind": "avatar",
+   "auto": false,
+   "parent": "topbar",
+   "box": [
+    1384,
+    12,
+    32,
+    32
+   ],
+   "fill": "#8b5cf6",
+   "own_fill": true,
+   "behind": "#181b21",
+   "radius": 50.0,
+   "borders": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "border_width": 0.0,
+   "border_color": null,
+   "text_color": "#e6e8eb",
+   "text": null,
+   "font_px": 14.0,
+   "font_weight": 400,
+   "text_align": "start"
+  },
+  {
+   "name": "settings-nav",
+   "kind": "panel",
+   "auto": false,
+   "parent": null,
+   "box": [
+    24,
+    80,
+    220,
+    276
+   ],
+   "fill": "#0f1115",
+   "own_fill": false,
+   "behind": "#0f1115",
+   "radius": 0.0,
+   "borders": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "border_width": 0.0,
+   "border_color": null,
+   "text_color": "#e6e8eb",
+   "text": null,
+   "font_px": 14.0,
+   "font_weight": 400,
+   "text_align": "start"
+  },
+  {
+   "name": "snav-general",
+   "kind": "text",
+   "auto": false,
+   "parent": "settings-nav",
+   "box": [
+    36,
+    88,
+    49,
+    20
+   ],
+   "fill": "#0f1115",
+   "own_fill": false,
+   "behind": "#0f1115",
+   "radius": 0.0,
+   "borders": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "border_width": 0.0,
+   "border_color": null,
+   "text_color": "#e6e8eb",
+   "text": "General",
+   "font_px": 14.0,
+   "font_weight": 400,
+   "text_align": "start",
+   "ink": [
+    36,
+    91,
+    48,
+    12
+   ]
+  },
+  {
+   "name": "auto-1",
+   "kind": "panel",
+   "auto": true,
+   "parent": "settings-nav",
+   "box": [
+    24,
+    120,
+    220,
+    36
+   ],
+   "fill": "#22262e",
+   "own_fill": true,
+   "behind": "#0f1115",
+   "radius": 8.0,
+   "borders": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "border_width": 0.0,
+   "border_color": null,
+   "text_color": "#e6e8eb",
+   "text": null,
+   "font_px": 14.0,
+   "font_weight": 400,
+   "text_align": "start"
+  },
+  {
+   "name": "snav-notifications",
+   "kind": "text",
+   "auto": false,
+   "parent": "auto-1",
+   "box": [
+    36,
+    128,
+    78,
+    20
+   ],
+   "fill": "#22262e",
+   "own_fill": false,
+   "behind": "#22262e",
+   "radius": 0.0,
+   "borders": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "border_width": 0.0,
+   "border_color": null,
+   "text_color": "#e6e8eb",
+   "text": "Notifications",
+   "font_px": 14.0,
+   "font_weight": 400,
+   "text_align": "start",
+   "ink": [
+    37,
+    131,
+    77,
+    12
+   ]
+  },
+  {
+   "name": "snav-security",
+   "kind": "text",
+   "auto": false,
+   "parent": "settings-nav",
+   "box": [
+    36,
+    168,
+    51,
+    20
+   ],
+   "fill": "#0f1115",
+   "own_fill": false,
+   "behind": "#0f1115",
+   "radius": 0.0,
+   "borders": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "border_width": 0.0,
+   "border_color": null,
+   "text_color": "#e6e8eb",
+   "text": "Security",
+   "font_px": 14.0,
+   "font_weight": 400,
+   "text_align": "start",
+   "ink": [
+    36,
+    171,
+    51,
+    14
+   ]
+  },
+  {
+   "name": "snav-billing",
+   "kind": "text",
+   "auto": false,
+   "parent": "settings-nav",
+   "box": [
+    36,
+    208,
+    38,
+    20
+   ],
+   "fill": "#0f1115",
+   "own_fill": false,
+   "behind": "#0f1115",
+   "radius": 0.0,
+   "borders": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "border_width": 0.0,
+   "border_color": null,
+   "text_color": "#e6e8eb",
+   "text": "Billing",
+   "font_px": 14.0,
+   "font_weight": 400,
+   "text_align": "start",
+   "ink": [
+    37,
+    212,
+    36,
+    13
+   ]
+  },
+  {
+   "name": "snav-integrations",
+   "kind": "text",
+   "auto": false,
+   "parent": "settings-nav",
+   "box": [
+    36,
+    248,
+    74,
+    20
+   ],
+   "fill": "#0f1115",
+   "own_fill": false,
+   "behind": "#0f1115",
+   "radius": 0.0,
+   "borders": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "border_width": 0.0,
+   "border_color": null,
+   "text_color": "#e6e8eb",
+   "text": "Integrations",
+   "font_px": 14.0,
+   "font_weight": 400,
+   "text_align": "start",
+   "ink": [
+    37,
+    252,
+    73,
+    13
+   ]
+  },
+  {
+   "name": "snav-api-keys",
+   "kind": "text",
+   "auto": false,
+   "parent": "settings-nav",
+   "box": [
+    36,
+    288,
+    54,
+    20
+   ],
+   "fill": "#0f1115",
+   "own_fill": false,
+   "behind": "#0f1115",
+   "radius": 0.0,
+   "borders": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "border_width": 0.0,
+   "border_color": null,
+   "text_color": "#e6e8eb",
+   "text": "API keys",
+   "font_px": 14.0,
+   "font_weight": 400,
+   "text_align": "start",
+   "ink": [
+    36,
+    292,
+    54,
+    13
+   ]
+  },
+  {
+   "name": "snav-audit-log",
+   "kind": "text",
+   "auto": false,
+   "parent": "settings-nav",
+   "box": [
+    36,
+    328,
+    56,
+    20
+   ],
+   "fill": "#0f1115",
+   "own_fill": false,
+   "behind": "#0f1115",
+   "radius": 0.0,
+   "borders": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "border_width": 0.0,
+   "border_color": null,
+   "text_color": "#e6e8eb",
+   "text": "Audit log",
+   "font_px": 14.0,
+   "font_weight": 400,
+   "text_align": "start",
+   "ink": [
+    36,
+    332,
+    55,
+    13
+   ]
+  },
+  {
+   "name": "prefs-card",
+   "kind": "panel",
+   "auto": false,
+   "parent": null,
+   "box": [
+    268,
+    80,
+    720,
+    386
+   ],
+   "fill": "#181b21",
+   "own_fill": true,
+   "behind": "#0f1115",
+   "radius": 12.0,
+   "borders": [
+    1.0,
+    1.0,
+    1.0,
+    1.0
+   ],
+   "border_width": 1.0,
+   "border_color": "#343a46",
+   "text_color": "#e6e8eb",
+   "text": null,
+   "font_px": 14.0,
+   "font_weight": 400,
+   "text_align": "start"
+  },
+  {
+   "name": "prefs-title",
+   "kind": "text",
+   "auto": false,
+   "parent": "prefs-card",
+   "box": [
+    289,
+    100,
+    184,
+    19
+   ],
+   "fill": "#181b21",
+   "own_fill": false,
+   "behind": "#181b21",
+   "radius": 0.0,
+   "borders": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "border_width": 0.0,
+   "border_color": null,
+   "text_color": "#e6e8eb",
+   "text": "Notification preferences",
+   "font_px": 16.0,
+   "font_weight": 700,
+   "text_align": "start",
+   "ink": [
+    290,
+    104,
+    183,
+    15
+   ]
+  },
+  {
+   "name": "auto-2",
+   "kind": "panel",
+   "auto": true,
+   "parent": "prefs-card",
+   "box": [
+    269,
+    140,
+    718,
+    64
+   ],
+   "fill": "#181b21",
+   "own_fill": false,
+   "behind": "#181b21",
+   "radius": 0.0,
+   "borders": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "border_width": 1.0,
+   "border_color": "#343a46",
+   "text_color": "#e6e8eb",
+   "text": null,
+   "font_px": 14.0,
+   "font_weight": 400,
+   "text_align": "start"
+  },
+  {
+   "name": "pref0-label",
+   "kind": "text",
+   "auto": false,
+   "parent": "auto-2",
+   "box": [
+    289,
+    152,
+    195,
+    20
+   ],
+   "fill": "#181b21",
+   "own_fill": false,
+   "behind": "#181b21",
+   "radius": 0.0,
+   "borders": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "border_width": 0.0,
+   "border_color": null,
+   "text_color": "#e6e8eb",
+   "text": "Email digests",
+   "font_px": 14.0,
+   "font_weight": 600,
+   "text_align": "start",
+   "ink": [
+    290,
+    157,
+    89,
+    13
+   ]
+  },
+  {
+   "name": "pref0-desc",
+   "kind": "text",
+   "auto": false,
+   "parent": "auto-2",
+   "box": [
+    289,
+    175,
+    195,
+    17
+   ],
+   "fill": "#181b21",
+   "own_fill": false,
+   "behind": "#181b21",
+   "radius": 0.0,
+   "borders": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "border_width": 0.0,
+   "border_color": null,
+   "text_color": "#9aa3af",
+   "text": "A summary of activity every morning",
+   "font_px": 12.0,
+   "font_weight": 400,
+   "text_align": "start",
+   "ink": [
+    289,
+    178,
+    195,
+    12
+   ]
+  },
+  {
+   "name": "pref0-toggle",
+   "kind": "toggle",
+   "auto": false,
+   "parent": "auto-2",
+   "box": [
+    927,
+    161,
+    40,
+    22
+   ],
+   "fill": "#3b82f6",
+   "own_fill": true,
+   "behind": "#181b21",
+   "radius": 11.0,
+   "borders": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "border_width": 0.0,
+   "border_color": null,
+   "text_color": "#e6e8eb",
+   "text": null,
+   "font_px": 14.0,
+   "font_weight": 400,
+   "text_align": "start"
+  },
+  {
+   "name": "auto-3",
+   "kind": "panel",
+   "auto": true,
+   "parent": "prefs-card",
+   "box": [
+    269,
+    204,
+    718,
+    64
+   ],
+   "fill": "#181b21",
+   "own_fill": false,
+   "behind": "#181b21",
+   "radius": 0.0,
+   "borders": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "border_width": 1.0,
+   "border_color": "#343a46",
+   "text_color": "#e6e8eb",
+   "text": null,
+   "font_px": 14.0,
+   "font_weight": 400,
+   "text_align": "start"
+  },
+  {
+   "name": "pref1-label",
+   "kind": "text",
+   "auto": false,
+   "parent": "auto-3",
+   "box": [
+    289,
+    216,
+    194,
+    20
+   ],
+   "fill": "#181b21",
+   "own_fill": false,
+   "behind": "#181b21",
+   "radius": 0.0,
+   "borders": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "border_width": 0.0,
+   "border_color": null,
+   "text_color": "#e6e8eb",
+   "text": "Build failures",
+   "font_px": 14.0,
+   "font_weight": 600,
+   "text_align": "start",
+   "ink": [
+    290,
+    221,
+    86,
+    11
+   ]
+  },
+  {
+   "name": "pref1-desc",
+   "kind": "text",
+   "auto": false,
+   "parent": "auto-3",
+   "box": [
+    289,
+    239,
+    194,
+    17
+   ],
+   "fill": "#181b21",
+   "own_fill": false,
+   "behind": "#181b21",
+   "radius": 0.0,
+   "borders": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "border_width": 0.0,
+   "border_color": null,
+   "text_color": "#9aa3af",
+   "text": "Notify me when a build on main fails",
+   "font_px": 12.0,
+   "font_weight": 400,
+   "text_align": "start",
+   "ink": [
+    289,
+    242,
+    194,
+    12
+   ]
+  },
+  {
+   "name": "pref1-toggle",
+   "kind": "toggle",
+   "auto": false,
+   "parent": "auto-3",
+   "box": [
+    927,
+    225,
+    40,
+    22
+   ],
+   "fill": "#3b82f6",
+   "own_fill": true,
+   "behind": "#181b21",
+   "radius": 11.0,
+   "borders": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "border_width": 0.0,
+   "border_color": null,
+   "text_color": "#e6e8eb",
+   "text": null,
+   "font_px": 14.0,
+   "font_weight": 400,
+   "text_align": "start"
+  },
+  {
+   "name": "auto-4",
+   "kind": "panel",
+   "auto": true,
+   "parent": "prefs-card",
+   "box": [
+    269,
+    268,
+    718,
+    64
+   ],
+   "fill": "#181b21",
+   "own_fill": false,
+   "behind": "#181b21",
+   "radius": 0.0,
+   "borders": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "border_width": 1.0,
+   "border_color": "#343a46",
+   "text_color": "#e6e8eb",
+   "text": null,
+   "font_px": 14.0,
+   "font_weight": 400,
+   "text_align": "start"
+  },
+  {
+   "name": "pref2-label",
+   "kind": "text",
+   "auto": false,
+   "parent": "auto-4",
+   "box": [
+    289,
+    280,
+    236,
+    20
+   ],
+   "fill": "#181b21",
+   "own_fill": false,
+   "behind": "#181b21",
+   "radius": 0.0,
+   "borders": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "border_width": 0.0,
+   "border_color": null,
+   "text_color": "#e6e8eb",
+   "text": "Mentions",
+   "font_px": 14.0,
+   "font_weight": 600,
+   "text_align": "start",
+   "ink": [
+    290,
+    285,
+    61,
+    11
+   ]
+  },
+  {
+   "name": "pref2-desc",
+   "kind": "text",
+   "auto": false,
+   "parent": "auto-4",
+   "box": [
+    289,
+    303,
+    236,
+    17
+   ],
+   "fill": "#181b21",
+   "own_fill": false,
+   "behind": "#181b21",
+   "radius": 0.0,
+   "borders": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "border_width": 0.0,
+   "border_color": null,
+   "text_color": "#9aa3af",
+   "text": "When someone mentions you in a comment",
+   "font_px": 12.0,
+   "font_weight": 400,
+   "text_align": "start",
+   "ink": [
+    289,
+    306,
+    236,
+    12
+   ]
+  },
+  {
+   "name": "pref2-toggle",
+   "kind": "toggle",
+   "auto": false,
+   "parent": "auto-4",
+   "box": [
+    927,
+    289,
+    40,
+    22
+   ],
+   "fill": "#343a46",
+   "own_fill": true,
+   "behind": "#181b21",
+   "radius": 11.0,
+   "borders": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "border_width": 0.0,
+   "border_color": null,
+   "text_color": "#e6e8eb",
+   "text": null,
+   "font_px": 14.0,
+   "font_weight": 400,
+   "text_align": "start"
+  },
+  {
+   "name": "auto-5",
+   "kind": "panel",
+   "auto": true,
+   "parent": "prefs-card",
+   "box": [
+    269,
+    332,
+    718,
+    64
+   ],
+   "fill": "#181b21",
+   "own_fill": false,
+   "behind": "#181b21",
+   "radius": 0.0,
+   "borders": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "border_width": 1.0,
+   "border_color": "#343a46",
+   "text_color": "#e6e8eb",
+   "text": null,
+   "font_px": 14.0,
+   "font_weight": 400,
+   "text_align": "start"
+  },
+  {
+   "name": "pref3-label",
+   "kind": "text",
+   "auto": false,
+   "parent": "auto-5",
+   "box": [
+    289,
+    344,
+    193,
+    20
+   ],
+   "fill": "#181b21",
+   "own_fill": false,
+   "behind": "#181b21",
+   "radius": 0.0,
+   "borders": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "border_width": 0.0,
+   "border_color": null,
+   "text_color": "#e6e8eb",
+   "text": "Deploys",
+   "font_px": 14.0,
+   "font_weight": 600,
+   "text_align": "start",
+   "ink": [
+    290,
+    349,
+    53,
+    13
+   ]
+  },
+  {
+   "name": "pref3-desc",
+   "kind": "text",
+   "auto": false,
+   "parent": "auto-5",
+   "box": [
+    289,
+    367,
+    193,
+    17
+   ],
+   "fill": "#181b21",
+   "own_fill": false,
+   "behind": "#181b21",
+   "radius": 0.0,
+   "borders": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "border_width": 0.0,
+   "border_color": null,
+   "text_color": "#9aa3af",
+   "text": "When a deploy finishes or rolls back",
+   "font_px": 12.0,
+   "font_weight": 400,
+   "text_align": "start",
+   "ink": [
+    289,
+    370,
+    194,
+    12
+   ]
+  },
+  {
+   "name": "pref3-toggle",
+   "kind": "toggle",
+   "auto": false,
+   "parent": "auto-5",
+   "box": [
+    927,
+    353,
+    40,
+    22
+   ],
+   "fill": "#3b82f6",
+   "own_fill": true,
+   "behind": "#181b21",
+   "radius": 11.0,
+   "borders": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "border_width": 0.0,
+   "border_color": null,
+   "text_color": "#e6e8eb",
+   "text": null,
+   "font_px": 14.0,
+   "font_weight": 400,
+   "text_align": "start"
+  },
+  {
+   "name": "auto-6",
+   "kind": "panel",
+   "auto": true,
+   "parent": "prefs-card",
+   "box": [
+    269,
+    396,
+    718,
+    64
+   ],
+   "fill": "#181b21",
+   "own_fill": false,
+   "behind": "#181b21",
+   "radius": 0.0,
+   "borders": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "border_width": 1.0,
+   "border_color": "#343a46",
+   "text_color": "#e6e8eb",
+   "text": null,
+   "font_px": 14.0,
+   "font_weight": 400,
+   "text_align": "start"
+  },
+  {
+   "name": "pref4-label",
+   "kind": "text",
+   "auto": false,
+   "parent": "auto-6",
+   "box": [
+    289,
+    408,
+    194,
+    20
+   ],
+   "fill": "#181b21",
+   "own_fill": false,
+   "behind": "#181b21",
+   "radius": 0.0,
+   "borders": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "border_width": 0.0,
+   "border_color": null,
+   "text_color": "#e6e8eb",
+   "text": "Weekly report",
+   "font_px": 14.0,
+   "font_weight": 600,
+   "text_align": "start",
+   "ink": [
+    289,
+    413,
+    92,
+    13
+   ]
+  },
+  {
+   "name": "pref4-desc",
+   "kind": "text",
+   "auto": false,
+   "parent": "auto-6",
+   "box": [
+    289,
+    431,
+    194,
+    17
+   ],
+   "fill": "#181b21",
+   "own_fill": false,
+   "behind": "#181b21",
+   "radius": 0.0,
+   "borders": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "border_width": 0.0,
+   "border_color": null,
+   "text_color": "#9aa3af",
+   "text": "Usage and spend for the last 7 days",
+   "font_px": 12.0,
+   "font_weight": 400,
+   "text_align": "start",
+   "ink": [
+    289,
+    434,
+    194,
+    12
+   ]
+  },
+  {
+   "name": "pref4-toggle",
+   "kind": "toggle",
+   "auto": false,
+   "parent": "auto-6",
+   "box": [
+    927,
+    417,
+    40,
+    22
+   ],
+   "fill": "#343a46",
+   "own_fill": true,
+   "behind": "#181b21",
+   "radius": 11.0,
+   "borders": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "border_width": 0.0,
+   "border_color": null,
+   "text_color": "#e6e8eb",
+   "text": null,
+   "font_px": 14.0,
+   "font_weight": 400,
+   "text_align": "start"
+  },
+  {
+   "name": "channels-card",
+   "kind": "panel",
+   "auto": false,
+   "parent": null,
+   "box": [
+    268,
+    490,
+    720,
+    270
+   ],
+   "fill": "#181b21",
+   "own_fill": true,
+   "behind": "#0f1115",
+   "radius": 12.0,
+   "borders": [
+    1.0,
+    1.0,
+    1.0,
+    1.0
+   ],
+   "border_width": 1.0,
+   "border_color": "#343a46",
+   "text_color": "#e6e8eb",
+   "text": null,
+   "font_px": 14.0,
+   "font_weight": 400,
+   "text_align": "start"
+  },
+  {
+   "name": "channels-title",
+   "kind": "text",
+   "auto": false,
+   "parent": "channels-card",
+   "box": [
+    289,
+    510,
+    71,
+    19
+   ],
+   "fill": "#181b21",
+   "own_fill": false,
+   "behind": "#181b21",
+   "radius": 0.0,
+   "borders": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "border_width": 0.0,
+   "border_color": null,
+   "text_color": "#e6e8eb",
+   "text": "Channels",
+   "font_px": 16.0,
+   "font_weight": 700,
+   "text_align": "start",
+   "ink": [
+    289,
+    513,
+    71,
+    14
+   ]
+  },
+  {
+   "name": "field0-label",
+   "kind": "text",
+   "auto": false,
+   "parent": "channels-card",
+   "box": [
+    289,
+    548,
+    316,
+    17
+   ],
+   "fill": "#181b21",
+   "own_fill": false,
+   "behind": "#181b21",
+   "radius": 0.0,
+   "borders": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "border_width": 0.0,
+   "border_color": null,
+   "text_color": "#e6e8eb",
+   "text": "Slack webhook",
+   "font_px": 12.0,
+   "font_weight": 600,
+   "text_align": "start",
+   "ink": [
+    289,
+    550,
+    88,
+    11
+   ]
+  },
+  {
+   "name": "field0",
+   "kind": "input",
+   "auto": false,
+   "parent": "channels-card",
+   "box": [
+    289,
+    570,
+    316,
+    36
+   ],
+   "fill": "#12151a",
+   "own_fill": true,
+   "behind": "#181b21",
+   "radius": 8.0,
+   "borders": [
+    1.0,
+    1.0,
+    1.0,
+    1.0
+   ],
+   "border_width": 1.0,
+   "border_color": "#343a46",
+   "text_color": "#9aa3af",
+   "text": null,
+   "font_px": 14.0,
+   "font_weight": 400,
+   "text_align": "start"
+  },
+  {
+   "name": "field0-placeholder",
+   "kind": "text",
+   "auto": false,
+   "parent": "field0",
+   "box": [
+    302,
+    579,
+    170,
+    20
+   ],
+   "fill": "#12151a",
+   "own_fill": false,
+   "behind": "#12151a",
+   "radius": 0.0,
+   "borders": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "border_width": 0.0,
+   "border_color": null,
+   "text_color": "#9aa3af",
+   "text": "https://hooks.slack.com/\u2026",
+   "font_px": 14.0,
+   "font_weight": 400,
+   "text_align": "start",
+   "ink": [
+    302,
+    582,
+    168,
+    14
+   ]
+  },
+  {
+   "name": "field1-label",
+   "kind": "text",
+   "auto": false,
+   "parent": "channels-card",
+   "box": [
+    653,
+    548,
+    316,
+    17
+   ],
+   "fill": "#181b21",
+   "own_fill": false,
+   "behind": "#181b21",
+   "radius": 0.0,
+   "borders": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "border_width": 0.0,
+   "border_color": null,
+   "text_color": "#e6e8eb",
+   "text": "Email address",
+   "font_px": 12.0,
+   "font_weight": 600,
+   "text_align": "start",
+   "ink": [
+    653,
+    551,
+    81,
+    10
+   ]
+  },
+  {
+   "name": "field1",
+   "kind": "input",
+   "auto": false,
+   "parent": "channels-card",
+   "box": [
+    653,
+    570,
+    316,
+    36
+   ],
+   "fill": "#12151a",
+   "own_fill": true,
+   "behind": "#181b21",
+   "radius": 8.0,
+   "borders": [
+    1.0,
+    1.0,
+    1.0,
+    1.0
+   ],
+   "border_width": 1.0,
+   "border_color": "#343a46",
+   "text_color": "#9aa3af",
+   "text": null,
+   "font_px": 14.0,
+   "font_weight": 400,
+   "text_align": "start"
+  },
+  {
+   "name": "field1-placeholder",
+   "kind": "text",
+   "auto": false,
+   "parent": "field1",
+   "box": [
+    666,
+    579,
+    93,
+    20
+   ],
+   "fill": "#12151a",
+   "own_fill": false,
+   "behind": "#12151a",
+   "radius": 0.0,
+   "borders": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "border_width": 0.0,
+   "border_color": null,
+   "text_color": "#9aa3af",
+   "text": "ops@forge.dev",
+   "font_px": 14.0,
+   "font_weight": 400,
+   "text_align": "start",
+   "ink": [
+    666,
+    582,
+    93,
+    14
+   ]
+  },
+  {
+   "name": "field2-label",
+   "kind": "text",
+   "auto": false,
+   "parent": "channels-card",
+   "box": [
+    289,
+    622,
+    316,
+    17
+   ],
+   "fill": "#181b21",
+   "own_fill": false,
+   "behind": "#181b21",
+   "radius": 0.0,
+   "borders": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "border_width": 0.0,
+   "border_color": null,
+   "text_color": "#e6e8eb",
+   "text": "Quiet hours from",
+   "font_px": 12.0,
+   "font_weight": 600,
+   "text_align": "start",
+   "ink": [
+    289,
+    624,
+    96,
+    11
+   ]
+  },
+  {
+   "name": "field2",
+   "kind": "input",
+   "auto": false,
+   "parent": "channels-card",
+   "box": [
+    289,
+    645,
+    316,
+    36
+   ],
+   "fill": "#12151a",
+   "own_fill": true,
+   "behind": "#181b21",
+   "radius": 8.0,
+   "borders": [
+    1.0,
+    1.0,
+    1.0,
+    1.0
+   ],
+   "border_width": 1.0,
+   "border_color": "#343a46",
+   "text_color": "#9aa3af",
+   "text": null,
+   "font_px": 14.0,
+   "font_weight": 400,
+   "text_align": "start"
+  },
+  {
+   "name": "field2-placeholder",
+   "kind": "text",
+   "auto": false,
+   "parent": "field2",
+   "box": [
+    302,
+    653,
+    35,
+    20
+   ],
+   "fill": "#12151a",
+   "own_fill": false,
+   "behind": "#12151a",
+   "radius": 0.0,
+   "borders": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "border_width": 0.0,
+   "border_color": null,
+   "text_color": "#9aa3af",
+   "text": "22:00",
+   "font_px": 14.0,
+   "font_weight": 400,
+   "text_align": "start",
+   "ink": [
+    302,
+    657,
+    35,
+    11
+   ]
+  },
+  {
+   "name": "field3-label",
+   "kind": "text",
+   "auto": false,
+   "parent": "channels-card",
+   "box": [
+    653,
+    622,
+    316,
+    17
+   ],
+   "fill": "#181b21",
+   "own_fill": false,
+   "behind": "#181b21",
+   "radius": 0.0,
+   "borders": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "border_width": 0.0,
+   "border_color": null,
+   "text_color": "#e6e8eb",
+   "text": "Quiet hours to",
+   "font_px": 12.0,
+   "font_weight": 600,
+   "text_align": "start",
+   "ink": [
+    653,
+    624,
+    82,
+    11
+   ]
+  },
+  {
+   "name": "field3",
+   "kind": "input",
+   "auto": false,
+   "parent": "channels-card",
+   "box": [
+    653,
+    645,
+    316,
+    36
+   ],
+   "fill": "#12151a",
+   "own_fill": true,
+   "behind": "#181b21",
+   "radius": 8.0,
+   "borders": [
+    1.0,
+    1.0,
+    1.0,
+    1.0
+   ],
+   "border_width": 1.0,
+   "border_color": "#343a46",
+   "text_color": "#9aa3af",
+   "text": null,
+   "font_px": 14.0,
+   "font_weight": 400,
+   "text_align": "start"
+  },
+  {
+   "name": "field3-placeholder",
+   "kind": "text",
+   "auto": false,
+   "parent": "field3",
+   "box": [
+    666,
+    653,
+    35,
+    20
+   ],
+   "fill": "#12151a",
+   "own_fill": false,
+   "behind": "#12151a",
+   "radius": 0.0,
+   "borders": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "border_width": 0.0,
+   "border_color": null,
+   "text_color": "#9aa3af",
+   "text": "07:00",
+   "font_px": 14.0,
+   "font_weight": 400,
+   "text_align": "start",
+   "ink": [
+    666,
+    657,
+    35,
+    11
+   ]
+  },
+  {
+   "name": "cancel",
+   "kind": "button",
+   "auto": false,
+   "parent": "channels-card",
+   "box": [
+    795,
+    701,
+    62,
+    28
+   ],
+   "fill": "#181b21",
+   "own_fill": true,
+   "behind": "#181b21",
+   "radius": 6.0,
+   "borders": [
+    1.0,
+    1.0,
+    1.0,
+    1.0
+   ],
+   "border_width": 1.0,
+   "border_color": "#343a46",
+   "text_color": "#e6e8eb",
+   "text": null,
+   "font_px": 12.0,
+   "font_weight": 600,
+   "text_align": "start"
+  },
+  {
+   "name": "cancel-label",
+   "kind": "text",
+   "auto": false,
+   "parent": "cancel",
+   "box": [
+    806,
+    707,
+    40,
+    17
+   ],
+   "fill": "#181b21",
+   "own_fill": false,
+   "behind": "#181b21",
+   "radius": 0.0,
+   "borders": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "border_width": 0.0,
+   "border_color": null,
+   "text_color": "#e6e8eb",
+   "text": "Cancel",
+   "font_px": 12.0,
+   "font_weight": 600,
+   "text_align": "start",
+   "ink": [
+    807,
+    709,
+    39,
+    11
+   ]
+  },
+  {
+   "name": "save",
+   "kind": "button",
+   "auto": false,
+   "parent": "channels-card",
+   "box": [
+    867,
+    701,
+    100,
+    28
+   ],
+   "fill": "#3b82f6",
+   "own_fill": true,
+   "behind": "#181b21",
+   "radius": 6.0,
+   "borders": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "border_width": 0.0,
+   "border_color": null,
+   "text_color": "#ffffff",
+   "text": null,
+   "font_px": 12.0,
+   "font_weight": 600,
+   "text_align": "start"
+  },
+  {
+   "name": "save-label",
+   "kind": "text",
+   "auto": false,
+   "parent": "save",
+   "box": [
+    877,
+    707,
+    80,
+    17
+   ],
+   "fill": "#3b82f6",
+   "own_fill": false,
+   "behind": "#3b82f6",
+   "radius": 0.0,
+   "borders": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "border_width": 0.0,
+   "border_color": null,
+   "text_color": "#ffffff",
+   "text": "Save changes",
+   "font_px": 12.0,
+   "font_weight": 600,
+   "text_align": "start",
+   "ink": [
+    877,
+    709,
+    80,
+    13
+   ]
+  },
+  {
+   "name": "activity-card",
+   "kind": "panel",
+   "auto": false,
+   "parent": null,
+   "box": [
+    1012,
+    80,
+    404,
+    440
+   ],
+   "fill": "#181b21",
+   "own_fill": true,
+   "behind": "#0f1115",
+   "radius": 12.0,
+   "borders": [
+    1.0,
+    1.0,
+    1.0,
+    1.0
+   ],
+   "border_width": 1.0,
+   "border_color": "#343a46",
+   "text_color": "#e6e8eb",
+   "text": null,
+   "font_px": 14.0,
+   "font_weight": 400,
+   "text_align": "start"
+  },
+  {
+   "name": "activity-title",
+   "kind": "text",
+   "auto": false,
+   "parent": "activity-card",
+   "box": [
+    1029,
+    98,
+    56,
+    22
+   ],
+   "fill": "#181b21",
+   "own_fill": false,
+   "behind": "#181b21",
+   "radius": 0.0,
+   "borders": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "border_width": 0.0,
+   "border_color": null,
+   "text_color": "#e6e8eb",
+   "text": "Activity",
+   "font_px": 16.0,
+   "font_weight": 700,
+   "text_align": "start",
+   "ink": [
+    1029,
+    103,
+    57,
+    15
+   ]
+  },
+  {
+   "name": "activity-live",
+   "kind": "chip",
+   "auto": false,
+   "parent": "activity-card",
+   "box": [
+    1356,
+    97,
+    43,
+    24
+   ],
+   "fill": "#312e81",
+   "own_fill": true,
+   "behind": "#181b21",
+   "radius": 12.0,
+   "borders": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "border_width": 0.0,
+   "border_color": null,
+   "text_color": "#c7d2fe",
+   "text": null,
+   "font_px": 12.0,
+   "font_weight": 600,
+   "text_align": "start"
+  },
+  {
+   "name": "activity-live-label",
+   "kind": "text",
+   "auto": false,
+   "parent": "activity-live",
+   "box": [
+    1366,
+    101,
+    23,
+    17
+   ],
+   "fill": "#312e81",
+   "own_fill": false,
+   "behind": "#312e81",
+   "radius": 0.0,
+   "borders": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "border_width": 0.0,
+   "border_color": null,
+   "text_color": "#c7d2fe",
+   "text": "Live",
+   "font_px": 12.0,
+   "font_weight": 600,
+   "text_align": "start",
+   "ink": [
+    1366,
+    104,
+    23,
+    10
+   ]
+  },
+  {
+   "name": "auto-7",
+   "kind": "panel",
+   "auto": true,
+   "parent": "activity-card",
+   "box": [
+    1013,
+    137,
+    402,
+    52
+   ],
+   "fill": "#181b21",
+   "own_fill": false,
+   "behind": "#181b21",
+   "radius": 0.0,
+   "borders": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "border_width": 1.0,
+   "border_color": "#343a46",
+   "text_color": "#e6e8eb",
+   "text": null,
+   "font_px": 14.0,
+   "font_weight": 400,
+   "text_align": "start"
+  },
+  {
+   "name": "act0-avatar",
+   "kind": "avatar",
+   "auto": false,
+   "parent": "auto-7",
+   "box": [
+    1029,
+    150,
+    28,
+    28
+   ],
+   "fill": "#f97316",
+   "own_fill": true,
+   "behind": "#181b21",
+   "radius": 50.0,
+   "borders": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "border_width": 0.0,
+   "border_color": null,
+   "text_color": "#e6e8eb",
+   "text": null,
+   "font_px": 14.0,
+   "font_weight": 400,
+   "text_align": "start"
+  },
+  {
+   "name": "act0-who",
+   "kind": "text",
+   "auto": false,
+   "parent": "auto-7",
+   "box": [
+    1067,
+    147,
+    118,
+    18
+   ],
+   "fill": "#181b21",
+   "own_fill": false,
+   "behind": "#181b21",
+   "radius": 0.0,
+   "borders": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "border_width": 0.0,
+   "border_color": null,
+   "text_color": "#e6e8eb",
+   "text": "Sam changed billing",
+   "font_px": 13.0,
+   "font_weight": 400,
+   "text_align": "start",
+   "ink": [
+    1067,
+    150,
+    118,
+    13
+   ]
+  },
+  {
+   "name": "act0-when",
+   "kind": "text",
+   "auto": false,
+   "parent": "auto-7",
+   "box": [
+    1067,
+    165,
+    118,
+    15
+   ],
+   "fill": "#181b21",
+   "own_fill": false,
+   "behind": "#181b21",
+   "radius": 0.0,
+   "borders": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "border_width": 0.0,
+   "border_color": null,
+   "text_color": "#9aa3af",
+   "text": "2 min ago",
+   "font_px": 11.0,
+   "font_weight": 400,
+   "text_align": "start",
+   "ink": [
+    1067,
+    168,
+    49,
+    11
+   ]
+  },
+  {
+   "name": "auto-8",
+   "kind": "panel",
+   "auto": true,
+   "parent": "activity-card",
+   "box": [
+    1013,
+    189,
+    402,
+    52
+   ],
+   "fill": "#181b21",
+   "own_fill": false,
+   "behind": "#181b21",
+   "radius": 0.0,
+   "borders": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "border_width": 1.0,
+   "border_color": "#343a46",
+   "text_color": "#e6e8eb",
+   "text": null,
+   "font_px": 14.0,
+   "font_weight": 400,
+   "text_align": "start"
+  },
+  {
+   "name": "act1-avatar",
+   "kind": "avatar",
+   "auto": false,
+   "parent": "auto-8",
+   "box": [
+    1029,
+    202,
+    28,
+    28
+   ],
+   "fill": "#8b5cf6",
+   "own_fill": true,
+   "behind": "#181b21",
+   "radius": 50.0,
+   "borders": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "border_width": 0.0,
+   "border_color": null,
+   "text_color": "#e6e8eb",
+   "text": null,
+   "font_px": 14.0,
+   "font_weight": 400,
+   "text_align": "start"
+  },
+  {
+   "name": "act1-who",
+   "kind": "text",
+   "auto": false,
+   "parent": "auto-8",
+   "box": [
+    1067,
+    199,
+    130,
+    18
+   ],
+   "fill": "#181b21",
+   "own_fill": false,
+   "behind": "#181b21",
+   "radius": 0.0,
+   "borders": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "border_width": 0.0,
+   "border_color": null,
+   "text_color": "#e6e8eb",
+   "text": "Iris deployed web-app",
+   "font_px": 13.0,
+   "font_weight": 400,
+   "text_align": "start",
+   "ink": [
+    1068,
+    202,
+    129,
+    13
+   ]
+  },
+  {
+   "name": "act1-when",
+   "kind": "text",
+   "auto": false,
+   "parent": "auto-8",
+   "box": [
+    1067,
+    217,
+    130,
+    15
+   ],
+   "fill": "#181b21",
+   "own_fill": false,
+   "behind": "#181b21",
+   "radius": 0.0,
+   "borders": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "border_width": 0.0,
+   "border_color": null,
+   "text_color": "#9aa3af",
+   "text": "3 min ago",
+   "font_px": 11.0,
+   "font_weight": 400,
+   "text_align": "start",
+   "ink": [
+    1067,
+    220,
+    49,
+    11
+   ]
+  },
+  {
+   "name": "auto-9",
+   "kind": "panel",
+   "auto": true,
+   "parent": "activity-card",
+   "box": [
+    1013,
+    241,
+    402,
+    52
+   ],
+   "fill": "#181b21",
+   "own_fill": false,
+   "behind": "#181b21",
+   "radius": 0.0,
+   "borders": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "border_width": 1.0,
+   "border_color": "#343a46",
+   "text_color": "#e6e8eb",
+   "text": null,
+   "font_px": 14.0,
+   "font_weight": 400,
+   "text_align": "start"
+  },
+  {
+   "name": "act2-avatar",
+   "kind": "avatar",
+   "auto": false,
+   "parent": "auto-9",
+   "box": [
+    1029,
+    254,
+    28,
+    28
+   ],
+   "fill": "#14b8a6",
+   "own_fill": true,
+   "behind": "#181b21",
+   "radius": 50.0,
+   "borders": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "border_width": 0.0,
+   "border_color": null,
+   "text_color": "#e6e8eb",
+   "text": null,
+   "font_px": 14.0,
+   "font_weight": 400,
+   "text_align": "start"
+  },
+  {
+   "name": "act2-who",
+   "kind": "text",
+   "auto": false,
+   "parent": "auto-9",
+   "box": [
+    1067,
+    251,
+    145,
+    18
+   ],
+   "fill": "#181b21",
+   "own_fill": false,
+   "behind": "#181b21",
+   "radius": 0.0,
+   "borders": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "border_width": 0.0,
+   "border_color": null,
+   "text_color": "#e6e8eb",
+   "text": "Omar deployed web-app",
+   "font_px": 13.0,
+   "font_weight": 400,
+   "text_align": "start",
+   "ink": [
+    1067,
+    254,
+    145,
+    13
+   ]
+  },
+  {
+   "name": "act2-when",
+   "kind": "text",
+   "auto": false,
+   "parent": "auto-9",
+   "box": [
+    1067,
+    269,
+    145,
+    15
+   ],
+   "fill": "#181b21",
+   "own_fill": false,
+   "behind": "#181b21",
+   "radius": 0.0,
+   "borders": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "border_width": 0.0,
+   "border_color": null,
+   "text_color": "#9aa3af",
+   "text": "4 min ago",
+   "font_px": 11.0,
+   "font_weight": 400,
+   "text_align": "start",
+   "ink": [
+    1067,
+    272,
+    49,
+    11
+   ]
+  },
+  {
+   "name": "auto-10",
+   "kind": "panel",
+   "auto": true,
+   "parent": "activity-card",
+   "box": [
+    1013,
+    293,
+    402,
+    52
+   ],
+   "fill": "#181b21",
+   "own_fill": false,
+   "behind": "#181b21",
+   "radius": 0.0,
+   "borders": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "border_width": 1.0,
+   "border_color": "#343a46",
+   "text_color": "#e6e8eb",
+   "text": null,
+   "font_px": 14.0,
+   "font_weight": 400,
+   "text_align": "start"
+  },
+  {
+   "name": "act3-avatar",
+   "kind": "avatar",
+   "auto": false,
+   "parent": "auto-10",
+   "box": [
+    1029,
+    306,
+    28,
+    28
+   ],
+   "fill": "#ec4899",
+   "own_fill": true,
+   "behind": "#181b21",
+   "radius": 50.0,
+   "borders": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "border_width": 0.0,
+   "border_color": null,
+   "text_color": "#e6e8eb",
+   "text": null,
+   "font_px": 14.0,
+   "font_weight": 400,
+   "text_align": "start"
+  },
+  {
+   "name": "act3-who",
+   "kind": "text",
+   "auto": false,
+   "parent": "auto-10",
+   "box": [
+    1067,
+    303,
+    140,
+    18
+   ],
+   "fill": "#181b21",
+   "own_fill": false,
+   "behind": "#181b21",
+   "radius": 0.0,
+   "borders": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "border_width": 0.0,
+   "border_color": null,
+   "text_color": "#e6e8eb",
+   "text": "Sam deployed web-app",
+   "font_px": 13.0,
+   "font_weight": 400,
+   "text_align": "start",
+   "ink": [
+    1067,
+    306,
+    140,
+    13
+   ]
+  },
+  {
+   "name": "act3-when",
+   "kind": "text",
+   "auto": false,
+   "parent": "auto-10",
+   "box": [
+    1067,
+    321,
+    140,
+    15
+   ],
+   "fill": "#181b21",
+   "own_fill": false,
+   "behind": "#181b21",
+   "radius": 0.0,
+   "borders": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "border_width": 0.0,
+   "border_color": null,
+   "text_color": "#9aa3af",
+   "text": "5 min ago",
+   "font_px": 11.0,
+   "font_weight": 400,
+   "text_align": "start",
+   "ink": [
+    1067,
+    324,
+    49,
+    11
+   ]
+  },
+  {
+   "name": "auto-11",
+   "kind": "panel",
+   "auto": true,
+   "parent": "activity-card",
+   "box": [
+    1013,
+    345,
+    402,
+    52
+   ],
+   "fill": "#181b21",
+   "own_fill": false,
+   "behind": "#181b21",
+   "radius": 0.0,
+   "borders": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "border_width": 1.0,
+   "border_color": "#343a46",
+   "text_color": "#e6e8eb",
+   "text": null,
+   "font_px": 14.0,
+   "font_weight": 400,
+   "text_align": "start"
+  },
+  {
+   "name": "act4-avatar",
+   "kind": "avatar",
+   "auto": false,
+   "parent": "auto-11",
+   "box": [
+    1029,
+    358,
+    28,
+    28
+   ],
+   "fill": "#eab308",
+   "own_fill": true,
+   "behind": "#181b21",
+   "radius": 50.0,
+   "borders": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "border_width": 0.0,
+   "border_color": null,
+   "text_color": "#e6e8eb",
+   "text": null,
+   "font_px": 14.0,
+   "font_weight": 400,
+   "text_align": "start"
+  },
+  {
+   "name": "act4-who",
+   "kind": "text",
+   "auto": false,
+   "parent": "auto-11",
+   "box": [
+    1067,
+    355,
+    138,
+    18
+   ],
+   "fill": "#181b21",
+   "own_fill": false,
+   "behind": "#181b21",
+   "radius": 0.0,
+   "borders": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "border_width": 0.0,
+   "border_color": null,
+   "text_color": "#e6e8eb",
+   "text": "Tom deployed web-app",
+   "font_px": 13.0,
+   "font_weight": 400,
+   "text_align": "start",
+   "ink": [
+    1067,
+    358,
+    138,
+    13
+   ]
+  },
+  {
+   "name": "act4-when",
+   "kind": "text",
+   "auto": false,
+   "parent": "auto-11",
+   "box": [
+    1067,
+    373,
+    138,
+    15
+   ],
+   "fill": "#181b21",
+   "own_fill": false,
+   "behind": "#181b21",
+   "radius": 0.0,
+   "borders": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "border_width": 0.0,
+   "border_color": null,
+   "text_color": "#9aa3af",
+   "text": "6 min ago",
+   "font_px": 11.0,
+   "font_weight": 400,
+   "text_align": "start",
+   "ink": [
+    1067,
+    376,
+    49,
+    11
+   ]
+  },
+  {
+   "name": "auto-12",
+   "kind": "panel",
+   "auto": true,
+   "parent": "activity-card",
+   "box": [
+    1013,
+    397,
+    402,
+    52
+   ],
+   "fill": "#181b21",
+   "own_fill": false,
+   "behind": "#181b21",
+   "radius": 0.0,
+   "borders": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "border_width": 1.0,
+   "border_color": "#343a46",
+   "text_color": "#e6e8eb",
+   "text": null,
+   "font_px": 14.0,
+   "font_weight": 400,
+   "text_align": "start"
+  },
+  {
+   "name": "act5-avatar",
+   "kind": "avatar",
+   "auto": false,
+   "parent": "auto-12",
+   "box": [
+    1029,
+    410,
+    28,
+    28
+   ],
+   "fill": "#06b6d4",
+   "own_fill": true,
+   "behind": "#181b21",
+   "radius": 50.0,
+   "borders": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "border_width": 0.0,
+   "border_color": null,
+   "text_color": "#e6e8eb",
+   "text": null,
+   "font_px": 14.0,
+   "font_weight": 400,
+   "text_align": "start"
+  },
+  {
+   "name": "act5-who",
+   "kind": "text",
+   "auto": false,
+   "parent": "auto-12",
+   "box": [
+    1067,
+    407,
+    124,
+    18
+   ],
+   "fill": "#181b21",
+   "own_fill": false,
+   "behind": "#181b21",
+   "radius": 0.0,
+   "borders": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "border_width": 0.0,
+   "border_color": null,
+   "text_color": "#e6e8eb",
+   "text": "Maria changed billing",
+   "font_px": 13.0,
+   "font_weight": 400,
+   "text_align": "start",
+   "ink": [
+    1068,
+    410,
+    123,
+    13
+   ]
+  },
+  {
+   "name": "act5-when",
+   "kind": "text",
+   "auto": false,
+   "parent": "auto-12",
+   "box": [
+    1067,
+    425,
+    124,
+    15
+   ],
+   "fill": "#181b21",
+   "own_fill": false,
+   "behind": "#181b21",
+   "radius": 0.0,
+   "borders": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "border_width": 0.0,
+   "border_color": null,
+   "text_color": "#9aa3af",
+   "text": "7 min ago",
+   "font_px": 11.0,
+   "font_weight": 400,
+   "text_align": "start",
+   "ink": [
+    1067,
+    428,
+    49,
+    11
+   ]
+  },
+  {
+   "name": "auto-13",
+   "kind": "panel",
+   "auto": true,
+   "parent": "activity-card",
+   "box": [
+    1013,
+    449,
+    402,
+    52
+   ],
+   "fill": "#181b21",
+   "own_fill": false,
+   "behind": "#181b21",
+   "radius": 0.0,
+   "borders": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "border_width": 1.0,
+   "border_color": "#343a46",
+   "text_color": "#e6e8eb",
+   "text": null,
+   "font_px": 14.0,
+   "font_weight": 400,
+   "text_align": "start"
+  },
+  {
+   "name": "act6-avatar",
+   "kind": "avatar",
+   "auto": false,
+   "parent": "auto-13",
+   "box": [
+    1029,
+    462,
+    28,
+    28
+   ],
+   "fill": "#84cc16",
+   "own_fill": true,
+   "behind": "#181b21",
+   "radius": 50.0,
+   "borders": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "border_width": 0.0,
+   "border_color": null,
+   "text_color": "#e6e8eb",
+   "text": null,
+   "font_px": 14.0,
+   "font_weight": 400,
+   "text_align": "start"
+  },
+  {
+   "name": "act6-who",
+   "kind": "text",
+   "auto": false,
+   "parent": "auto-13",
+   "box": [
+    1067,
+    459,
+    146,
+    18
+   ],
+   "fill": "#181b21",
+   "own_fill": false,
+   "behind": "#181b21",
+   "radius": 0.0,
+   "borders": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "border_width": 0.0,
+   "border_color": null,
+   "text_color": "#e6e8eb",
+   "text": "Maria deployed web-app",
+   "font_px": 13.0,
+   "font_weight": 400,
+   "text_align": "start",
+   "ink": [
+    1068,
+    462,
+    145,
+    13
+   ]
+  },
+  {
+   "name": "act6-when",
+   "kind": "text",
+   "auto": false,
+   "parent": "auto-13",
+   "box": [
+    1067,
+    477,
+    146,
+    15
+   ],
+   "fill": "#181b21",
+   "own_fill": false,
+   "behind": "#181b21",
+   "radius": 0.0,
+   "borders": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "border_width": 0.0,
+   "border_color": null,
+   "text_color": "#9aa3af",
+   "text": "8 min ago",
+   "font_px": 11.0,
+   "font_weight": 400,
+   "text_align": "start",
+   "ink": [
+    1067,
+    480,
+    49,
+    11
+   ]
+  },
+  {
+   "name": "usage-card",
+   "kind": "panel",
+   "auto": false,
+   "parent": null,
+   "box": [
+    1012,
+    544,
+    404,
+    216
+   ],
+   "fill": "#181b21",
+   "own_fill": true,
+   "behind": "#0f1115",
+   "radius": 12.0,
+   "borders": [
+    1.0,
+    1.0,
+    1.0,
+    1.0
+   ],
+   "border_width": 1.0,
+   "border_color": "#343a46",
+   "text_color": "#e6e8eb",
+   "text": null,
+   "font_px": 14.0,
+   "font_weight": 400,
+   "text_align": "start"
+  },
+  {
+   "name": "usage-title",
+   "kind": "text",
+   "auto": false,
+   "parent": "usage-card",
+   "box": [
+    1033,
+    563,
+    362,
+    22
+   ],
+   "fill": "#181b21",
+   "own_fill": false,
+   "behind": "#181b21",
+   "radius": 0.0,
+   "borders": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "border_width": 0.0,
+   "border_color": null,
+   "text_color": "#e6e8eb",
+   "text": "Usage this month",
+   "font_px": 16.0,
+   "font_weight": 700,
+   "text_align": "start",
+   "ink": [
+    1034,
+    568,
+    133,
+    16
+   ]
+  },
+  {
+   "name": "bar0",
+   "kind": "image",
+   "auto": false,
+   "parent": "usage-card",
+   "box": [
+    1033,
+    705,
+    34,
+    40
+   ],
+   "fill": "#fca5a5",
+   "own_fill": true,
+   "behind": "#181b21",
+   "radius": 4.0,
+   "borders": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "border_width": 0.0,
+   "border_color": null,
+   "text_color": "#e6e8eb",
+   "text": null,
+   "font_px": 14.0,
+   "font_weight": 400,
+   "text_align": "start"
+  },
+  {
+   "name": "bar1",
+   "kind": "image",
+   "auto": false,
+   "parent": "usage-card",
+   "box": [
+    1081,
+    620,
+    34,
+    125
+   ],
+   "fill": "#93c5fd",
+   "own_fill": true,
+   "behind": "#181b21",
+   "radius": 4.0,
+   "borders": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "border_width": 0.0,
+   "border_color": null,
+   "text_color": "#e6e8eb",
+   "text": null,
+   "font_px": 14.0,
+   "font_weight": 400,
+   "text_align": "start"
+  },
+  {
+   "name": "bar2",
+   "kind": "image",
+   "auto": false,
+   "parent": "usage-card",
+   "box": [
+    1129,
+    654,
+    34,
+    91
+   ],
+   "fill": "#86efac",
+   "own_fill": true,
+   "behind": "#181b21",
+   "radius": 4.0,
+   "borders": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "border_width": 0.0,
+   "border_color": null,
+   "text_color": "#e6e8eb",
+   "text": null,
+   "font_px": 14.0,
+   "font_weight": 400,
+   "text_align": "start"
+  },
+  {
+   "name": "bar3",
+   "kind": "image",
+   "auto": false,
+   "parent": "usage-card",
+   "box": [
+    1177,
+    688,
+    34,
+    57
+   ],
+   "fill": "#fcd34d",
+   "own_fill": true,
+   "behind": "#181b21",
+   "radius": 4.0,
+   "borders": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "border_width": 0.0,
+   "border_color": null,
+   "text_color": "#e6e8eb",
+   "text": null,
+   "font_px": 14.0,
+   "font_weight": 400,
+   "text_align": "start"
+  },
+  {
+   "name": "bar4",
+   "kind": "image",
+   "auto": false,
+   "parent": "usage-card",
+   "box": [
+    1225,
+    603,
+    34,
+    142
+   ],
+   "fill": "#c4b5fd",
+   "own_fill": true,
+   "behind": "#181b21",
+   "radius": 4.0,
+   "borders": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "border_width": 0.0,
+   "border_color": null,
+   "text_color": "#e6e8eb",
+   "text": null,
+   "font_px": 14.0,
+   "font_weight": 400,
+   "text_align": "start"
+  },
+  {
+   "name": "bar5",
+   "kind": "image",
+   "auto": false,
+   "parent": "usage-card",
+   "box": [
+    1273,
+    637,
+    34,
+    108
+   ],
+   "fill": "#f9a8d4",
+   "own_fill": true,
+   "behind": "#181b21",
+   "radius": 4.0,
+   "borders": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "border_width": 0.0,
+   "border_color": null,
+   "text_color": "#e6e8eb",
+   "text": null,
+   "font_px": 14.0,
+   "font_weight": 400,
+   "text_align": "start"
+  },
+  {
+   "name": "bar6",
+   "kind": "image",
+   "auto": false,
+   "parent": "usage-card",
+   "box": [
+    1321,
+    671,
+    34,
+    74
+   ],
+   "fill": "#fca5a5",
+   "own_fill": true,
+   "behind": "#181b21",
+   "radius": 4.0,
+   "borders": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "border_width": 0.0,
+   "border_color": null,
+   "text_color": "#e6e8eb",
+   "text": null,
+   "font_px": 14.0,
+   "font_weight": 400,
+   "text_align": "start"
+  },
+  {
+   "name": "bar7",
+   "kind": "image",
+   "auto": false,
+   "parent": "usage-card",
+   "box": [
+    1369,
+    705,
+    34,
+    40
+   ],
+   "fill": "#93c5fd",
+   "own_fill": true,
+   "behind": "#181b21",
+   "radius": 4.0,
+   "borders": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "border_width": 0.0,
+   "border_color": null,
+   "text_color": "#e6e8eb",
+   "text": null,
+   "font_px": 14.0,
+   "font_weight": 400,
+   "text_align": "start"
+  }
+ ],
+ "page_background": "#0f1115",
+ "page_items": {
+  "boxes": [
+   {
+    "box": [
+     0,
+     0,
+     1440,
+     56
+    ],
+    "fill": "#181b21",
+    "border_width": 1,
+    "radius": 0
+   },
+   {
+    "box": [
+     1051,
+     10,
+     220,
+     36
+    ],
+    "fill": "#12151a",
+    "border_width": 1,
+    "radius": 8
+   },
+   {
+    "box": [
+     1283,
+     14,
+     89,
+     28
+    ],
+    "fill": "#3b82f6",
+    "border_width": 0,
+    "radius": 6
+   },
+   {
+    "box": [
+     1384,
+     12,
+     32,
+     32
+    ],
+    "fill": "#8b5cf6",
+    "border_width": 0,
+    "radius": 50
+   },
+   {
+    "box": [
+     24,
+     120,
+     220,
+     36
+    ],
+    "fill": "#22262e",
+    "border_width": 0,
+    "radius": 8
+   },
+   {
+    "box": [
+     268,
+     80,
+     720,
+     386
+    ],
+    "fill": "#181b21",
+    "border_width": 1,
+    "radius": 12
+   },
+   {
+    "box": [
+     269,
+     140,
+     718,
+     64
+    ],
+    "fill": "#000000",
+    "border_width": 1,
+    "radius": 0
+   },
+   {
+    "box": [
+     927,
+     161,
+     40,
+     22
+    ],
+    "fill": "#3b82f6",
+    "border_width": 0,
+    "radius": 11
+   },
+   {
+    "box": [
+     269,
+     204,
+     718,
+     64
+    ],
+    "fill": "#000000",
+    "border_width": 1,
+    "radius": 0
+   },
+   {
+    "box": [
+     927,
+     225,
+     40,
+     22
+    ],
+    "fill": "#3b82f6",
+    "border_width": 0,
+    "radius": 11
+   },
+   {
+    "box": [
+     269,
+     268,
+     718,
+     64
+    ],
+    "fill": "#000000",
+    "border_width": 1,
+    "radius": 0
+   },
+   {
+    "box": [
+     927,
+     289,
+     40,
+     22
+    ],
+    "fill": "#343a46",
+    "border_width": 0,
+    "radius": 11
+   },
+   {
+    "box": [
+     269,
+     332,
+     718,
+     64
+    ],
+    "fill": "#000000",
+    "border_width": 1,
+    "radius": 0
+   },
+   {
+    "box": [
+     927,
+     353,
+     40,
+     22
+    ],
+    "fill": "#3b82f6",
+    "border_width": 0,
+    "radius": 11
+   },
+   {
+    "box": [
+     269,
+     396,
+     718,
+     64
+    ],
+    "fill": "#000000",
+    "border_width": 1,
+    "radius": 0
+   },
+   {
+    "box": [
+     927,
+     417,
+     40,
+     22
+    ],
+    "fill": "#343a46",
+    "border_width": 0,
+    "radius": 11
+   },
+   {
+    "box": [
+     268,
+     490,
+     720,
+     270
+    ],
+    "fill": "#181b21",
+    "border_width": 1,
+    "radius": 12
+   },
+   {
+    "box": [
+     289,
+     570,
+     316,
+     36
+    ],
+    "fill": "#12151a",
+    "border_width": 1,
+    "radius": 8
+   },
+   {
+    "box": [
+     653,
+     570,
+     316,
+     36
+    ],
+    "fill": "#12151a",
+    "border_width": 1,
+    "radius": 8
+   },
+   {
+    "box": [
+     289,
+     645,
+     316,
+     36
+    ],
+    "fill": "#12151a",
+    "border_width": 1,
+    "radius": 8
+   },
+   {
+    "box": [
+     653,
+     645,
+     316,
+     36
+    ],
+    "fill": "#12151a",
+    "border_width": 1,
+    "radius": 8
+   },
+   {
+    "box": [
+     795,
+     701,
+     62,
+     28
+    ],
+    "fill": "#181b21",
+    "border_width": 1,
+    "radius": 6
+   },
+   {
+    "box": [
+     867,
+     701,
+     100,
+     28
+    ],
+    "fill": "#3b82f6",
+    "border_width": 0,
+    "radius": 6
+   },
+   {
+    "box": [
+     1012,
+     80,
+     404,
+     440
+    ],
+    "fill": "#181b21",
+    "border_width": 1,
+    "radius": 12
+   },
+   {
+    "box": [
+     1356,
+     97,
+     43,
+     24
+    ],
+    "fill": "#312e81",
+    "border_width": 0,
+    "radius": 12
+   },
+   {
+    "box": [
+     1013,
+     137,
+     402,
+     52
+    ],
+    "fill": "#000000",
+    "border_width": 1,
+    "radius": 0
+   },
+   {
+    "box": [
+     1029,
+     150,
+     28,
+     28
+    ],
+    "fill": "#f97316",
+    "border_width": 0,
+    "radius": 50
+   },
+   {
+    "box": [
+     1013,
+     189,
+     402,
+     52
+    ],
+    "fill": "#000000",
+    "border_width": 1,
+    "radius": 0
+   },
+   {
+    "box": [
+     1029,
+     202,
+     28,
+     28
+    ],
+    "fill": "#8b5cf6",
+    "border_width": 0,
+    "radius": 50
+   },
+   {
+    "box": [
+     1013,
+     241,
+     402,
+     52
+    ],
+    "fill": "#000000",
+    "border_width": 1,
+    "radius": 0
+   },
+   {
+    "box": [
+     1029,
+     254,
+     28,
+     28
+    ],
+    "fill": "#14b8a6",
+    "border_width": 0,
+    "radius": 50
+   },
+   {
+    "box": [
+     1013,
+     293,
+     402,
+     52
+    ],
+    "fill": "#000000",
+    "border_width": 1,
+    "radius": 0
+   },
+   {
+    "box": [
+     1029,
+     306,
+     28,
+     28
+    ],
+    "fill": "#ec4899",
+    "border_width": 0,
+    "radius": 50
+   },
+   {
+    "box": [
+     1013,
+     345,
+     402,
+     52
+    ],
+    "fill": "#000000",
+    "border_width": 1,
+    "radius": 0
+   },
+   {
+    "box": [
+     1029,
+     358,
+     28,
+     28
+    ],
+    "fill": "#eab308",
+    "border_width": 0,
+    "radius": 50
+   },
+   {
+    "box": [
+     1013,
+     397,
+     402,
+     52
+    ],
+    "fill": "#000000",
+    "border_width": 1,
+    "radius": 0
+   },
+   {
+    "box": [
+     1029,
+     410,
+     28,
+     28
+    ],
+    "fill": "#06b6d4",
+    "border_width": 0,
+    "radius": 50
+   },
+   {
+    "box": [
+     1013,
+     449,
+     402,
+     52
+    ],
+    "fill": "#000000",
+    "border_width": 1,
+    "radius": 0
+   },
+   {
+    "box": [
+     1029,
+     462,
+     28,
+     28
+    ],
+    "fill": "#84cc16",
+    "border_width": 0,
+    "radius": 50
+   },
+   {
+    "box": [
+     1012,
+     544,
+     404,
+     216
+    ],
+    "fill": "#181b21",
+    "border_width": 1,
+    "radius": 12
+   },
+   {
+    "box": [
+     1033,
+     705,
+     34,
+     40
+    ],
+    "fill": "#fca5a5",
+    "border_width": 0,
+    "radius": 4
+   },
+   {
+    "box": [
+     1081,
+     620,
+     34,
+     125
+    ],
+    "fill": "#93c5fd",
+    "border_width": 0,
+    "radius": 4
+   },
+   {
+    "box": [
+     1129,
+     654,
+     34,
+     91
+    ],
+    "fill": "#86efac",
+    "border_width": 0,
+    "radius": 4
+   },
+   {
+    "box": [
+     1177,
+     688,
+     34,
+     57
+    ],
+    "fill": "#fcd34d",
+    "border_width": 0,
+    "radius": 4
+   },
+   {
+    "box": [
+     1225,
+     603,
+     34,
+     142
+    ],
+    "fill": "#c4b5fd",
+    "border_width": 0,
+    "radius": 4
+   },
+   {
+    "box": [
+     1273,
+     637,
+     34,
+     108
+    ],
+    "fill": "#f9a8d4",
+    "border_width": 0,
+    "radius": 4
+   },
+   {
+    "box": [
+     1321,
+     671,
+     34,
+     74
+    ],
+    "fill": "#fca5a5",
+    "border_width": 0,
+    "radius": 4
+   },
+   {
+    "box": [
+     1369,
+     705,
+     34,
+     40
+    ],
+    "fill": "#93c5fd",
+    "border_width": 0,
+    "radius": 4
+   }
+  ],
+  "texts": [
+   {
+    "text": "Forge",
+    "box": [
+     58,
+     17,
+     47,
+     21
+    ],
+    "color": "#e6e8eb",
+    "font_px": 17.0
+   },
+   {
+    "text": "Projects",
+    "box": [
+     137,
+     19,
+     51,
+     16
+    ],
+    "color": "#9aa3af",
+    "font_px": 14.0
+   },
+   {
+    "text": "Builds",
+    "box": [
+     212,
+     19,
+     39,
+     16
+    ],
+    "color": "#9aa3af",
+    "font_px": 14.0
+   },
+   {
+    "text": "Members",
+    "box": [
+     275,
+     19,
+     59,
+     16
+    ],
+    "color": "#9aa3af",
+    "font_px": 14.0
+   },
+   {
+    "text": "Settings",
+    "box": [
+     358,
+     19,
+     55,
+     17
+    ],
+    "color": "#3b82f6",
+    "font_px": 14.0
+   },
+   {
+    "text": "Search",
+    "box": [
+     1064,
+     19,
+     44,
+     16
+    ],
+    "color": "#9aa3af",
+    "font_px": 14.0
+   },
+   {
+    "text": "New project",
+    "box": [
+     1293,
+     19,
+     69,
+     15
+    ],
+    "color": "#ffffff",
+    "font_px": 12.0
+   },
+   {
+    "text": "General",
+    "box": [
+     36,
+     89,
+     49,
+     16
+    ],
+    "color": "#e6e8eb",
+    "font_px": 14.0
+   },
+   {
+    "text": "Notifications",
+    "box": [
+     36,
+     129,
+     78,
+     16
+    ],
+    "color": "#e6e8eb",
+    "font_px": 14.0
+   },
+   {
+    "text": "Security",
+    "box": [
+     36,
+     169,
+     51,
+     16
+    ],
+    "color": "#e6e8eb",
+    "font_px": 14.0
+   },
+   {
+    "text": "Billing",
+    "box": [
+     36,
+     209,
+     38,
+     16
+    ],
+    "color": "#e6e8eb",
+    "font_px": 14.0
+   },
+   {
+    "text": "Integrations",
+    "box": [
+     36,
+     249,
+     74,
+     16
+    ],
+    "color": "#e6e8eb",
+    "font_px": 14.0
+   },
+   {
+    "text": "API keys",
+    "box": [
+     36,
+     289,
+     54,
+     16
+    ],
+    "color": "#e6e8eb",
+    "font_px": 14.0
+   },
+   {
+    "text": "Audit log",
+    "box": [
+     36,
+     329,
+     56,
+     16
+    ],
+    "color": "#e6e8eb",
+    "font_px": 14.0
+   },
+   {
+    "text": "Notification preferences",
+    "box": [
+     289,
+     100,
+     184,
+     19
+    ],
+    "color": "#e6e8eb",
+    "font_px": 16.0
+   },
+   {
+    "text": "Email digests",
+    "box": [
+     289,
+     153,
+     90,
+     17
+    ],
+    "color": "#e6e8eb",
+    "font_px": 14.0
+   },
+   {
+    "text": "A summary of activity every morning",
+    "box": [
+     289,
+     176,
+     195,
+     14
+    ],
+    "color": "#9aa3af",
+    "font_px": 12.0
+   },
+   {
+    "text": "Build failures",
+    "box": [
+     289,
+     217,
+     87,
+     17
+    ],
+    "color": "#e6e8eb",
+    "font_px": 14.0
+   },
+   {
+    "text": "Notify me when a build on main fails",
+    "box": [
+     289,
+     240,
+     194,
+     14
+    ],
+    "color": "#9aa3af",
+    "font_px": 12.0
+   },
+   {
+    "text": "Mentions",
+    "box": [
+     289,
+     281,
+     62,
+     17
+    ],
+    "color": "#e6e8eb",
+    "font_px": 14.0
+   },
+   {
+    "text": "When someone mentions you in a comment",
+    "box": [
+     289,
+     304,
+     236,
+     14
+    ],
+    "color": "#9aa3af",
+    "font_px": 12.0
+   },
+   {
+    "text": "Deploys",
+    "box": [
+     289,
+     345,
+     54,
+     17
+    ],
+    "color": "#e6e8eb",
+    "font_px": 14.0
+   },
+   {
+    "text": "When a deploy finishes or rolls back",
+    "box": [
+     289,
+     368,
+     193,
+     14
+    ],
+    "color": "#9aa3af",
+    "font_px": 12.0
+   },
+   {
+    "text": "Weekly report",
+    "box": [
+     289,
+     409,
+     92,
+     17
+    ],
+    "color": "#e6e8eb",
+    "font_px": 14.0
+   },
+   {
+    "text": "Usage and spend for the last 7 days",
+    "box": [
+     289,
+     432,
+     194,
+     14
+    ],
+    "color": "#9aa3af",
+    "font_px": 12.0
+   },
+   {
+    "text": "Channels",
+    "box": [
+     289,
+     510,
+     71,
+     19
+    ],
+    "color": "#e6e8eb",
+    "font_px": 16.0
+   },
+   {
+    "text": "Slack webhook",
+    "box": [
+     289,
+     548,
+     88,
+     15
+    ],
+    "color": "#e6e8eb",
+    "font_px": 12.0
+   },
+   {
+    "text": "https://hooks.slack.com/\u2026",
+    "box": [
+     302,
+     580,
+     170,
+     16
+    ],
+    "color": "#9aa3af",
+    "font_px": 14.0
+   },
+   {
+    "text": "Email address",
+    "box": [
+     653,
+     548,
+     81,
+     15
+    ],
+    "color": "#e6e8eb",
+    "font_px": 12.0
+   },
+   {
+    "text": "ops@forge.dev",
+    "box": [
+     666,
+     580,
+     93,
+     16
+    ],
+    "color": "#9aa3af",
+    "font_px": 14.0
+   },
+   {
+    "text": "Quiet hours from",
+    "box": [
+     289,
+     622,
+     97,
+     15
+    ],
+    "color": "#e6e8eb",
+    "font_px": 12.0
+   },
+   {
+    "text": "22:00",
+    "box": [
+     302,
+     654,
+     35,
+     16
+    ],
+    "color": "#9aa3af",
+    "font_px": 14.0
+   },
+   {
+    "text": "Quiet hours to",
+    "box": [
+     653,
+     622,
+     82,
+     15
+    ],
+    "color": "#e6e8eb",
+    "font_px": 12.0
+   },
+   {
+    "text": "07:00",
+    "box": [
+     666,
+     654,
+     35,
+     16
+    ],
+    "color": "#9aa3af",
+    "font_px": 14.0
+   },
+   {
+    "text": "Cancel",
+    "box": [
+     806,
+     707,
+     40,
+     15
+    ],
+    "color": "#e6e8eb",
+    "font_px": 12.0
+   },
+   {
+    "text": "Save changes",
+    "box": [
+     877,
+     707,
+     80,
+     15
+    ],
+    "color": "#ffffff",
+    "font_px": 12.0
+   },
+   {
+    "text": "Activity",
+    "box": [
+     1029,
+     99,
+     56,
+     19
+    ],
+    "color": "#e6e8eb",
+    "font_px": 16.0
+   },
+   {
+    "text": "Live",
+    "box": [
+     1366,
+     101,
+     23,
+     15
+    ],
+    "color": "#c7d2fe",
+    "font_px": 12.0
+   },
+   {
+    "text": "Sam changed billing",
+    "box": [
+     1067,
+     148,
+     118,
+     15
+    ],
+    "color": "#e6e8eb",
+    "font_px": 13.0
+   },
+   {
+    "text": "2 min ago",
+    "box": [
+     1067,
+     166,
+     49,
+     12
+    ],
+    "color": "#9aa3af",
+    "font_px": 11.0
+   },
+   {
+    "text": "Iris deployed web-app",
+    "box": [
+     1067,
+     200,
+     130,
+     15
+    ],
+    "color": "#e6e8eb",
+    "font_px": 13.0
+   },
+   {
+    "text": "3 min ago",
+    "box": [
+     1067,
+     218,
+     49,
+     12
+    ],
+    "color": "#9aa3af",
+    "font_px": 11.0
+   },
+   {
+    "text": "Omar deployed web-app",
+    "box": [
+     1067,
+     252,
+     145,
+     15
+    ],
+    "color": "#e6e8eb",
+    "font_px": 13.0
+   },
+   {
+    "text": "4 min ago",
+    "box": [
+     1067,
+     270,
+     49,
+     12
+    ],
+    "color": "#9aa3af",
+    "font_px": 11.0
+   },
+   {
+    "text": "Sam deployed web-app",
+    "box": [
+     1067,
+     304,
+     140,
+     15
+    ],
+    "color": "#e6e8eb",
+    "font_px": 13.0
+   },
+   {
+    "text": "5 min ago",
+    "box": [
+     1067,
+     322,
+     49,
+     12
+    ],
+    "color": "#9aa3af",
+    "font_px": 11.0
+   },
+   {
+    "text": "Tom deployed web-app",
+    "box": [
+     1067,
+     356,
+     138,
+     15
+    ],
+    "color": "#e6e8eb",
+    "font_px": 13.0
+   },
+   {
+    "text": "6 min ago",
+    "box": [
+     1067,
+     374,
+     49,
+     12
+    ],
+    "color": "#9aa3af",
+    "font_px": 11.0
+   },
+   {
+    "text": "Maria changed billing",
+    "box": [
+     1067,
+     408,
+     124,
+     15
+    ],
+    "color": "#e6e8eb",
+    "font_px": 13.0
+   },
+   {
+    "text": "7 min ago",
+    "box": [
+     1067,
+     426,
+     49,
+     12
+    ],
+    "color": "#9aa3af",
+    "font_px": 11.0
+   },
+   {
+    "text": "Maria deployed web-app",
+    "box": [
+     1067,
+     460,
+     146,
+     15
+    ],
+    "color": "#e6e8eb",
+    "font_px": 13.0
+   },
+   {
+    "text": "8 min ago",
+    "box": [
+     1067,
+     478,
+     49,
+     12
+    ],
+    "color": "#9aa3af",
+    "font_px": 11.0
+   },
+   {
+    "text": "Usage this month",
+    "box": [
+     1033,
+     564,
+     134,
+     19
+    ],
+    "color": "#e6e8eb",
+    "font_px": 16.0
+   }
+  ],
+  "page_background": "#0f1115"
+ }
+}

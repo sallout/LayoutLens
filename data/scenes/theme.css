@@ -1,0 +1,31 @@
+/* Shared look for the benchmark scenes. Every element the benchmark scores carries data-gt="<kind>" and a unique data-name. */
+:root {
+  --bg: #f6f7f9; --surface: #ffffff; --surface-2: #eef1f5; --border: #d9dee6; --text: #111827; --muted: #6b7280;
+  --accent: #2563eb; --accent-text: #ffffff; --danger: #dc2626; --success: #16a34a; --warning: #d97706; --chip: #e0e7ff; --chip-text: #3730a3;
+  --sidebar: #1f2937; --sidebar-text: #e5e7eb; --input: #ffffff; --shadow: 0 1px 3px rgba(0,0,0,.12);
+}
+:root.dark {
+  --bg: #0f1115; --surface: #181b21; --surface-2: #22262e; --border: #343a46; --text: #e6e8eb; --muted: #9aa3af;
+  --accent: #3b82f6; --accent-text: #ffffff; --danger: #ef4444; --success: #22c55e; --warning: #f59e0b; --chip: #312e81; --chip-text: #c7d2fe;
+  --sidebar: #0b0d10; --sidebar-text: #cbd5e1; --input: #12151a; --shadow: 0 1px 3px rgba(0,0,0,.6);
+}
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html, body { width: 100%; height: 100%; }
+body { background: var(--bg); color: var(--text); font: 14px/1.4 -apple-system, "Helvetica Neue", Arial, sans-serif; overflow: hidden; -webkit-font-smoothing: antialiased; }
+.row { display: flex; align-items: center; }
+.col { display: flex; flex-direction: column; }
+.btn { display: inline-flex; align-items: center; justify-content: center; height: 36px; padding: 0 16px; border-radius: 8px; background: var(--accent); color: var(--accent-text); font-weight: 600; border: none; }
+.btn.secondary { background: var(--surface); color: var(--text); border: 1px solid var(--border); }
+.btn.danger { background: var(--danger); }
+.btn.sm { height: 28px; padding: 0 10px; border-radius: 6px; font-size: 12px; }
+.card { background: var(--surface); border: 1px solid var(--border); border-radius: 12px; box-shadow: var(--shadow); }
+.input { height: 36px; border: 1px solid var(--border); border-radius: 8px; background: var(--input); padding: 0 12px; display: flex; align-items: center; color: var(--muted); }
+.chip { display: inline-flex; align-items: center; height: 24px; padding: 0 10px; border-radius: 12px; background: var(--chip); color: var(--chip-text); font-size: 12px; font-weight: 600; }
+.muted { color: var(--muted); }
+.icon { width: 20px; height: 20px; display: inline-block; flex: none; }
+.avatar { width: 36px; height: 36px; border-radius: 50%; flex: none; }
+.toggle { width: 40px; height: 22px; border-radius: 11px; background: var(--accent); position: relative; flex: none; }
+.toggle::after { content: ""; position: absolute; top: 3px; right: 3px; width: 16px; height: 16px; border-radius: 50%; background: #fff; }
+.toggle.off { background: var(--border); }
+.toggle.off::after { right: auto; left: 3px; }
+.divider { height: 1px; background: var(--border); }

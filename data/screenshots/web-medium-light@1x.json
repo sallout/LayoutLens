@@ -1,0 +1,2667 @@
+{
+ "image": "web-medium-light@1x.png",
+ "scene": "web-medium",
+ "theme": "light",
+ "dpr": 1.0,
+ "css_width": 1440,
+ "css_height": 900,
+ "width": 1440,
+ "height": 900,
+ "elements": [
+  {
+   "name": "sidebar",
+   "kind": "panel",
+   "auto": false,
+   "parent": null,
+   "box": [
+    0,
+    0,
+    240,
+    900
+   ],
+   "fill": "#1f2937",
+   "own_fill": true,
+   "behind": "#f6f7f9",
+   "radius": 0.0,
+   "borders": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "border_width": 0.0,
+   "border_color": null,
+   "text_color": "#111827",
+   "text": null,
+   "font_px": 14.0,
+   "font_weight": 400,
+   "text_align": "start"
+  },
+  {
+   "name": "side-brand",
+   "kind": "text",
+   "auto": false,
+   "parent": "sidebar",
+   "box": [
+    20,
+    20,
+    200,
+    22
+   ],
+   "fill": "#1f2937",
+   "own_fill": false,
+   "behind": "#1f2937",
+   "radius": 0.0,
+   "borders": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "border_width": 0.0,
+   "border_color": null,
+   "text_color": "#e5e7eb",
+   "text": "Acme Analytics",
+   "font_px": 16.0,
+   "font_weight": 700,
+   "text_align": "start",
+   "ink": [
+    20,
+    25,
+    118,
+    15
+   ]
+  },
+  {
+   "name": "side-icon-overview",
+   "kind": "icon",
+   "auto": false,
+   "parent": "sidebar",
+   "box": [
+    20,
+    80,
+    20,
+    20
+   ],
+   "fill": "#1f2937",
+   "own_fill": false,
+   "behind": "#1f2937",
+   "radius": 0.0,
+   "borders": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "border_width": 0.0,
+   "border_color": null,
+   "text_color": "#e5e7eb",
+   "text": null,
+   "font_px": 14.0,
+   "font_weight": 400,
+   "text_align": "start",
+   "ink": [
+    23,
+    84,
+    14,
+    14
+   ]
+  },
+  {
+   "name": "side-overview",
+   "kind": "text",
+   "auto": false,
+   "parent": "sidebar",
+   "box": [
+    52,
+    81,
+    58,
+    20
+   ],
+   "fill": "#1f2937",
+   "own_fill": false,
+   "behind": "#1f2937",
+   "radius": 0.0,
+   "borders": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "border_width": 0.0,
+   "border_color": null,
+   "text_color": "#e5e7eb",
+   "text": "Overview",
+   "font_px": 14.0,
+   "font_weight": 400,
+   "text_align": "start",
+   "ink": [
+    52,
+    84,
+    58,
+    12
+   ]
+  },
+  {
+   "name": "side-icon-reports",
+   "kind": "icon",
+   "auto": false,
+   "parent": "sidebar",
+   "box": [
+    20,
+    120,
+    20,
+    20
+   ],
+   "fill": "#1f2937",
+   "own_fill": false,
+   "behind": "#1f2937",
+   "radius": 0.0,
+   "borders": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "border_width": 0.0,
+   "border_color": null,
+   "text_color": "#e5e7eb",
+   "text": null,
+   "font_px": 14.0,
+   "font_weight": 400,
+   "text_align": "start",
+   "ink": [
+    21,
+    124,
+    19,
+    13
+   ]
+  },
+  {
+   "name": "side-reports",
+   "kind": "text",
+   "auto": false,
+   "parent": "sidebar",
+   "box": [
+    52,
+    121,
+    50,
+    20
+   ],
+   "fill": "#1f2937",
+   "own_fill": false,
+   "behind": "#1f2937",
+   "radius": 0.0,
+   "borders": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "border_width": 0.0,
+   "border_color": null,
+   "text_color": "#e5e7eb",
+   "text": "Reports",
+   "font_px": 14.0,
+   "font_weight": 400,
+   "text_align": "start",
+   "ink": [
+    53,
+    125,
+    48,
+    13
+   ]
+  },
+  {
+   "name": "side-icon-inbox",
+   "kind": "icon",
+   "auto": false,
+   "parent": "sidebar",
+   "box": [
+    20,
+    160,
+    20,
+    20
+   ],
+   "fill": "#1f2937",
+   "own_fill": false,
+   "behind": "#1f2937",
+   "radius": 0.0,
+   "borders": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "border_width": 0.0,
+   "border_color": null,
+   "text_color": "#e5e7eb",
+   "text": null,
+   "font_px": 14.0,
+   "font_weight": 400,
+   "text_align": "start",
+   "ink": [
+    21,
+    163,
+    18,
+    14
+   ]
+  },
+  {
+   "name": "side-inbox",
+   "kind": "text",
+   "auto": false,
+   "parent": "sidebar",
+   "box": [
+    52,
+    161,
+    35,
+    20
+   ],
+   "fill": "#1f2937",
+   "own_fill": false,
+   "behind": "#1f2937",
+   "radius": 0.0,
+   "borders": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "border_width": 0.0,
+   "border_color": null,
+   "text_color": "#e5e7eb",
+   "text": "Inbox",
+   "font_px": 14.0,
+   "font_weight": 400,
+   "text_align": "start",
+   "ink": [
+    53,
+    165,
+    34,
+    11
+   ]
+  },
+  {
+   "name": "side-icon-settings",
+   "kind": "icon",
+   "auto": false,
+   "parent": "sidebar",
+   "box": [
+    20,
+    200,
+    20,
+    20
+   ],
+   "fill": "#1f2937",
+   "own_fill": false,
+   "behind": "#1f2937",
+   "radius": 0.0,
+   "borders": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "border_width": 0.0,
+   "border_color": null,
+   "text_color": "#e5e7eb",
+   "text": null,
+   "font_px": 14.0,
+   "font_weight": 400,
+   "text_align": "start",
+   "ink": [
+    22,
+    202,
+    16,
+    16
+   ]
+  },
+  {
+   "name": "side-settings",
+   "kind": "text",
+   "auto": false,
+   "parent": "sidebar",
+   "box": [
+    52,
+    201,
+    51,
+    20
+   ],
+   "fill": "#1f2937",
+   "own_fill": false,
+   "behind": "#1f2937",
+   "radius": 0.0,
+   "borders": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "border_width": 0.0,
+   "border_color": null,
+   "text_color": "#e5e7eb",
+   "text": "Settings",
+   "font_px": 14.0,
+   "font_weight": 400,
+   "text_align": "start",
+   "ink": [
+    52,
+    204,
+    51,
+    14
+   ]
+  },
+  {
+   "name": "topbar",
+   "kind": "panel",
+   "auto": false,
+   "parent": null,
+   "box": [
+    240,
+    0,
+    1200,
+    72
+   ],
+   "fill": "#ffffff",
+   "own_fill": true,
+   "behind": "#f6f7f9",
+   "radius": 0.0,
+   "borders": [
+    0.0,
+    0.0,
+    1.0,
+    0.0
+   ],
+   "border_width": 1.0,
+   "border_color": "#d9dee6",
+   "text_color": "#111827",
+   "text": null,
+   "font_px": 14.0,
+   "font_weight": 400,
+   "text_align": "start"
+  },
+  {
+   "name": "page-title",
+   "kind": "text",
+   "auto": false,
+   "parent": "topbar",
+   "box": [
+    272,
+    20,
+    97,
+    31
+   ],
+   "fill": "#ffffff",
+   "own_fill": false,
+   "behind": "#ffffff",
+   "radius": 0.0,
+   "borders": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "border_width": 0.0,
+   "border_color": null,
+   "text_color": "#111827",
+   "text": "Overview",
+   "font_px": 22.0,
+   "font_weight": 700,
+   "text_align": "start",
+   "ink": [
+    272,
+    27,
+    98,
+    17
+   ]
+  },
+  {
+   "name": "search",
+   "kind": "input",
+   "auto": false,
+   "parent": "topbar",
+   "box": [
+    1040,
+    18,
+    280,
+    36
+   ],
+   "fill": "#ffffff",
+   "own_fill": true,
+   "behind": "#ffffff",
+   "radius": 8.0,
+   "borders": [
+    1.0,
+    1.0,
+    1.0,
+    1.0
+   ],
+   "border_width": 1.0,
+   "border_color": "#d9dee6",
+   "text_color": "#6b7280",
+   "text": null,
+   "font_px": 14.0,
+   "font_weight": 400,
+   "text_align": "start"
+  },
+  {
+   "name": "search-placeholder",
+   "kind": "text",
+   "auto": false,
+   "parent": "search",
+   "box": [
+    1053,
+    26,
+    92,
+    20
+   ],
+   "fill": "#ffffff",
+   "own_fill": false,
+   "behind": "#ffffff",
+   "radius": 0.0,
+   "borders": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "border_width": 0.0,
+   "border_color": null,
+   "text_color": "#6b7280",
+   "text": "Search reports",
+   "font_px": 14.0,
+   "font_weight": 400,
+   "text_align": "start",
+   "ink": [
+    1053,
+    29,
+    92,
+    14
+   ]
+  },
+  {
+   "name": "bell",
+   "kind": "icon",
+   "auto": false,
+   "parent": "topbar",
+   "box": [
+    1336,
+    26,
+    20,
+    20
+   ],
+   "fill": "#ffffff",
+   "own_fill": false,
+   "behind": "#ffffff",
+   "radius": 0.0,
+   "borders": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "border_width": 0.0,
+   "border_color": null,
+   "text_color": "#6b7280",
+   "text": null,
+   "font_px": 14.0,
+   "font_weight": 400,
+   "text_align": "start",
+   "ink": [
+    1339,
+    29,
+    14,
+    16
+   ]
+  },
+  {
+   "name": "me",
+   "kind": "avatar",
+   "auto": false,
+   "parent": "topbar",
+   "box": [
+    1372,
+    18,
+    36,
+    36
+   ],
+   "fill": "#f97316",
+   "own_fill": true,
+   "behind": "#ffffff",
+   "radius": 50.0,
+   "borders": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "border_width": 0.0,
+   "border_color": null,
+   "text_color": "#111827",
+   "text": null,
+   "font_px": 14.0,
+   "font_weight": 400,
+   "text_align": "start"
+  },
+  {
+   "name": "stat-revenue",
+   "kind": "panel",
+   "auto": false,
+   "parent": null,
+   "box": [
+    272,
+    104,
+    270,
+    120
+   ],
+   "fill": "#ffffff",
+   "own_fill": true,
+   "behind": "#f6f7f9",
+   "radius": 12.0,
+   "borders": [
+    1.0,
+    1.0,
+    1.0,
+    1.0
+   ],
+   "border_width": 1.0,
+   "border_color": "#d9dee6",
+   "text_color": "#111827",
+   "text": null,
+   "font_px": 14.0,
+   "font_weight": 400,
+   "text_align": "start"
+  },
+  {
+   "name": "stat-revenue-label",
+   "kind": "text",
+   "auto": false,
+   "parent": "stat-revenue",
+   "box": [
+    293,
+    125,
+    228,
+    20
+   ],
+   "fill": "#ffffff",
+   "own_fill": false,
+   "behind": "#ffffff",
+   "radius": 0.0,
+   "borders": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "border_width": 0.0,
+   "border_color": null,
+   "text_color": "#6b7280",
+   "text": "Revenue",
+   "font_px": 14.0,
+   "font_weight": 400,
+   "text_align": "start",
+   "ink": [
+    294,
+    129,
+    54,
+    11
+   ]
+  },
+  {
+   "name": "stat-revenue-value",
+   "kind": "text",
+   "auto": false,
+   "parent": "stat-revenue",
+   "box": [
+    293,
+    153,
+    228,
+    39
+   ],
+   "fill": "#ffffff",
+   "own_fill": false,
+   "behind": "#ffffff",
+   "radius": 0.0,
+   "borders": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "border_width": 0.0,
+   "border_color": null,
+   "text_color": "#111827",
+   "text": "$48,920",
+   "font_px": 28.0,
+   "font_weight": 700,
+   "text_align": "start",
+   "ink": [
+    293,
+    160,
+    101,
+    28
+   ]
+  },
+  {
+   "name": "stat-orders",
+   "kind": "panel",
+   "auto": false,
+   "parent": null,
+   "box": [
+    566,
+    104,
+    270,
+    120
+   ],
+   "fill": "#ffffff",
+   "own_fill": true,
+   "behind": "#f6f7f9",
+   "radius": 12.0,
+   "borders": [
+    1.0,
+    1.0,
+    1.0,
+    1.0
+   ],
+   "border_width": 1.0,
+   "border_color": "#d9dee6",
+   "text_color": "#111827",
+   "text": null,
+   "font_px": 14.0,
+   "font_weight": 400,
+   "text_align": "start"
+  },
+  {
+   "name": "stat-orders-label",
+   "kind": "text",
+   "auto": false,
+   "parent": "stat-orders",
+   "box": [
+    587,
+    125,
+    228,
+    20
+   ],
+   "fill": "#ffffff",
+   "own_fill": false,
+   "behind": "#ffffff",
+   "radius": 0.0,
+   "borders": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "border_width": 0.0,
+   "border_color": null,
+   "text_color": "#6b7280",
+   "text": "Orders",
+   "font_px": 14.0,
+   "font_weight": 400,
+   "text_align": "start",
+   "ink": [
+    587,
+    128,
+    42,
+    12
+   ]
+  },
+  {
+   "name": "stat-orders-value",
+   "kind": "text",
+   "auto": false,
+   "parent": "stat-orders",
+   "box": [
+    587,
+    153,
+    228,
+    39
+   ],
+   "fill": "#ffffff",
+   "own_fill": false,
+   "behind": "#ffffff",
+   "radius": 0.0,
+   "borders": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "border_width": 0.0,
+   "border_color": null,
+   "text_color": "#111827",
+   "text": "1,284",
+   "font_px": 28.0,
+   "font_weight": 700,
+   "text_align": "start",
+   "ink": [
+    589,
+    163,
+    68,
+    25
+   ]
+  },
+  {
+   "name": "stat-customers",
+   "kind": "panel",
+   "auto": false,
+   "parent": null,
+   "box": [
+    860,
+    104,
+    270,
+    120
+   ],
+   "fill": "#ffffff",
+   "own_fill": true,
+   "behind": "#f6f7f9",
+   "radius": 12.0,
+   "borders": [
+    1.0,
+    1.0,
+    1.0,
+    1.0
+   ],
+   "border_width": 1.0,
+   "border_color": "#d9dee6",
+   "text_color": "#111827",
+   "text": null,
+   "font_px": 14.0,
+   "font_weight": 400,
+   "text_align": "start"
+  },
+  {
+   "name": "stat-customers-label",
+   "kind": "text",
+   "auto": false,
+   "parent": "stat-customers",
+   "box": [
+    881,
+    125,
+    228,
+    20
+   ],
+   "fill": "#ffffff",
+   "own_fill": false,
+   "behind": "#ffffff",
+   "radius": 0.0,
+   "borders": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "border_width": 0.0,
+   "border_color": null,
+   "text_color": "#6b7280",
+   "text": "Customers",
+   "font_px": 14.0,
+   "font_weight": 400,
+   "text_align": "start",
+   "ink": [
+    881,
+    128,
+    68,
+    12
+   ]
+  },
+  {
+   "name": "stat-customers-value",
+   "kind": "text",
+   "auto": false,
+   "parent": "stat-customers",
+   "box": [
+    881,
+    153,
+    228,
+    39
+   ],
+   "fill": "#ffffff",
+   "own_fill": false,
+   "behind": "#ffffff",
+   "radius": 0.0,
+   "borders": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "border_width": 0.0,
+   "border_color": null,
+   "text_color": "#111827",
+   "text": "932",
+   "font_px": 28.0,
+   "font_weight": 700,
+   "text_align": "start",
+   "ink": [
+    881,
+    163,
+    47,
+    21
+   ]
+  },
+  {
+   "name": "stat-refunds",
+   "kind": "panel",
+   "auto": false,
+   "parent": null,
+   "box": [
+    1154,
+    104,
+    270,
+    120
+   ],
+   "fill": "#ffffff",
+   "own_fill": true,
+   "behind": "#f6f7f9",
+   "radius": 12.0,
+   "borders": [
+    1.0,
+    1.0,
+    1.0,
+    1.0
+   ],
+   "border_width": 1.0,
+   "border_color": "#d9dee6",
+   "text_color": "#111827",
+   "text": null,
+   "font_px": 14.0,
+   "font_weight": 400,
+   "text_align": "start"
+  },
+  {
+   "name": "stat-refunds-label",
+   "kind": "text",
+   "auto": false,
+   "parent": "stat-refunds",
+   "box": [
+    1175,
+    125,
+    228,
+    20
+   ],
+   "fill": "#ffffff",
+   "own_fill": false,
+   "behind": "#ffffff",
+   "radius": 0.0,
+   "borders": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "border_width": 0.0,
+   "border_color": null,
+   "text_color": "#6b7280",
+   "text": "Refunds",
+   "font_px": 14.0,
+   "font_weight": 400,
+   "text_align": "start",
+   "ink": [
+    1176,
+    128,
+    51,
+    12
+   ]
+  },
+  {
+   "name": "stat-refunds-value",
+   "kind": "text",
+   "auto": false,
+   "parent": "stat-refunds",
+   "box": [
+    1175,
+    153,
+    228,
+    39
+   ],
+   "fill": "#ffffff",
+   "own_fill": false,
+   "behind": "#ffffff",
+   "radius": 0.0,
+   "borders": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "border_width": 0.0,
+   "border_color": null,
+   "text_color": "#111827",
+   "text": "17",
+   "font_px": 28.0,
+   "font_weight": 700,
+   "text_align": "start",
+   "ink": [
+    1177,
+    163,
+    28,
+    20
+   ]
+  },
+  {
+   "name": "orders",
+   "kind": "panel",
+   "auto": false,
+   "parent": null,
+   "box": [
+    272,
+    256,
+    1152,
+    340
+   ],
+   "fill": "#ffffff",
+   "own_fill": true,
+   "behind": "#f6f7f9",
+   "radius": 12.0,
+   "borders": [
+    1.0,
+    1.0,
+    1.0,
+    1.0
+   ],
+   "border_width": 1.0,
+   "border_color": "#d9dee6",
+   "text_color": "#111827",
+   "text": null,
+   "font_px": 14.0,
+   "font_weight": 400,
+   "text_align": "start"
+  },
+  {
+   "name": "orders-title",
+   "kind": "text",
+   "auto": false,
+   "parent": "orders",
+   "box": [
+    293,
+    274,
+    108,
+    22
+   ],
+   "fill": "#ffffff",
+   "own_fill": false,
+   "behind": "#ffffff",
+   "radius": 0.0,
+   "borders": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "border_width": 0.0,
+   "border_color": null,
+   "text_color": "#111827",
+   "text": "Recent orders",
+   "font_px": 16.0,
+   "font_weight": 700,
+   "text_align": "start",
+   "ink": [
+    294,
+    279,
+    107,
+    13
+   ]
+  },
+  {
+   "name": "orders-export",
+   "kind": "button",
+   "auto": false,
+   "parent": "orders",
+   "box": [
+    1343,
+    271,
+    60,
+    28
+   ],
+   "fill": "#ffffff",
+   "own_fill": true,
+   "behind": "#ffffff",
+   "radius": 6.0,
+   "borders": [
+    1.0,
+    1.0,
+    1.0,
+    1.0
+   ],
+   "border_width": 1.0,
+   "border_color": "#d9dee6",
+   "text_color": "#111827",
+   "text": null,
+   "font_px": 12.0,
+   "font_weight": 600,
+   "text_align": "start"
+  },
+  {
+   "name": "orders-export-label",
+   "kind": "text",
+   "auto": false,
+   "parent": "orders-export",
+   "box": [
+    1354,
+    277,
+    38,
+    17
+   ],
+   "fill": "#ffffff",
+   "own_fill": false,
+   "behind": "#ffffff",
+   "radius": 0.0,
+   "borders": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "border_width": 0.0,
+   "border_color": null,
+   "text_color": "#111827",
+   "text": "Export",
+   "font_px": 12.0,
+   "font_weight": 600,
+   "text_align": "start",
+   "ink": [
+    1355,
+    280,
+    37,
+    12
+   ]
+  },
+  {
+   "name": "auto-1",
+   "kind": "panel",
+   "auto": true,
+   "parent": "orders",
+   "box": [
+    273,
+    313,
+    1150,
+    56
+   ],
+   "fill": "#ffffff",
+   "own_fill": false,
+   "behind": "#ffffff",
+   "radius": 0.0,
+   "borders": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "border_width": 1.0,
+   "border_color": "#d9dee6",
+   "text_color": "#111827",
+   "text": null,
+   "font_px": 14.0,
+   "font_weight": 400,
+   "text_align": "start"
+  },
+  {
+   "name": "row0-avatar",
+   "kind": "avatar",
+   "auto": false,
+   "parent": "auto-1",
+   "box": [
+    293,
+    324,
+    36,
+    36
+   ],
+   "fill": "#f97316",
+   "own_fill": true,
+   "behind": "#ffffff",
+   "radius": 50.0,
+   "borders": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "border_width": 0.0,
+   "border_color": null,
+   "text_color": "#111827",
+   "text": null,
+   "font_px": 14.0,
+   "font_weight": 400,
+   "text_align": "start"
+  },
+  {
+   "name": "row0-name",
+   "kind": "text",
+   "auto": false,
+   "parent": "auto-1",
+   "box": [
+    343,
+    332,
+    200,
+    20
+   ],
+   "fill": "#ffffff",
+   "own_fill": false,
+   "behind": "#ffffff",
+   "radius": 0.0,
+   "borders": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "border_width": 0.0,
+   "border_color": null,
+   "text_color": "#111827",
+   "text": "Maria Lopez",
+   "font_px": 14.0,
+   "font_weight": 400,
+   "text_align": "start",
+   "ink": [
+    344,
+    336,
+    76,
+    13
+   ]
+  },
+  {
+   "name": "row0-order",
+   "kind": "text",
+   "auto": false,
+   "parent": "auto-1",
+   "box": [
+    557,
+    332,
+    180,
+    20
+   ],
+   "fill": "#ffffff",
+   "own_fill": false,
+   "behind": "#ffffff",
+   "radius": 0.0,
+   "borders": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "border_width": 0.0,
+   "border_color": null,
+   "text_color": "#6b7280",
+   "text": "Order #1042",
+   "font_px": 14.0,
+   "font_weight": 400,
+   "text_align": "start",
+   "ink": [
+    557,
+    335,
+    78,
+    12
+   ]
+  },
+  {
+   "name": "row0-status",
+   "kind": "chip",
+   "auto": false,
+   "parent": "auto-1",
+   "box": [
+    1358,
+    330,
+    45,
+    24
+   ],
+   "fill": "#e0e7ff",
+   "own_fill": true,
+   "behind": "#ffffff",
+   "radius": 12.0,
+   "borders": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "border_width": 0.0,
+   "border_color": null,
+   "text_color": "#3730a3",
+   "text": null,
+   "font_px": 12.0,
+   "font_weight": 600,
+   "text_align": "start"
+  },
+  {
+   "name": "row0-status-label",
+   "kind": "text",
+   "auto": false,
+   "parent": "row0-status",
+   "box": [
+    1368,
+    333,
+    25,
+    17
+   ],
+   "fill": "#e0e7ff",
+   "own_fill": false,
+   "behind": "#e0e7ff",
+   "radius": 0.0,
+   "borders": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "border_width": 0.0,
+   "border_color": null,
+   "text_color": "#3730a3",
+   "text": "Paid",
+   "font_px": 12.0,
+   "font_weight": 600,
+   "text_align": "start",
+   "ink": [
+    1368,
+    336,
+    25,
+    10
+   ]
+  },
+  {
+   "name": "auto-2",
+   "kind": "panel",
+   "auto": true,
+   "parent": "orders",
+   "box": [
+    273,
+    369,
+    1150,
+    56
+   ],
+   "fill": "#ffffff",
+   "own_fill": false,
+   "behind": "#ffffff",
+   "radius": 0.0,
+   "borders": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "border_width": 1.0,
+   "border_color": "#d9dee6",
+   "text_color": "#111827",
+   "text": null,
+   "font_px": 14.0,
+   "font_weight": 400,
+   "text_align": "start"
+  },
+  {
+   "name": "row1-avatar",
+   "kind": "avatar",
+   "auto": false,
+   "parent": "auto-2",
+   "box": [
+    293,
+    380,
+    36,
+    36
+   ],
+   "fill": "#8b5cf6",
+   "own_fill": true,
+   "behind": "#ffffff",
+   "radius": 50.0,
+   "borders": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "border_width": 0.0,
+   "border_color": null,
+   "text_color": "#111827",
+   "text": null,
+   "font_px": 14.0,
+   "font_weight": 400,
+   "text_align": "start"
+  },
+  {
+   "name": "row1-name",
+   "kind": "text",
+   "auto": false,
+   "parent": "auto-2",
+   "box": [
+    343,
+    388,
+    200,
+    20
+   ],
+   "fill": "#ffffff",
+   "own_fill": false,
+   "behind": "#ffffff",
+   "radius": 0.0,
+   "borders": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "border_width": 0.0,
+   "border_color": null,
+   "text_color": "#111827",
+   "text": "Chen Wei",
+   "font_px": 14.0,
+   "font_weight": 400,
+   "text_align": "start",
+   "ink": [
+    343,
+    391,
+    59,
+    12
+   ]
+  },
+  {
+   "name": "row1-order",
+   "kind": "text",
+   "auto": false,
+   "parent": "auto-2",
+   "box": [
+    557,
+    388,
+    180,
+    20
+   ],
+   "fill": "#ffffff",
+   "own_fill": false,
+   "behind": "#ffffff",
+   "radius": 0.0,
+   "borders": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "border_width": 0.0,
+   "border_color": null,
+   "text_color": "#6b7280",
+   "text": "Order #1041",
+   "font_px": 14.0,
+   "font_weight": 400,
+   "text_align": "start",
+   "ink": [
+    557,
+    391,
+    76,
+    12
+   ]
+  },
+  {
+   "name": "row1-status",
+   "kind": "chip",
+   "auto": false,
+   "parent": "auto-2",
+   "box": [
+    1336,
+    386,
+    67,
+    24
+   ],
+   "fill": "#e0e7ff",
+   "own_fill": true,
+   "behind": "#ffffff",
+   "radius": 12.0,
+   "borders": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "border_width": 0.0,
+   "border_color": null,
+   "text_color": "#3730a3",
+   "text": null,
+   "font_px": 12.0,
+   "font_weight": 600,
+   "text_align": "start"
+  },
+  {
+   "name": "row1-status-label",
+   "kind": "text",
+   "auto": false,
+   "parent": "row1-status",
+   "box": [
+    1346,
+    389,
+    47,
+    17
+   ],
+   "fill": "#e0e7ff",
+   "own_fill": false,
+   "behind": "#e0e7ff",
+   "radius": 0.0,
+   "borders": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "border_width": 0.0,
+   "border_color": null,
+   "text_color": "#3730a3",
+   "text": "Pending",
+   "font_px": 12.0,
+   "font_weight": 600,
+   "text_align": "start",
+   "ink": [
+    1346,
+    392,
+    47,
+    12
+   ]
+  },
+  {
+   "name": "auto-3",
+   "kind": "panel",
+   "auto": true,
+   "parent": "orders",
+   "box": [
+    273,
+    425,
+    1150,
+    56
+   ],
+   "fill": "#ffffff",
+   "own_fill": false,
+   "behind": "#ffffff",
+   "radius": 0.0,
+   "borders": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "border_width": 1.0,
+   "border_color": "#d9dee6",
+   "text_color": "#111827",
+   "text": null,
+   "font_px": 14.0,
+   "font_weight": 400,
+   "text_align": "start"
+  },
+  {
+   "name": "row2-avatar",
+   "kind": "avatar",
+   "auto": false,
+   "parent": "auto-3",
+   "box": [
+    293,
+    436,
+    36,
+    36
+   ],
+   "fill": "#14b8a6",
+   "own_fill": true,
+   "behind": "#ffffff",
+   "radius": 50.0,
+   "borders": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "border_width": 0.0,
+   "border_color": null,
+   "text_color": "#111827",
+   "text": null,
+   "font_px": 14.0,
+   "font_weight": 400,
+   "text_align": "start"
+  },
+  {
+   "name": "row2-name",
+   "kind": "text",
+   "auto": false,
+   "parent": "auto-3",
+   "box": [
+    343,
+    444,
+    200,
+    20
+   ],
+   "fill": "#ffffff",
+   "own_fill": false,
+   "behind": "#ffffff",
+   "radius": 0.0,
+   "borders": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "border_width": 0.0,
+   "border_color": null,
+   "text_color": "#111827",
+   "text": "Sam Patel",
+   "font_px": 14.0,
+   "font_weight": 400,
+   "text_align": "start",
+   "ink": [
+    343,
+    447,
+    64,
+    12
+   ]
+  },
+  {
+   "name": "row2-order",
+   "kind": "text",
+   "auto": false,
+   "parent": "auto-3",
+   "box": [
+    557,
+    444,
+    180,
+    20
+   ],
+   "fill": "#ffffff",
+   "own_fill": false,
+   "behind": "#ffffff",
+   "radius": 0.0,
+   "borders": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "border_width": 0.0,
+   "border_color": null,
+   "text_color": "#6b7280",
+   "text": "Order #1040",
+   "font_px": 14.0,
+   "font_weight": 400,
+   "text_align": "start",
+   "ink": [
+    557,
+    447,
+    78,
+    12
+   ]
+  },
+  {
+   "name": "row2-status",
+   "kind": "chip",
+   "auto": false,
+   "parent": "auto-3",
+   "box": [
+    1358,
+    442,
+    45,
+    24
+   ],
+   "fill": "#e0e7ff",
+   "own_fill": true,
+   "behind": "#ffffff",
+   "radius": 12.0,
+   "borders": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "border_width": 0.0,
+   "border_color": null,
+   "text_color": "#3730a3",
+   "text": null,
+   "font_px": 12.0,
+   "font_weight": 600,
+   "text_align": "start"
+  },
+  {
+   "name": "row2-status-label",
+   "kind": "text",
+   "auto": false,
+   "parent": "row2-status",
+   "box": [
+    1368,
+    445,
+    25,
+    17
+   ],
+   "fill": "#e0e7ff",
+   "own_fill": false,
+   "behind": "#e0e7ff",
+   "radius": 0.0,
+   "borders": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "border_width": 0.0,
+   "border_color": null,
+   "text_color": "#3730a3",
+   "text": "Paid",
+   "font_px": 12.0,
+   "font_weight": 600,
+   "text_align": "start",
+   "ink": [
+    1368,
+    448,
+    25,
+    10
+   ]
+  },
+  {
+   "name": "auto-4",
+   "kind": "panel",
+   "auto": true,
+   "parent": "orders",
+   "box": [
+    273,
+    481,
+    1150,
+    56
+   ],
+   "fill": "#ffffff",
+   "own_fill": false,
+   "behind": "#ffffff",
+   "radius": 0.0,
+   "borders": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "border_width": 1.0,
+   "border_color": "#d9dee6",
+   "text_color": "#111827",
+   "text": null,
+   "font_px": 14.0,
+   "font_weight": 400,
+   "text_align": "start"
+  },
+  {
+   "name": "row3-avatar",
+   "kind": "avatar",
+   "auto": false,
+   "parent": "auto-4",
+   "box": [
+    293,
+    492,
+    36,
+    36
+   ],
+   "fill": "#ec4899",
+   "own_fill": true,
+   "behind": "#ffffff",
+   "radius": 50.0,
+   "borders": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "border_width": 0.0,
+   "border_color": null,
+   "text_color": "#111827",
+   "text": null,
+   "font_px": 14.0,
+   "font_weight": 400,
+   "text_align": "start"
+  },
+  {
+   "name": "row3-name",
+   "kind": "text",
+   "auto": false,
+   "parent": "auto-4",
+   "box": [
+    343,
+    500,
+    200,
+    20
+   ],
+   "fill": "#ffffff",
+   "own_fill": false,
+   "behind": "#ffffff",
+   "radius": 0.0,
+   "borders": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "border_width": 0.0,
+   "border_color": null,
+   "text_color": "#111827",
+   "text": "Ana Silva",
+   "font_px": 14.0,
+   "font_weight": 400,
+   "text_align": "start",
+   "ink": [
+    343,
+    503,
+    58,
+    12
+   ]
+  },
+  {
+   "name": "row3-order",
+   "kind": "text",
+   "auto": false,
+   "parent": "auto-4",
+   "box": [
+    557,
+    500,
+    180,
+    20
+   ],
+   "fill": "#ffffff",
+   "own_fill": false,
+   "behind": "#ffffff",
+   "radius": 0.0,
+   "borders": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "border_width": 0.0,
+   "border_color": null,
+   "text_color": "#6b7280",
+   "text": "Order #1039",
+   "font_px": 14.0,
+   "font_weight": 400,
+   "text_align": "start",
+   "ink": [
+    557,
+    503,
+    78,
+    12
+   ]
+  },
+  {
+   "name": "row3-status",
+   "kind": "chip",
+   "auto": false,
+   "parent": "auto-4",
+   "box": [
+    1328,
+    498,
+    75,
+    24
+   ],
+   "fill": "#e0e7ff",
+   "own_fill": true,
+   "behind": "#ffffff",
+   "radius": 12.0,
+   "borders": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "border_width": 0.0,
+   "border_color": null,
+   "text_color": "#3730a3",
+   "text": null,
+   "font_px": 12.0,
+   "font_weight": 600,
+   "text_align": "start"
+  },
+  {
+   "name": "row3-status-label",
+   "kind": "text",
+   "auto": false,
+   "parent": "row3-status",
+   "box": [
+    1338,
+    501,
+    55,
+    17
+   ],
+   "fill": "#e0e7ff",
+   "own_fill": false,
+   "behind": "#e0e7ff",
+   "radius": 0.0,
+   "borders": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "border_width": 0.0,
+   "border_color": null,
+   "text_color": "#3730a3",
+   "text": "Refunded",
+   "font_px": 12.0,
+   "font_weight": 600,
+   "text_align": "start",
+   "ink": [
+    1338,
+    504,
+    55,
+    10
+   ]
+  },
+  {
+   "name": "auto-5",
+   "kind": "panel",
+   "auto": true,
+   "parent": "orders",
+   "box": [
+    273,
+    537,
+    1150,
+    56
+   ],
+   "fill": "#ffffff",
+   "own_fill": false,
+   "behind": "#ffffff",
+   "radius": 0.0,
+   "borders": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "border_width": 1.0,
+   "border_color": "#d9dee6",
+   "text_color": "#111827",
+   "text": null,
+   "font_px": 14.0,
+   "font_weight": 400,
+   "text_align": "start"
+  },
+  {
+   "name": "row4-avatar",
+   "kind": "avatar",
+   "auto": false,
+   "parent": "auto-5",
+   "box": [
+    293,
+    548,
+    36,
+    36
+   ],
+   "fill": "#eab308",
+   "own_fill": true,
+   "behind": "#ffffff",
+   "radius": 50.0,
+   "borders": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "border_width": 0.0,
+   "border_color": null,
+   "text_color": "#111827",
+   "text": null,
+   "font_px": 14.0,
+   "font_weight": 400,
+   "text_align": "start"
+  },
+  {
+   "name": "row4-name",
+   "kind": "text",
+   "auto": false,
+   "parent": "auto-5",
+   "box": [
+    343,
+    556,
+    200,
+    20
+   ],
+   "fill": "#ffffff",
+   "own_fill": false,
+   "behind": "#ffffff",
+   "radius": 0.0,
+   "borders": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "border_width": 0.0,
+   "border_color": null,
+   "text_color": "#111827",
+   "text": "Tom Berg",
+   "font_px": 14.0,
+   "font_weight": 400,
+   "text_align": "start",
+   "ink": [
+    343,
+    560,
+    59,
+    13
+   ]
+  },
+  {
+   "name": "row4-order",
+   "kind": "text",
+   "auto": false,
+   "parent": "auto-5",
+   "box": [
+    557,
+    556,
+    180,
+    20
+   ],
+   "fill": "#ffffff",
+   "own_fill": false,
+   "behind": "#ffffff",
+   "radius": 0.0,
+   "borders": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "border_width": 0.0,
+   "border_color": null,
+   "text_color": "#6b7280",
+   "text": "Order #1038",
+   "font_px": 14.0,
+   "font_weight": 400,
+   "text_align": "start",
+   "ink": [
+    557,
+    559,
+    78,
+    12
+   ]
+  },
+  {
+   "name": "row4-status",
+   "kind": "chip",
+   "auto": false,
+   "parent": "auto-5",
+   "box": [
+    1358,
+    554,
+    45,
+    24
+   ],
+   "fill": "#e0e7ff",
+   "own_fill": true,
+   "behind": "#ffffff",
+   "radius": 12.0,
+   "borders": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "border_width": 0.0,
+   "border_color": null,
+   "text_color": "#3730a3",
+   "text": null,
+   "font_px": 12.0,
+   "font_weight": 600,
+   "text_align": "start"
+  },
+  {
+   "name": "row4-status-label",
+   "kind": "text",
+   "auto": false,
+   "parent": "row4-status",
+   "box": [
+    1368,
+    557,
+    25,
+    17
+   ],
+   "fill": "#e0e7ff",
+   "own_fill": false,
+   "behind": "#e0e7ff",
+   "radius": 0.0,
+   "borders": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "border_width": 0.0,
+   "border_color": null,
+   "text_color": "#3730a3",
+   "text": "Paid",
+   "font_px": 12.0,
+   "font_weight": 600,
+   "text_align": "start",
+   "ink": [
+    1368,
+    560,
+    25,
+    10
+   ]
+  }
+ ],
+ "page_background": "#f6f7f9",
+ "page_items": {
+  "boxes": [
+   {
+    "box": [
+     0,
+     0,
+     240,
+     900
+    ],
+    "fill": "#1f2937",
+    "border_width": 0,
+    "radius": 0
+   },
+   {
+    "box": [
+     240,
+     0,
+     1200,
+     72
+    ],
+    "fill": "#ffffff",
+    "border_width": 1,
+    "radius": 0
+   },
+   {
+    "box": [
+     1040,
+     18,
+     280,
+     36
+    ],
+    "fill": "#ffffff",
+    "border_width": 1,
+    "radius": 8
+   },
+   {
+    "box": [
+     1372,
+     18,
+     36,
+     36
+    ],
+    "fill": "#f97316",
+    "border_width": 0,
+    "radius": 50
+   },
+   {
+    "box": [
+     272,
+     104,
+     270,
+     120
+    ],
+    "fill": "#ffffff",
+    "border_width": 1,
+    "radius": 12
+   },
+   {
+    "box": [
+     566,
+     104,
+     270,
+     120
+    ],
+    "fill": "#ffffff",
+    "border_width": 1,
+    "radius": 12
+   },
+   {
+    "box": [
+     860,
+     104,
+     270,
+     120
+    ],
+    "fill": "#ffffff",
+    "border_width": 1,
+    "radius": 12
+   },
+   {
+    "box": [
+     1154,
+     104,
+     270,
+     120
+    ],
+    "fill": "#ffffff",
+    "border_width": 1,
+    "radius": 12
+   },
+   {
+    "box": [
+     272,
+     256,
+     1152,
+     340
+    ],
+    "fill": "#ffffff",
+    "border_width": 1,
+    "radius": 12
+   },
+   {
+    "box": [
+     1343,
+     271,
+     60,
+     28
+    ],
+    "fill": "#ffffff",
+    "border_width": 1,
+    "radius": 6
+   },
+   {
+    "box": [
+     273,
+     313,
+     1150,
+     56
+    ],
+    "fill": "#000000",
+    "border_width": 1,
+    "radius": 0
+   },
+   {
+    "box": [
+     293,
+     324,
+     36,
+     36
+    ],
+    "fill": "#f97316",
+    "border_width": 0,
+    "radius": 50
+   },
+   {
+    "box": [
+     1358,
+     330,
+     45,
+     24
+    ],
+    "fill": "#e0e7ff",
+    "border_width": 0,
+    "radius": 12
+   },
+   {
+    "box": [
+     273,
+     369,
+     1150,
+     56
+    ],
+    "fill": "#000000",
+    "border_width": 1,
+    "radius": 0
+   },
+   {
+    "box": [
+     293,
+     380,
+     36,
+     36
+    ],
+    "fill": "#8b5cf6",
+    "border_width": 0,
+    "radius": 50
+   },
+   {
+    "box": [
+     1336,
+     386,
+     67,
+     24
+    ],
+    "fill": "#e0e7ff",
+    "border_width": 0,
+    "radius": 12
+   },
+   {
+    "box": [
+     273,
+     425,
+     1150,
+     56
+    ],
+    "fill": "#000000",
+    "border_width": 1,
+    "radius": 0
+   },
+   {
+    "box": [
+     293,
+     436,
+     36,
+     36
+    ],
+    "fill": "#14b8a6",
+    "border_width": 0,
+    "radius": 50
+   },
+   {
+    "box": [
+     1358,
+     442,
+     45,
+     24
+    ],
+    "fill": "#e0e7ff",
+    "border_width": 0,
+    "radius": 12
+   },
+   {
+    "box": [
+     273,
+     481,
+     1150,
+     56
+    ],
+    "fill": "#000000",
+    "border_width": 1,
+    "radius": 0
+   },
+   {
+    "box": [
+     293,
+     492,
+     36,
+     36
+    ],
+    "fill": "#ec4899",
+    "border_width": 0,
+    "radius": 50
+   },
+   {
+    "box": [
+     1328,
+     498,
+     75,
+     24
+    ],
+    "fill": "#e0e7ff",
+    "border_width": 0,
+    "radius": 12
+   },
+   {
+    "box": [
+     273,
+     537,
+     1150,
+     56
+    ],
+    "fill": "#000000",
+    "border_width": 1,
+    "radius": 0
+   },
+   {
+    "box": [
+     293,
+     548,
+     36,
+     36
+    ],
+    "fill": "#eab308",
+    "border_width": 0,
+    "radius": 50
+   },
+   {
+    "box": [
+     1358,
+     554,
+     45,
+     24
+    ],
+    "fill": "#e0e7ff",
+    "border_width": 0,
+    "radius": 12
+   }
+  ],
+  "texts": [
+   {
+    "text": "Acme Analytics",
+    "box": [
+     20,
+     21,
+     118,
+     19
+    ],
+    "color": "#e5e7eb",
+    "font_px": 16.0
+   },
+   {
+    "text": "Overview",
+    "box": [
+     52,
+     82,
+     58,
+     16
+    ],
+    "color": "#e5e7eb",
+    "font_px": 14.0
+   },
+   {
+    "text": "Reports",
+    "box": [
+     52,
+     122,
+     50,
+     16
+    ],
+    "color": "#e5e7eb",
+    "font_px": 14.0
+   },
+   {
+    "text": "Inbox",
+    "box": [
+     52,
+     162,
+     35,
+     16
+    ],
+    "color": "#e5e7eb",
+    "font_px": 14.0
+   },
+   {
+    "text": "Settings",
+    "box": [
+     52,
+     202,
+     51,
+     16
+    ],
+    "color": "#e5e7eb",
+    "font_px": 14.0
+   },
+   {
+    "text": "Overview",
+    "box": [
+     272,
+     22,
+     97,
+     26
+    ],
+    "color": "#111827",
+    "font_px": 22.0
+   },
+   {
+    "text": "Search reports",
+    "box": [
+     1053,
+     27,
+     92,
+     16
+    ],
+    "color": "#6b7280",
+    "font_px": 14.0
+   },
+   {
+    "text": "Revenue",
+    "box": [
+     293,
+     126,
+     55,
+     16
+    ],
+    "color": "#6b7280",
+    "font_px": 14.0
+   },
+   {
+    "text": "$48,920",
+    "box": [
+     293,
+     156,
+     101,
+     33
+    ],
+    "color": "#111827",
+    "font_px": 28.0
+   },
+   {
+    "text": "Orders",
+    "box": [
+     587,
+     126,
+     43,
+     16
+    ],
+    "color": "#6b7280",
+    "font_px": 14.0
+   },
+   {
+    "text": "1,284",
+    "box": [
+     587,
+     156,
+     70,
+     33
+    ],
+    "color": "#111827",
+    "font_px": 28.0
+   },
+   {
+    "text": "Customers",
+    "box": [
+     881,
+     126,
+     68,
+     16
+    ],
+    "color": "#6b7280",
+    "font_px": 14.0
+   },
+   {
+    "text": "932",
+    "box": [
+     881,
+     156,
+     47,
+     33
+    ],
+    "color": "#111827",
+    "font_px": 28.0
+   },
+   {
+    "text": "Refunds",
+    "box": [
+     1175,
+     126,
+     52,
+     16
+    ],
+    "color": "#6b7280",
+    "font_px": 14.0
+   },
+   {
+    "text": "17",
+    "box": [
+     1175,
+     156,
+     31,
+     33
+    ],
+    "color": "#111827",
+    "font_px": 28.0
+   },
+   {
+    "text": "Recent orders",
+    "box": [
+     293,
+     275,
+     108,
+     19
+    ],
+    "color": "#111827",
+    "font_px": 16.0
+   },
+   {
+    "text": "Export",
+    "box": [
+     1354,
+     277,
+     38,
+     15
+    ],
+    "color": "#111827",
+    "font_px": 12.0
+   },
+   {
+    "text": "Maria Lopez",
+    "box": [
+     343,
+     333,
+     77,
+     16
+    ],
+    "color": "#111827",
+    "font_px": 14.0
+   },
+   {
+    "text": "Order #1042",
+    "box": [
+     557,
+     333,
+     78,
+     16
+    ],
+    "color": "#6b7280",
+    "font_px": 14.0
+   },
+   {
+    "text": "Paid",
+    "box": [
+     1368,
+     333,
+     25,
+     15
+    ],
+    "color": "#3730a3",
+    "font_px": 12.0
+   },
+   {
+    "text": "Chen Wei",
+    "box": [
+     343,
+     389,
+     60,
+     16
+    ],
+    "color": "#111827",
+    "font_px": 14.0
+   },
+   {
+    "text": "Order #1041",
+    "box": [
+     557,
+     389,
+     78,
+     16
+    ],
+    "color": "#6b7280",
+    "font_px": 14.0
+   },
+   {
+    "text": "Pending",
+    "box": [
+     1346,
+     389,
+     47,
+     15
+    ],
+    "color": "#3730a3",
+    "font_px": 12.0
+   },
+   {
+    "text": "Sam Patel",
+    "box": [
+     343,
+     445,
+     64,
+     16
+    ],
+    "color": "#111827",
+    "font_px": 14.0
+   },
+   {
+    "text": "Order #1040",
+    "box": [
+     557,
+     445,
+     78,
+     16
+    ],
+    "color": "#6b7280",
+    "font_px": 14.0
+   },
+   {
+    "text": "Paid",
+    "box": [
+     1368,
+     445,
+     25,
+     15
+    ],
+    "color": "#3730a3",
+    "font_px": 12.0
+   },
+   {
+    "text": "Ana Silva",
+    "box": [
+     343,
+     501,
+     58,
+     16
+    ],
+    "color": "#111827",
+    "font_px": 14.0
+   },
+   {
+    "text": "Order #1039",
+    "box": [
+     557,
+     501,
+     78,
+     16
+    ],
+    "color": "#6b7280",
+    "font_px": 14.0
+   },
+   {
+    "text": "Refunded",
+    "box": [
+     1338,
+     501,
+     55,
+     15
+    ],
+    "color": "#3730a3",
+    "font_px": 12.0
+   },
+   {
+    "text": "Tom Berg",
+    "box": [
+     343,
+     557,
+     60,
+     16
+    ],
+    "color": "#111827",
+    "font_px": 14.0
+   },
+   {
+    "text": "Order #1038",
+    "box": [
+     557,
+     557,
+     78,
+     16
+    ],
+    "color": "#6b7280",
+    "font_px": 14.0
+   },
+   {
+    "text": "Paid",
+    "box": [
+     1368,
+     557,
+     25,
+     15
+    ],
+    "color": "#3730a3",
+    "font_px": 12.0
+   }
+  ],
+  "page_background": "#f6f7f9"
+ }
+}
